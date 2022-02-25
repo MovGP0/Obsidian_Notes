@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "e96ae9195de7253f",
+    "type": "split",
+    "children": [
+      {
+        "id": "53f64b882ca6e5ce",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "575e04a5c9931b3a",
+    "type": "split",
+    "children": [
+      {
+        "id": "6ea30bdc47dffaf9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0532ea71f8302973",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "33e7677435d0be20",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "73a64b91218644df",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f34765a448bcc8a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c56fb5d104a466e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "53f64b882ca6e5ce",
+  "lastOpenFiles": [
+    "HP Switch VoIP Configuration.md",
+    "HP Switch.md",
+    "HP Switch VLAN Configuration.md",
+    "HP Switch Initial Configuration.md",
+    "HP Switch Link Aggregation.md",
+    "HP Switch DHCP Server.md"
+  ]
+}
