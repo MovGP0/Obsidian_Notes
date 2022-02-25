@@ -15,6 +15,9 @@
 `undo vlan VLANNUMBER`
 
 ### Access-Modus | Port zu einem VLAN zuweisen
+```ad-info
+Default-Moduls für Ports, an denen ein Gerät angeschlossen ist, welches in nur einem VLAN aktiv sein muss.
+```
 * Konfigurationsmodus aktivieren
 `_cmdline-mode on`
 `system-view`
@@ -32,8 +35,9 @@
 `undo port access vlan`
 
 ### Trunk-Modus | Port zu mehreren VLANs zuweisen
-Um einem Port mehreren VLANs zuzuordnen, muss dieser in den *Trunk*-Modus gesetzt werden. Wird zB. verwendet, um mehrere Switches miteinander zu verbinden. 
-
+```ad-info
+Um einem Port mehreren VLANs zuzuordnen, muss dieser in den *Trunk*-Modus gesetzt werden. Wird zB. verwendet, um mehrere Switches miteinander zu verbinden.
+```
 * Konfigurationsmodus aktivieren
 `_cmdline-mode on`
 `system-view`
@@ -51,7 +55,9 @@ Um einem Port mehreren VLANs zuzuordnen, muss dieser in den *Trunk*-Modus gesetz
 `save`
 
 ### Hybrid-Modus | Port zu getaggten und ungetaggten VLANs zuweisen
+```ad-info
 Um einen Port zu VLANs hinzuzufügen, welche nicht explizit angelegt wurden.
+```
 * Konfigurationsmodus aktivieren
 `_cmdline-mode on`
 `system-view`
@@ -69,6 +75,9 @@ Um einen Port zu VLANs hinzuzufügen, welche nicht explizit angelegt wurden.
 `undo port link-type`
 
 ### VLAN IP-Konfiguration
+```ad-info
+Um das Routing zwischen VLANs zu ermöglichen, kann ein virtuelles Interface mit IP-Adresse erstellt werden.
+```
 Für ein VLAN wird ein virtuelles Interface `vlan-interfaceVLANNUMBER` erstellt.
 * Konfigurationsmodus aktivieren
 `_cmdline-mode on`

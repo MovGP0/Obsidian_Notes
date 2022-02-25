@@ -3,8 +3,9 @@
 [[HP Switch VLAN Configuration]]
 
 ### LLDP (Link Layer Discovery Protocol) Konfigurieren
-LLDP wird verwendet, wenn auf einem Switch-Port mehrere Devices angeschlossen sind, welche jeweils einem anderen VLAN zugeordnet werden. Dies passiert zB. wenn der Ethernet des PC's durch das VoIP Gerät durchgeschliffen wird. 
-
+```ad-info
+LLDP wird verwendet, wenn auf einem Switch-Port mehrere Devices angeschlossen sind, welche jeweils einem anderen VLAN zugeordnet werden. Dies passiert zB. wenn der Ethernet des PC's durch das VoIP Gerät durchgeschliffen wird.
+```
 ### LLDP aktivieren und MAC-Adresse freischalten
 * Konfigurationsmodus aktivieren
 `_cmdline-mode on`

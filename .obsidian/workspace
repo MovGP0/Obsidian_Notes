@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "53f64b882ca6e5ce",
+        "id": "055c7a271250eead",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -82,13 +82,15 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "53f64b882ca6e5ce",
+  "active": "055c7a271250eead",
   "lastOpenFiles": [
-    "HP Switch VoIP Configuration.md",
     "HP Switch.md",
+    "HP Switch SNMP Monitoring.md",
+    "HP Switch VoIP Configuration.md",
     "HP Switch VLAN Configuration.md",
-    "HP Switch Initial Configuration.md",
     "HP Switch Link Aggregation.md",
-    "HP Switch DHCP Server.md"
+    "HP Switch Initial Configuration.md",
+    "HP Switch DHCP Server.md",
+    "HP Switch AD Authentication.md"
   ]
 }
