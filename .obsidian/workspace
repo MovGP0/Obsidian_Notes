@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "055c7a271250eead",
+        "id": "ce9f600ffcee8feb",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "HP Switch Port Mirroring.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "HP Switch Port Mirroring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,15 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "055c7a271250eead",
+  "active": "ce9f600ffcee8feb",
   "lastOpenFiles": [
+    "HP Switch Port Mirroring.md",
+    "HP Switch Port isolation.md",
     "HP Switch.md",
-    "HP Switch SNMP Monitoring.md",
-    "HP Switch VoIP Configuration.md",
-    "HP Switch VLAN Configuration.md",
     "HP Switch Link Aggregation.md",
-    "HP Switch Initial Configuration.md",
-    "HP Switch DHCP Server.md",
-    "HP Switch AD Authentication.md"
+    "HP Switch QoS Traffic Shaping.md",
+    "HP Switch ACLs.md",
+    "Untitled.md",
+    "HP Switch AD Authentication.md",
+    "HP Switch SNMP Monitoring.md",
+    "HP Switch VoIP Configuration.md"
   ]
 }
