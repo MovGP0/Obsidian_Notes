@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ce9f600ffcee8feb",
+        "id": "e2d139bf7eea88a2",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Business Central 365.md",
-            "mode": "source",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Business Central 365.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +82,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ce9f600ffcee8feb",
+  "active": "e2d139bf7eea88a2",
   "lastOpenFiles": [
-    "Business Central 365.md",
-    "Unity Game Development.md",
-    "Readme.md",
-    "HP Switch.md",
-    "HP Switch Port Mirroring.md",
-    "HP Switch Port isolation.md",
-    "HP Switch Link Aggregation.md",
-    "HP Switch QoS Traffic Shaping.md",
-    "HP Switch/HP Switch.md",
-    "Business Central 365.md"
+    "Apollo21/Academy/Samba/Samba Basic Principles.md",
+    "Apollo21/Academy/Samba/Samba Bounce.md",
+    "Apollo21/Academy/Basic Principles/Drive, Power, and Balance.md",
+    "Apollo21/Academy/Academy.md",
+    "ApolloAcademy/Samba/Samba Bounce.md",
+    "ApolloAcademy/Samba/Samba Basic Principles.md",
+    "ApolloAcademy/Englischer Walzer/Walz Basic Principles.md",
+    "ApolloAcademy/Academy.md",
+    "ApolloAcademy/Basic Principles/Rise and Fall.md",
+    "ApolloAcademy/Basic Principles/Drive, Power, and Balance.md"
   ]
 }
