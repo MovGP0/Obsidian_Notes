@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e2d139bf7eea88a2",
+        "id": "8036da626e2403f2",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Blazor Cheat Sheet.md",
+            "mode": "source",
+            "source": true
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Blazor Cheat Sheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -74,25 +79,34 @@
                 "unlinkedCollapsed": false
               }
             }
+          },
+          {
+            "id": "4f074d5df734f542",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "e2d139bf7eea88a2",
+  "active": "8036da626e2403f2",
   "lastOpenFiles": [
-    "Apollo21/Academy/Samba/Samba Basic Principles.md",
-    "Apollo21/Academy/Samba/Samba Bounce.md",
-    "Apollo21/Academy/Basic Principles/Drive, Power, and Balance.md",
-    "Apollo21/Academy/Academy.md",
-    "ApolloAcademy/Samba/Samba Bounce.md",
-    "ApolloAcademy/Samba/Samba Basic Principles.md",
-    "ApolloAcademy/Englischer Walzer/Walz Basic Principles.md",
-    "ApolloAcademy/Academy.md",
-    "ApolloAcademy/Basic Principles/Rise and Fall.md",
-    "ApolloAcademy/Basic Principles/Drive, Power, and Balance.md"
+    "Blazor Cheat Sheet.md",
+    "Blazor.md",
+    "Apollo21/LateinFormation/Choreo.md",
+    "Apollo21/StandardFormation/Wolf-Gang.md",
+    "Apollo21/StandardFormation/Übungs-Choreos/Tango.md",
+    "Apollo21/StandardFormation/Übungs-Choreos/Slowfox.md",
+    "Apollo21/StandardFormation/Übungs-Choreos/Quickstep.md",
+    "Apollo21/StandardFormation/Übungs-Choreos/Langsamer Walzer.md",
+    "Apollo21/StandardFormation/Formations-Choreo/01 Tango.md",
+    "Apollo21/StandardFormation/Formations-Choreo/02 Langsamer Walzer.md"
   ]
 }
