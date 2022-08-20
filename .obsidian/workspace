@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8036da626e2403f2",
+        "id": "0f39b201c594d755",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Blazor Cheat Sheet.md",
-            "mode": "source",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blazor Cheat Sheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,16 +91,16 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8036da626e2403f2",
+  "active": "0532ea71f8302973",
   "lastOpenFiles": [
-    "Blazor Cheat Sheet.md",
-    "Blazor.md",
-    "Apollo21/LateinFormation/Choreo.md",
     "Apollo21/StandardFormation/Wolf-Gang.md",
-    "Apollo21/StandardFormation/Übungs-Choreos/Tango.md",
+    "Apollo21/StandardFormation/Übungs-Choreos/Langsamer Walzer.md",
     "Apollo21/StandardFormation/Übungs-Choreos/Slowfox.md",
     "Apollo21/StandardFormation/Übungs-Choreos/Quickstep.md",
-    "Apollo21/StandardFormation/Übungs-Choreos/Langsamer Walzer.md",
+    "Apollo21/StandardFormation/Übungs-Choreos/Tango.md",
+    "Apollo21/LateinFormation/Choreo.md",
+    "Blazor Cheat Sheet.md",
+    "Blazor.md",
     "Apollo21/StandardFormation/Formations-Choreo/01 Tango.md",
     "Apollo21/StandardFormation/Formations-Choreo/02 Langsamer Walzer.md"
   ]
