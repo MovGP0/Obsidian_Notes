@@ -1,6 +1,7 @@
 - 3/4tel Takt
 - stärkere Amplitude beim Heben&Senken als in anderen Schwungtänzen
-- Schließen am 3ten Schritt ermöglicht maximale Hebung
+	- da Füße/Beine geschlossen bei Rise
+    - Schließen am 3ten Schritt ermöglicht maximale Hebung
 - Langsamer Walzer rotiert mehr, während Wiener Walzer progressiver ist
 - 2. Schlag des Taktes betont
 

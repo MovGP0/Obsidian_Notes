@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "0f39b201c594d755",
+        "id": "96e7d073c30b971f",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -82,6 +82,25 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "971ed59bb51bcd47",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "740fbe6ddb2108d6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
           }
         ],
         "currentTab": 1
@@ -91,17 +110,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0532ea71f8302973",
+  "active": "96e7d073c30b971f",
   "lastOpenFiles": [
-    "Apollo21/StandardFormation/Wolf-Gang.md",
-    "Apollo21/StandardFormation/Übungs-Choreos/Langsamer Walzer.md",
-    "Apollo21/StandardFormation/Übungs-Choreos/Slowfox.md",
-    "Apollo21/StandardFormation/Übungs-Choreos/Quickstep.md",
-    "Apollo21/StandardFormation/Übungs-Choreos/Tango.md",
-    "Apollo21/LateinFormation/Choreo.md",
-    "Blazor Cheat Sheet.md",
-    "Blazor.md",
-    "Apollo21/StandardFormation/Formations-Choreo/01 Tango.md",
-    "Apollo21/StandardFormation/Formations-Choreo/02 Langsamer Walzer.md"
+    "Business Central 365/Application Language Table.md",
+    "Business Central 365/Application Language Procedure.md",
+    "Business Central 365/Application Language Codeunit.md",
+    "Business Central 365/Application Language (AL).md",
+    "Business Central 365/Application Language Query.md",
+    "Business Central 365/Application Language Page Extension.md",
+    "Business Central 365/Application Language Table Extension.md",
+    "Business Central 365/Application Language Page.md",
+    "Apollo21/Academy/ChaChaCha/ChaChaCha Basic Principles.md",
+    "Apollo21/Academy/Academy.md"
   ]
 }

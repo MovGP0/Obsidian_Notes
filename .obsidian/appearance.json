@@ -1,4 +1,6 @@
 {
   "baseFontSize": 16,
-  "cssTheme": "Atom"
+  "cssTheme": "Atom",
+  "monospaceFontFamily": "JetBrainsMono NF",
+  "textFontFamily": "JetBrainsMono NF"
 }
