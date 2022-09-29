@@ -7,8 +7,12 @@
         "id": "96e7d073c30b971f",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Windows/Important Windows Tools.md",
+            "mode": "source",
+            "source": true
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Windows/Important Windows Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Windows/Important Windows Tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -99,7 +105,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Windows/Important Windows Tools.md"
+              }
             }
           }
         ],
@@ -112,15 +120,15 @@
   },
   "active": "96e7d073c30b971f",
   "lastOpenFiles": [
+    "Windows/DISM.md",
+    "Windows/Important Windows Tools.md",
+    "Apollo21/Academy/Basic Principles/Sway.md",
     "Business Central 365/Application Language Table.md",
     "Business Central 365/Application Language Procedure.md",
     "Business Central 365/Application Language Codeunit.md",
     "Business Central 365/Application Language (AL).md",
     "Business Central 365/Application Language Query.md",
     "Business Central 365/Application Language Page Extension.md",
-    "Business Central 365/Application Language Table Extension.md",
-    "Business Central 365/Application Language Page.md",
-    "Apollo21/Academy/ChaChaCha/ChaChaCha Basic Principles.md",
-    "Apollo21/Academy/Academy.md"
+    "Business Central 365/Application Language Table Extension.md"
   ]
 }
