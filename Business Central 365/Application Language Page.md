@@ -28,18 +28,50 @@ page 50200 "CardName"
 ```
 ## List
 ```json
-report 50201 "ListName"
+table 50100 "TableName"
 {
-    UsageCategory = ReportsAndAnalysis;
-    ApplicationArea = Basic;
-    WordLayout = "ListTemplate.docx";
-    RDLCLayout = "ListTemplate.rdlc";
-    dataset
+	LookupPageId = "ListName";
+	DrillDownPageId = "ListName";
+    fields
     {
-        dataitem(DataItemName; "TableName")
+       field(1; Code; Code[10]) { } // ID-Spalte
+       field(2; Description; Text[50]) {  }
+    }
+}
+
+page 50200 "ListName"
+{
+    PageType = List;
+    SourceTable = "TableName";
+    ApplicationArea = Basic;
+    UsageCategory = Administration;
+    layout
+    {
+        area(content)
         {
-            column("ColumnName"; "FieldName")
+            group("GroupName")
+            {
+                field("Code", "Code Label")
+                {
+	                ApplicationArea = Basic;
+	            }
+                field("Description", "Description Label")
+                { 
+	                ApplicationArea = Basic;
+	            }
+            }
         }
+    }
+}
+
+table 50300 "AnotherTableName"
+{
+    fields
+    {
+	    field(1; "Label"; Code[10]) // referenz auf Tabelle "TableName"
+	    {
+	        TableRelation = "TableName"
+	    }
     }
 }
 ```

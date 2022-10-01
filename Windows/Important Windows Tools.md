@@ -110,6 +110,8 @@
 | `rekeywiz`     | File Encryption                                                                |
 
 ## System File Checker Utility
+See also [[DISM]]
+
 | Command            | Application                                              |
 | ------------------ | -------------------------------------------------------- |
 | `sfc /scannow`     | System File Checker Utility (Scan Immediately)           |

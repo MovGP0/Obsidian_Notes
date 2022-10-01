@@ -32,3 +32,5 @@ All objects are assigned an unique number.
 - [[Application Language Page Extension]]
 - [[Application Language Codeunit]]
 - [[Application Language Query]]
+- [[Application Language Procedure]]
+- [[Application Language Report]]

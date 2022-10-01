@@ -31,3 +31,6 @@
     - `a` ist aktueller Tag
 - Toogles können mit Leertaste gesetzt werden
 - Drop-Down-Felder mit `alt+down` auswählen
+
+## Programming
+- [[Application Language (AL)]]

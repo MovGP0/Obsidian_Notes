@@ -8,10 +8,31 @@
   "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "file:HP Switch",
+      "query": "path:HP Switch",
       "color": {
         "a": 1,
         "rgb": 14701138
+      }
+    },
+    {
+      "query": "file:Application Language",
+      "color": {
+        "a": 1,
+        "rgb": 6988708
+      }
+    },
+    {
+      "query": "path:Apollo21",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "path:Windows",
+      "color": {
+        "a": 1,
+        "rgb": 10965728
       }
     }
   ],
@@ -21,10 +42,10 @@
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
+  "centerStrength": 0.431623931623932,
   "repelStrength": 10,
   "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 1,
+  "linkDistance": 120,
+  "scale": 0.6024013357398963,
   "close": false
 }
