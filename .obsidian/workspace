@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "5b2c1f909c0583d3",
+        "id": "c6f8375d60f30fe6",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -110,17 +110,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0532ea71f8302973",
+  "active": "c6f8375d60f30fe6",
   "lastOpenFiles": [
+    "PowerShell/Powershell DSC/PowerShell DSC Local Configuration Manager.md",
+    "PowerShell/Powershell DSC/PowerShell DSC.md",
+    "PowerShell/Powershell DSC/PowerShell DSC Resources.md",
+    "PowerShell.md",
+    "Apollo21/Academy/Basic Principles/Latin Basic Actions.md",
+    "Apollo21/Academy/Academy.md",
     "Business Central 365/Application Language DataTypes and Fields.md",
     "Business Central 365/Application Language Table.md",
     "Business Central 365/Application Language Report.md",
-    "Apollo21/StandardFormation/Wolf-Gang.md",
-    "Windows/Important Windows Tools.md",
-    "Business Central 365/Application Language (AL).md",
-    "Business Central 365/Business Central 365.md",
-    "Business Central 365/Application Language Page.md",
-    "Business Central 365/Application Language Query.md",
-    "Business Central 365/Application Language Procedure.md"
+    "Apollo21/StandardFormation/Wolf-Gang.md"
   ]
 }
