@@ -2,5 +2,6 @@
   "baseFontSize": 16,
   "cssTheme": "Atom",
   "monospaceFontFamily": "JetBrainsMono NF",
-  "textFontFamily": "JetBrainsMono NF"
+  "textFontFamily": "JetBrainsMono NF",
+  "accentColor": ""
 }

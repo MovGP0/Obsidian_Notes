@@ -26,9 +26,11 @@
 
 ### Felder
 - Zahlenfelder können einfache Grundrechnungsarten
-- Datumsfelder kann Trennzeichen entfallen
+- bei Datumsfeldern kann Trennzeichen entfallen
     - wenn Monat/Jahr nicht angegeben wird, wird das aktuelle Jahr/Monat angenommen
     - `a` ist aktueller Tag
+    - `p1` erstes Monat des Jahres
+    - `q1` erstes Quartal des Jahres
 - Toogles können mit Leertaste gesetzt werden
 - Drop-Down-Felder mit `alt+down` auswählen
 

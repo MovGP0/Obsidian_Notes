@@ -33,3 +33,8 @@ Configuration Foobar
     }
 }
 ```
+
+## Troubleshooting
+
+- Consider `PSDSCRunAsCredential` when the access rights of the LCM user are insufficient.
+- Delete the `pending.mof` file when the deployment was unsuccessful. Try using `Update-DSCConfiguration`/`Start-DSCConfiguration -Force` to restart the deployment

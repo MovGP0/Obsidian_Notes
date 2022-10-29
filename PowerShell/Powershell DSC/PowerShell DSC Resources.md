@@ -1,6 +1,8 @@
 # PowerShell DSC Resources
 Resources are responsible to bring the system into a specific state.
 
+Resources must be presend in one of the paths declared in `$env:PSModulePath` to be found.
+
 ## Base Resources
 List all resources using `Get-DscResource `
 
@@ -29,17 +31,17 @@ List all resources using `Get-DscResource `
 ## Example DSC files
 ### Ensure file is present
 ```powershell
-configuration ExampleConfiguration
+configuration "File Configuration"
 {
     # (optional) ensure resource is imported
     Import-DSCResource -Name File;
-    Node localhost
+    Node "localhost"
     {
 	    File ExampleFile
 	    {
 	        Ensure = 'present'
 	        Type = 'File'
-	        DestinationPath = 'C:\Foobar.txt'
+	        DestinationPath = "$env:SystemDrive\Foobar.txt"
 	        Contents = "content of the file";
 	    }
     }
@@ -47,12 +49,12 @@ configuration ExampleConfiguration
 ```
 ### Ensure WindowsFeature is installed
 ```powershell
-configuration ExampleConfiguration
+configuration "Windows-Feature Configuration"
 {
     # (optional) ensure resource is imported
     Import-DSCResource -Name WindowsFeature;
      
-    Node localhost
+    Node "localhost"
     {
 	    WindowsFeature SomeFeature
 	    {
@@ -62,20 +64,62 @@ configuration ExampleConfiguration
     }
 }
 ```
+Example
+```powershell
+configuration "Install Software"
+{
+    # (optional) ensure resource is imported
+    Import-DSCResource -Name WindowsFeature;
+     
+    Node "localhost"
+    {
+	    WindowsFeature DotNet45
+	    {
+	        Ensure = 'Present'
+	        Name = 'NET-Framework-45-Core'
+	    }
+    }
+}
+```
 ## Ensure Windows Service is running
 ```powershell
-Import-DSCResource -Name Service;
-Node localhost
+configuration "Windows Service Configuration"
 {
-    Service "Spooler:Running"
-    {
-	    Name = "Spooler"
-	    State = "Running"
-	}
-	Service "DHCP:Running"
+	Import-DSCResource -Name Service;
+	Node "localhost"
 	{
-		Name = "DHCP"
-		State = "Running"
+	    Service "Spooler:Running"
+	    {
+		    Name = "Spooler"
+		    State = "Running"
+		}
+		Service "DHCP:Running"
+		{
+			Name = "DHCP"
+			State = "Running"
+		}
+	}
+}
+```
+## Install Software using Choco
+```powershell
+configuration "Example Configuration"
+{
+    Install-Module -Name cChoco;
+    Import-DSCResource -Name cChoco;
+    
+	Node "localhost"
+	{
+		cChocoInstaller "installChoco"
+		{
+	        InstallDir = "$env:SystemDrive\choco"
+	    }
+	    cChocoPackageInstallerSet "installSomeStuff"
+	    {
+	        Ensure = 'Present'
+	        Name = @( 'dotnet4.6.2' )
+	        DependsOn = "[cChocoInstaller]installChoco"
+	    }
 	}
 }
 ```
