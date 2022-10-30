@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "7e175a03be4ae8d9",
+        "id": "6107af8c10a45dce",
         "type": "tabs",
         "children": [
           {
-            "id": "2b963011f348b56e",
+            "id": "79b53d423cc792a0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PowerShell/Powershell DSC/PowerShell DSC Resources.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PowerShell/Powershell DSC/PowerShell DSC Resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PowerShell/Powershell DSC/PowerShell DSC Resources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -113,9 +107,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "PowerShell/Powershell DSC/PowerShell DSC Resources.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -126,20 +118,17 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "2b963011f348b56e",
+  "active": "79b53d423cc792a0",
   "lastOpenFiles": [
-    "PowerShell/Powershell DSC/PowerShell DSC.md",
-    "PowerShell/Powershell DSC/PowerShell DSC Special Variables.md",
-    "PowerShell/Powershell DSC/PowerShell DSC Resources.md",
-    "PowerShell/Powershell DSC/PowerShell DSC Pull Server.md",
-    "PowerShell/Powershell DSC/PowerShell DSC Local Configuration Manager.md",
-    "PowerShell.md",
-    "Business Central 365/Business Central 365.md",
+    "Apollo21/Academy/Basic Principles/Swing.md",
+    "Apollo21/Academy/Basic Principles/Sway.md",
+    "Apollo21/Academy/Basic Principles/Rise and Fall.md",
     "Apollo21/Academy/Basic Principles/Latin Basic Actions.md",
+    "Apollo21/Academy/Basic Principles/Drive, Power, and Balance.md",
     "Apollo21/Academy/Academy.md",
-    "Business Central 365/Application Language DataTypes and Fields.md"
+    "Apollo21/Academy/Englischer Walzer/Walz Basic Principles.md",
+    "Apollo21/Academy/ChaChaCha/ChaChaCha Basic Principles.md",
+    "Apollo21/LateinFormation/Choreo.md",
+    "PowerShell/Powershell DSC/PowerShell DSC Resources.md"
   ]
 }

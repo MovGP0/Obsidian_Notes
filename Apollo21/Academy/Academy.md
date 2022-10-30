@@ -9,7 +9,6 @@
 
 ## Latin Basic Principles
 
-
 ### Dance specific
 * [[Samba Basic Principles]]
 * [[ChaChaCha Basic Principles]]
