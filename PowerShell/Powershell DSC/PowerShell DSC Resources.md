@@ -47,6 +47,7 @@ configuration "File Configuration"
     }
 }
 ```
+
 ### Ensure WindowsFeature is installed
 ```powershell
 configuration "Windows-Feature Configuration"
@@ -81,6 +82,7 @@ configuration "Install Software"
     }
 }
 ```
+
 ## Ensure Windows Service is running
 ```powershell
 configuration "Windows Service Configuration"
@@ -101,6 +103,7 @@ configuration "Windows Service Configuration"
 	}
 }
 ```
+
 ## Install Software using Choco
 ```powershell
 configuration "Example Configuration"
@@ -122,4 +125,78 @@ configuration "Example Configuration"
 	    }
 	}
 }
+```
+
+## Software Package with Parameters and Dependencies
+
+```powershell
+# declare parameters of *.ps1 file
+[CmdletBinding()]
+param(
+	[Parameter()]
+	[string]$computer,
+	
+	[Parameter()]
+	[string]$SoftwareName,
+
+	[Parameter()]
+	[guid]$SoftwareProductId,
+	
+	[Parameter()]
+	[string]$SoftwarePath,
+	
+	[Parameter()]
+	[string]$ConfigFileName
+)
+
+# declare configuration with parameters
+Configuration Install-Software
+{
+	param(
+		[string]$node,
+		[string]$SoftwareName,
+		[guid]$SoftwareProductId,
+		[string]$SoftwarePath,
+		[string]$ConfigFileContent
+	)
+	
+	Node $computer
+	{
+		WindowsFeature DotNet
+		{
+			Ensure = 'Present'
+			Name = 'NET-Framework-45-Core'
+		}
+		File ConfigFile
+		{
+			DestinationPath = "c:\foo.config"
+			Contents = $ConfigFileContent
+		}
+		Package InstallExampleSoftware
+		{
+			Ensure = "Present"
+			Name = $SoftwareName
+			ProductId = $SoftwareProductId
+			Path = $SoftwarePath
+			DependsOn = @('[WindowsFeature]DotNet')
+		}
+	}
+}
+
+# invoke configuration
+Install-Software `
+    -computer $computer `
+    -SoftwareName $SoftwareName
+    -SoftwareProductId $SoftwareProductId `
+    -SoftwarePath $SoftwarePath `
+    -ConfigFile (Get-Content $ConfigFileName)
+```
+Create `*.mof` file:
+```powershell
+MyScript.ps1 `
+    -computer 'localhost' `
+    -ExampleSoftwareName 'SomeSoftware' `
+    -ExampleSoftwareProductId '4909a5d0-b3c3-4a98-be90-a0dcee7c4eef' `
+    -ExampleSoftwarePath 'c:\software\install.msi' `
+    -ConfigFileContents (Get-Content "config.xml")
 ```

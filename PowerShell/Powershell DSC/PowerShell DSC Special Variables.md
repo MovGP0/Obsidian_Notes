@@ -37,3 +37,18 @@ Configuration 'My Configuration'
     }
 }
 ```
+
+Apply configuration to all nodes using:
+```powershell
+$AllNodes.NodeName
+```
+
+Apply configuration to group of nodes using:
+```powershell
+Node $AllNodes.Where($_.Roles -contains '.domain').NodeName
+```
+
+Apply configuration to a single node using:
+```powershell
+Node 'mycomputer.domain'
+```

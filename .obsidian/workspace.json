@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6107af8c10a45dce",
+        "id": "0bce92aa4f5819ff",
         "type": "tabs",
         "children": [
           {
-            "id": "79b53d423cc792a0",
+            "id": "f92fbceb9bf77707",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -118,17 +118,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "79b53d423cc792a0",
+  "active": "f92fbceb9bf77707",
   "lastOpenFiles": [
+    "PowerShell/Powershell DSC/PowerShell DSC Local Configuration Manager.md",
+    "PowerShell/Powershell DSC/PowerShell DSC Logging.md",
+    "PowerShell/Powershell DSC/PowerShell DSC Composite Resources.md",
+    "PowerShell/Powershell DSC/PowerShell DSC Configuration Data File.md",
+    "PowerShell/Powershell DSC/PowerShell DSC Resources.md",
+    "PowerShell/Powershell DSC/PowerShell DSC Special Variables.md",
+    "PowerShell/Powershell DSC/PowerShell DSC.md",
     "Apollo21/Academy/Basic Principles/Swing.md",
     "Apollo21/Academy/Basic Principles/Sway.md",
-    "Apollo21/Academy/Basic Principles/Rise and Fall.md",
-    "Apollo21/Academy/Basic Principles/Latin Basic Actions.md",
-    "Apollo21/Academy/Basic Principles/Drive, Power, and Balance.md",
-    "Apollo21/Academy/Academy.md",
-    "Apollo21/Academy/Englischer Walzer/Walz Basic Principles.md",
-    "Apollo21/Academy/ChaChaCha/ChaChaCha Basic Principles.md",
-    "Apollo21/LateinFormation/Choreo.md",
-    "PowerShell/Powershell DSC/PowerShell DSC Resources.md"
+    "Apollo21/Academy/Basic Principles/Rise and Fall.md"
   ]
 }

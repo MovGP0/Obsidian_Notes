@@ -59,4 +59,3 @@ List cmdlets `get-command -Module PSDesiredStateConfiguration`
 | `Stop-DscConfiguration`            |                                                                    |
 | `Test-DscConfiguration`            | Runs the configuration on the target system without making changes |
 | `Update-DscConfiguration`          | Force the execution of an configuration file |
-
