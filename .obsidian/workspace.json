@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0bce92aa4f5819ff",
+        "id": "2b828e2bb92c90cc",
         "type": "tabs",
         "children": [
           {
-            "id": "f92fbceb9bf77707",
+            "id": "34b7bedf239e0534",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -118,8 +118,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f92fbceb9bf77707",
+  "active": "34b7bedf239e0534",
   "lastOpenFiles": [
+    "Registrierkassa.md",
     "PowerShell/Powershell DSC/PowerShell DSC Local Configuration Manager.md",
     "PowerShell/Powershell DSC/PowerShell DSC Logging.md",
     "PowerShell/Powershell DSC/PowerShell DSC Composite Resources.md",
@@ -128,7 +129,6 @@
     "PowerShell/Powershell DSC/PowerShell DSC Special Variables.md",
     "PowerShell/Powershell DSC/PowerShell DSC.md",
     "Apollo21/Academy/Basic Principles/Swing.md",
-    "Apollo21/Academy/Basic Principles/Sway.md",
-    "Apollo21/Academy/Basic Principles/Rise and Fall.md"
+    "Apollo21/Academy/Basic Principles/Sway.md"
   ]
 }

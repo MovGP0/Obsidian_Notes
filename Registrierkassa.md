@@ -1,0 +1,2 @@
+- [Informationen für Softwarehersteller](https://www.bmf.gv.at/services/finanzonline/informationen-fuer-softwarehersteller.html)
+- [Dateiformate](https://www.bmf.gv.at/services/finanzonline/informationen-fuer-softwarehersteller/softwarehersteller-sonstige-funktionen.html)
