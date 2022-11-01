@@ -2,5 +2,6 @@
   "legacyEditor": false,
   "livePreview": false,
   "alwaysUpdateLinks": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "readableLineLength": false
 }

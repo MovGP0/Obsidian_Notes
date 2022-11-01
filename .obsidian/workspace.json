@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "15dba155e8e57fbb",
+        "id": "e91199c8938ec227",
         "type": "tabs",
         "children": [
           {
-            "id": "1ec1ddb53b92a920",
+            "id": "5d33fbdf0a01297c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -57,7 +57,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 386.5
+    "width": 323.5
   },
   "right": {
     "id": "73a64b91218644df",
@@ -110,25 +110,24 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "1ec1ddb53b92a920",
+  "active": "0532ea71f8302973",
   "lastOpenFiles": [
+    "BotBuilder/Microsoft Bot Builder Forms.md",
+    "BotBuilder/Microsoft Bot Builder Dialogs.md",
+    "BotBuilder/Microsoft Bot Builder State Management.md",
+    "BotBuilder/Microsoft Bot Builder.md",
+    "BotBuilder/Microsoft Bot Builder Activities.md",
+    "ActivityType.md",
     "PowerShell/PowerShell determine PSVersion.md",
     "PowerShell/PowerShell Invoke Program using ProcessStartInfo.md",
     "PowerShell/PowerShell get proper ProgramFiles folder.md",
-    "PowerShell/PowerShell Exception Handling.md",
-    "PowerShell/PowerShell Parameters.md",
-    "PowerShell/PowerShell Return Value.md",
-    "PowerShell/Powershell DSC/PowerShell DSC Pull Server.md",
-    "PowerShell/Powershell DSC/PowerShell DSC Logging.md",
-    "PowerShell/Powershell DSC/PowerShell DSC Local Configuration Manager.md",
-    "PowerShell/Powershell DSC/PowerShell DSC Configuration Data File.md"
+    "PowerShell/PowerShell Exception Handling.md"
   ]
 }
