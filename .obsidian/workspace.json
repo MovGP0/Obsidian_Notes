@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e91199c8938ec227",
+        "id": "e661c49d4aad5475",
         "type": "tabs",
         "children": [
           {
-            "id": "5d33fbdf0a01297c",
+            "id": "10c5718e1c551a4c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -57,7 +57,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 323.5
+    "width": 404.5
   },
   "right": {
     "id": "73a64b91218644df",
@@ -117,17 +117,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0532ea71f8302973",
+  "active": "10c5718e1c551a4c",
   "lastOpenFiles": [
-    "BotBuilder/Microsoft Bot Builder Forms.md",
-    "BotBuilder/Microsoft Bot Builder Dialogs.md",
-    "BotBuilder/Microsoft Bot Builder State Management.md",
-    "BotBuilder/Microsoft Bot Builder.md",
-    "BotBuilder/Microsoft Bot Builder Activities.md",
-    "ActivityType.md",
-    "PowerShell/PowerShell determine PSVersion.md",
+    "Apollo21/Academy/Tanzpädagogik.md",
+    "Apollo21/Academy/Academy.md",
+    "Business Central 365/Business Central 365.md",
+    "Business Central 365/Application Language Table.md",
+    "ML.NET/ML.NET.md",
+    "Business Central 365/Application Language (AL).md",
+    "Business Central 365/Application Language Query.md",
+    "PowerShell/PowerShell Parameters.md",
     "PowerShell/PowerShell Invoke Program using ProcessStartInfo.md",
-    "PowerShell/PowerShell get proper ProgramFiles folder.md",
-    "PowerShell/PowerShell Exception Handling.md"
+    "PowerShell/Powershell DSC/PowerShell DSC.md"
   ]
 }

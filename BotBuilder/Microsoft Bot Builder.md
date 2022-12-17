@@ -43,3 +43,9 @@ await connector.Conversations.ReplyToActivityAsync(reply);
 - [[Microsoft Bot Builder Forms]]
 - [[Microsoft Bot Builder Dialogs]]
 - [[Microsoft Bot Builder State Management]]
+
+## Hints
+
+- Use Skype API for handling calls
+- Use Microsoft Cognitive Services for features like OCR, Text-to-Speech, Speech-to-Text, Sentiment Analysis, etc.
+

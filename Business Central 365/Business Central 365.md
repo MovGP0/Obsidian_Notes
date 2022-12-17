@@ -10,7 +10,7 @@
 | `<`                   | `<5`       | Kleiner als                          |
 | `|`                   | `3|4`      | Oder                                 |
 | `&`                   | `3&4`      | Und                                  |
-|                       | `*E*U*`    | Endhält `E` und danach ein `U`       |
+|                       | `*E*U*`    | Enthält `E` und danach ein `U`       |
 | `%Benutzer` / `%User` |            | Aktueller Benutzer                   |
 | `%Jetzt` / `%Now`     |            | Heute                                |
 | `%Woche` / `%Week`    |            | Woche                                |
