@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e661c49d4aad5475",
+        "id": "7579cef9858d7332",
         "type": "tabs",
         "children": [
           {
-            "id": "10c5718e1c551a4c",
+            "id": "b36bf0cdb172f244",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -117,8 +117,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "10c5718e1c551a4c",
+  "active": "b36bf0cdb172f244",
   "lastOpenFiles": [
+    "Project Management/Impact Mapping.md",
+    "Project Management/Risk-Benefit Matrix.md",
     "Apollo21/Academy/Tanzpädagogik.md",
     "Apollo21/Academy/Academy.md",
     "Business Central 365/Business Central 365.md",
@@ -126,8 +128,6 @@
     "ML.NET/ML.NET.md",
     "Business Central 365/Application Language (AL).md",
     "Business Central 365/Application Language Query.md",
-    "PowerShell/PowerShell Parameters.md",
-    "PowerShell/PowerShell Invoke Program using ProcessStartInfo.md",
-    "PowerShell/Powershell DSC/PowerShell DSC.md"
+    "PowerShell/PowerShell Parameters.md"
   ]
 }

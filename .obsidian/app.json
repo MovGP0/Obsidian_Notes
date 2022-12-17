@@ -3,5 +3,9 @@
   "livePreview": false,
   "alwaysUpdateLinks": true,
   "promptDelete": false,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "spellcheckLanguages": [
+    "en-GB",
+    "de"
+  ]
 }
