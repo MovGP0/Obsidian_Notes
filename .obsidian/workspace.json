@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "7579cef9858d7332",
+        "id": "efb1df4bccc08ee4",
         "type": "tabs",
         "children": [
           {
-            "id": "b36bf0cdb172f244",
+            "id": "e1741af3300a7950",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "OAuth 2.0/OAuth 2.0.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -57,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 404.5
+    "width": 319.5
   },
   "right": {
     "id": "73a64b91218644df",
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "OAuth 2.0/OAuth 2.0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "OAuth 2.0/OAuth 2.0.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +113,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "OAuth 2.0/OAuth 2.0.md"
+              }
             }
           }
         ]
@@ -117,17 +125,27 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b36bf0cdb172f244",
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "active": "e1741af3300a7950",
   "lastOpenFiles": [
-    "Project Management/Impact Mapping.md",
-    "Project Management/Risk-Benefit Matrix.md",
-    "Apollo21/Academy/Tanzpädagogik.md",
-    "Apollo21/Academy/Academy.md",
-    "Business Central 365/Business Central 365.md",
-    "Business Central 365/Application Language Table.md",
-    "ML.NET/ML.NET.md",
+    "OAuth 2.0/OAuth 2.0.md",
+    "OAuth 2.0/OAuth 2.0 - Implicit Flow.md",
+    "OAuth 2.0/OAuth 2.0 - Resource Owner Password Credentials Flow.md",
+    "OAuth 2.0/OAuth 2.0 - Refresh Token Flow.md",
+    "OAuth 2.0/OAuth 2.0 - Assertion Flow.md",
+    "OAuth 2.0/OAuth 2.0 - Device Code Flow.md",
+    "OAuth 2.0/OAuth 2.0 - Client Credentials Flow.md",
+    "OAuth 2.0/OAuth 2.0 - Authorization Code Flow.md",
     "Business Central 365/Application Language (AL).md",
-    "Business Central 365/Application Language Query.md",
-    "PowerShell/PowerShell Parameters.md"
+    "Business Central 365/Application Language Codeunit.md"
   ]
 }
