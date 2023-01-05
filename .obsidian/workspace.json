@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "cb5ed3830d27e702",
+        "id": "a4458e19d728801f",
         "type": "tabs",
         "children": [
           {
-            "id": "47d3850e5056c961",
+            "id": "dbb2f777992c7a46",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker/Docker commands/docker node.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -77,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker commands/docker node.md",
+                "file": "Linux/Linux Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/Docker commands/docker node.md",
+                "file": "Linux/Linux Security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker commands/docker node.md"
+                "file": "Linux/Linux Security.md"
               }
             }
           }
@@ -135,17 +131,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "47d3850e5056c961",
+  "active": "0532ea71f8302973",
   "lastOpenFiles": [
-    "Docker/Docker commands/docker swarm.md",
-    "Docker/Docker commands/docker node.md",
+    "Linux/Security/Linux file permissions.md",
+    "Linux/Security/Linux control groups.md",
+    "Linux/Linux Security.md",
+    "Linux/Security/Linux namespaces.md",
+    "Linux/Security/Linux process capabilities.md",
     "Docker/Docker Commands Quick Reference.md",
-    "Docker/Docker commands/docker start.md",
-    "Docker/Docker commands/docker pause.md",
-    "Docker/Docker commands/docker run.md",
-    "Docker/Docker commands/docker pull.md",
-    "Docker/Docker commands/docker inspect.md",
-    "Docker/Docker commands/docker images.md",
-    "Docker/Docker commands/docker service.md"
+    "Docker/Docker File.md",
+    "Docker/Docker in ASP.NET.md",
+    "Docker/Docker Security.md",
+    "Blazor Cheat Sheet.md"
   ]
 }

@@ -53,24 +53,25 @@ See also:
 - [compose file schema](https://github.com/docker/compose/blob/master/compose/config/compose_spec.json)
 - [YAML](https://yaml.org/spec/1.2.2/)
 
-| Attribute                                        | Description                                                 |
-| ------------------------------------------------ | ----------------------------------------------------------- |
-| version                                          | Version of the docker-compose file format                   |
-| volumes                                          | Volumes for permanent data storage                          |
-| networks                                         | Networks used in the application                            |
-| services                                         | List of services to create                                  |
-| services/{service}/image                         | Use existing dokcer image for the service                   |
-| services/{service}/build                         | Build a new image using [[docker build]]                    |
-| services/{service}/build/context                 | Directory with the dockerfile                               |
-| services/{service}/build/dockerfile              | Name of the dockerfile                                      |
-| services/{service}/volumes                       | Where to mount a volume for data storage                    |
-| services/{service}/networks                      | Which networks should the service be connected with         |
-| services/{service}/environment                   | Set environment variables                                   |
-| services/{service}/depends_on                    | Which services should be started before this service starts |
-| services/{service}/links                         | Auto-wire load-balancer to service instances                |
-| services/{service}/deploy/replicas               | Number of instances of the service                          |
-| services/{service}/deploy/placement              | Where the containers will be hosted                         |
-| services/{service}/deploy/placement/contstraints | constraints for where the containers will be hosted         |
+| Attribute                                        | Description                                                   |
+| ------------------------------------------------ | ------------------------------------------------------------- |
+| version                                          | Version of the docker-compose file format                     |
+| volumes                                          | Volumes for permanent data storage                            |
+| networks                                         | Networks used in the application                              |
+| services                                         | List of services to create                                    |
+| services/{service}/image                         | Use existing dokcer image for the service                     |
+| services/{service}/build                         | Build a new image using [[docker build]]                      |
+| services/{service}/build/context                 | Directory with the dockerfile                                 |
+| services/{service}/build/dockerfile              | Name of the dockerfile                                        |
+| services/{service}/volumes                       | Where to mount a volume for data storage                      |
+| services/{service}/networks                      | Which networks should the service be connected with           |
+| services/{service}/environment                   | Set environment variables                                     |
+| services/{service}/depends_on                    | Which services should be started before this service starts   |
+| services/{service}/links                         | Auto-wire load-balancer to service instances                  |
+| services/{service}/deploy/mode                   | Set to `global` when service needs to be on every worker node |
+| services/{service}/deploy/replicas               | Number of instances of the service                            |
+| services/{service}/deploy/placement              | Where the containers will be hosted                           |
+| services/{service}/deploy/placement/contstraints | constraints for where the containers will be hosted           |
 
 ### YAML-File Example
 
@@ -119,6 +120,7 @@ services:
 		depends_on:
 			-mysql
 		deploy:
+		    mode: replicated
 			replicas: 5
 			placement:
 				constraints:

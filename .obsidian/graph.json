@@ -6,60 +6,17 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [
-    {
-      "query": "path:HP Switch",
-      "color": {
-        "a": 1,
-        "rgb": 14701138
-      }
-    },
-    {
-      "query": "file:Application Language",
-      "color": {
-        "a": 1,
-        "rgb": 6988708
-      }
-    },
-    {
-      "query": "path:Apollo21",
-      "color": {
-        "a": 1,
-        "rgb": 11657298
-      }
-    },
-    {
-      "query": "path:Windows",
-      "color": {
-        "a": 1,
-        "rgb": 10965728
-      }
-    },
-    {
-      "query": "file:PowerShell",
-      "color": {
-        "a": 1,
-        "rgb": 5431473
-      }
-    },
-    {
-      "query": "path:Docker",
-      "color": {
-        "a": 1,
-        "rgb": 5419488
-      }
-    }
-  ],
+  "colorGroups": [],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": true,
-  "centerStrength": 0.431623931623932,
+  "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
-  "linkDistance": 120,
-  "scale": 0.7453046609091611,
+  "linkDistance": 250,
+  "scale": 0.745304660909161,
   "close": true
 }

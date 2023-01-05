@@ -1,5 +1,3 @@
-## Docker Commands Quick Reference
-
 ### Container lifecycle commands
 
 | Command            | Description                             |
@@ -10,7 +8,7 @@
 | [[docker stop]]    | Stops a container                       |
 | [[docker pause]]   | Pauses a container                      |
 | [[docker restart]] | `docker stop` + `docker start`          |
-| [[docker rm]]      | Removes an container                    |
+| [[docker rm]]      | Removes/deletes an container            |
 
 ### Container management commands
 

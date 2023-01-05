@@ -35,8 +35,14 @@ docker network ls
 
 Remove the network
 ```powershell
-docker network rm
+docker network rm 'networkname'
 ```
+
+Create network in a swarm
+```powershell
+docker network create --driver overlay 'backend'
+```
+`overlay` driver means spanning multiple hosts in the swarm
 
 ## Basic Architecture
 ```mermaid

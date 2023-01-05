@@ -41,5 +41,10 @@ Change join-tokens / invalidate old join-token
 docker swarm join-token --rotate
 ```
 
+Leave a swarm
+```powershell
+docker swarm leave --force
+```
+
 ## See also
 - [[docker node]]

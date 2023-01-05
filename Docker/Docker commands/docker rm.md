@@ -1,0 +1,1 @@
+Removes/deletes a container from the docker registry.
