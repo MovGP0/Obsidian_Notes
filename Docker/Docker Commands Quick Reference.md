@@ -58,6 +58,12 @@
 | [[docker stack]] deploy | Deploys an application described in a docker-compose file |
 | [[docker stack]] rm     | Removes the services described in a docker-compose file   |
 
+### docker security commands
+
+| Command           | Description               |
+| ----------------- | ------------------------- |
+| [[docker secret]] | Creates secret key/values |
+
 ## Create a docker container
 
 - Select a base image from the docker repository (ie. [Docker Hub](https://hub.docker.com/))

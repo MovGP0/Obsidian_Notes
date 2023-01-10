@@ -6,3 +6,5 @@
 | Limiting the blast radius   | Contain attack within a container                                            |
 | Segregation of duties       | Permissions and credentials are only passed to the container that needs them |
 
+## See also
+- [[docker secret]]

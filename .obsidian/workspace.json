@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a4458e19d728801f",
+        "id": "04d63a7f59e01890",
         "type": "tabs",
         "children": [
           {
-            "id": "dbb2f777992c7a46",
+            "id": "c752cd7fc4ca12e9",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -73,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Linux Security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,9 +107,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Linux/Linux Security.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -131,17 +127,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "0532ea71f8302973",
+  "active": "c752cd7fc4ca12e9",
   "lastOpenFiles": [
+    "Docker/Docker Security.md",
+    "Docker/Docker Commands Quick Reference.md",
+    "Docker/Docker commands/docker secret.md",
+    "Docker/Docker File.md",
+    "OAuth 2.0/OAuth 2.0.md",
     "Linux/Security/Linux file permissions.md",
     "Linux/Security/Linux control groups.md",
     "Linux/Linux Security.md",
     "Linux/Security/Linux namespaces.md",
-    "Linux/Security/Linux process capabilities.md",
-    "Docker/Docker Commands Quick Reference.md",
-    "Docker/Docker File.md",
-    "Docker/Docker in ASP.NET.md",
-    "Docker/Docker Security.md",
-    "Blazor Cheat Sheet.md"
+    "Linux/Security/Linux process capabilities.md"
   ]
 }
