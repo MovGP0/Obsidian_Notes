@@ -79,7 +79,7 @@ Can be used to provide additional data; ie. metric or healthcheck-endpoints. Exa
 | `healthz`        | Healthcheck endpoint                        |
 | `metrics`        | Metrics endpoint                            |
 | `docker.run`     | Example command how to run the image        |
-| `k8s.deployment` | Base64-encoded YAML for [[Kubernetes]] (k8) |
+| `k8s.deployment` | Base64-encoded YAML for [[Kubernetes Architecture]] (k8) |
 
 ## See also
 - [Dockerfile reference](https://docs.docker.com/engine/reference/builder/)

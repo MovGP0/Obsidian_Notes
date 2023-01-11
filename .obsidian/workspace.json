@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "9c12360231ec15dd",
+        "id": "cd30ed8b7f9769ee",
         "type": "tabs",
         "children": [
           {
-            "id": "672b1d36eb9e919a",
+            "id": "23d3512a1c6acffc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker/Docker File.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker File.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/Docker File.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -113,9 +107,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Docker/Docker File.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -135,17 +127,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "672b1d36eb9e919a",
+  "active": "23d3512a1c6acffc",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Kubernetes/Kubernetes Architecture.md",
+    "Kubernetes/Kubernetes.md",
+    "Docker/Docker File.md",
     "Software Architecture/Databases.md",
     "Git/Setup SSH Key for Git.md",
     "PowerShell/Powershell DSC/PowerShell DSC Composite Resources.md",
     "Readme.md",
     "PowerShell/Powershell DSC/PowerShell DSC Resources.md",
     "Docker/Docker Security.md",
-    "Docker/Docker Commands Quick Reference.md",
-    "Docker/Docker commands/docker secret.md",
-    "Docker/Docker File.md"
+    "Docker/Docker Commands Quick Reference.md"
   ]
 }
