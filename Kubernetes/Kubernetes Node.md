@@ -1,0 +1,1 @@
+Server that hosts one or more [[Kubernetes Pod]]. Also provides Storage and Network.

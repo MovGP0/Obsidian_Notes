@@ -4,18 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "65c90c7c3133593f",
+        "id": "3b4e97110cf3905f",
         "type": "tabs",
         "children": [
           {
-            "id": "d823cd772ef4ac94",
+            "id": "3c192511da3d9f1e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/kubectl Commands/kubectl apply.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "9c1946f4db2bb2a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/Kubernetes Pod Manifest.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,6 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Kubernetes/Kubernetes Pod Manifest.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Kubernetes/Kubernetes Pod Manifest.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Kubernetes/Kubernetes Pod Manifest.md"
+              }
             }
           }
         ]
@@ -127,17 +148,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "d823cd772ef4ac94",
+  "active": "9c1946f4db2bb2a1",
   "lastOpenFiles": [
+    "Kubernetes/kubectl Commands/kubectl apply.md",
+    "Kubernetes/kubectl Commands/kubectl run.md",
+    "Kubernetes/Kubernetes Pod Manifest.md",
+    "Kubernetes/Kubernetes Node.md",
     "Kubernetes/Kubernetes Architecture.md",
+    "Kubernetes/Kubernetes Pod.md",
     "Kubernetes/Kubernetes.md",
     "Kubernetes/kubectl.md",
     "Kubernetes/kubectl Commands/kubectl cp.md",
-    "Kubernetes/kubectl Commands/kubectl exec.md",
-    "Kubernetes/kubectl Commands/kubectl logs.md",
-    "Kubernetes/kubectl Commands/kubectl annotate.md",
-    "Kubernetes/kubectl Commands/kubectl label.md",
-    "Kubernetes/kubectl Commands/kubectl get.md",
-    "Kubernetes/kubectl Commands/kubectl set.md"
+    "Kubernetes/kubectl Commands/kubectl exec.md"
   ]
 }

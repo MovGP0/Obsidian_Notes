@@ -2,9 +2,9 @@ Used to create or update objects on the Kubernetes server.
 
 ## Example
 
-Create or update an object using a YAML or JSON file
+Create or update an object using a [[Kubernetes Pod Manifest]]
 ```bash
-kubectl apply -f obj.yaml
+kubectl apply -f https://k8s.io/examples/pods/simple-pod.yaml
 ```
 
 ## See also
