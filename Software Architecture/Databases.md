@@ -15,7 +15,7 @@
 
 | Database         | Description                                                                                                   |
 | ---------------- | ------------------------------------------------------------------------------------------------------------- |
-| Apache Cassandra | BigTable; high availability and scalability; multiple consistency levels                                      |
+| Apache Cassandra | BigTable; high availability and scalability; multiple consistency levels; Write-Optimized                     |
 | Apache Accumulo  | BigTable based on Hadoop Distributed File System (HDFS) and Zookeeper; cell-level security and access control |
 | Apache HBase     | BigTable; real-time streaming, OLAP and OLTP systems                                                          |
 | Azure Tables     |                                                                                                               |
@@ -52,8 +52,9 @@ In general, Accumulo and Cassandra are more suited for structured and semi-struc
 
 ## Other
 
-| Database      | Description                    |
-| ------------- | ------------------------------ |
-| redis         | In-Memory cache/message broker |
-| snowflake     |                                |
-| Aerospike     |                                |
+| Database  | Description                    |
+| --------- | ------------------------------ |
+| redis     | In-Memory cache/message broker |
+| snowflake |                                |
+| Aerospike |                                |
+| RocksDB   | Key-Value                      |

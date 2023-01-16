@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cd30ed8b7f9769ee",
+        "id": "a1c16487d4aabc26",
         "type": "tabs",
         "children": [
           {
-            "id": "23d3512a1c6acffc",
+            "id": "d72782ad00893450",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -127,17 +127,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "23d3512a1c6acffc",
+  "active": "0532ea71f8302973",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Software Architecture/Databases.md",
+    "Docker/Docker commands/docker stack.md",
+    "Docker/Docker Commands Quick Reference.md",
     "Kubernetes/Kubernetes Architecture.md",
     "Kubernetes/Kubernetes.md",
     "Docker/Docker File.md",
-    "Software Architecture/Databases.md",
     "Git/Setup SSH Key for Git.md",
     "PowerShell/Powershell DSC/PowerShell DSC Composite Resources.md",
-    "Readme.md",
-    "PowerShell/Powershell DSC/PowerShell DSC Resources.md",
-    "Docker/Docker Security.md",
-    "Docker/Docker Commands Quick Reference.md"
+    "Readme.md"
   ]
 }
