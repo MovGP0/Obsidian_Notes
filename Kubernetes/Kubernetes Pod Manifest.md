@@ -20,4 +20,4 @@ Use [[kubectl apply]] to run the manifest.
 
 ## See also
 
-- [Kubernetes Yaml Templates](https://github.com/dennyzhang/kubernetes-yaml-templates)
+- [Kubernetes YAML Templates](https://github.com/dennyzhang/kubernetes-yaml-templates)
