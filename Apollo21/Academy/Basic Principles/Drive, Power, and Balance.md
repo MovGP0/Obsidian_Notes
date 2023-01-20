@@ -1,4 +1,3 @@
-# Drive, Power, and Balance
 - Aktionen die einen Vorwärts- oder Rückwärtschritt bewirken
 - zum „Gasgeben“
 - nur Vorwärts und Rückwärts / nicht seitwärts
@@ -12,7 +11,6 @@
 | DRIVE   | Control | Fuß Vor / Gewicht auf beiden Füßen gleichmäßig verteilt |
 | POWER   | Push    | Abstoßen vom hinteren Bein                              |
 | BALANCE | Recover | hinteres Bein heranziehen                               |
-
 
 ### 6 Phases in Latin Dance
 

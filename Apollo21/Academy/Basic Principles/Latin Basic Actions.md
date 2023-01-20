@@ -1,4 +1,3 @@
-# Latin basic actions
 
 | Action                   | Samba | ChaChaCha | Jive | Rumba | Paso Doble |
 | ------------------------ |:-----:|:---------:|:----:|:-----:|:----------:|

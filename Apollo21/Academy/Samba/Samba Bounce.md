@@ -1,4 +1,3 @@
-# Samba Bounce
 3 Komponenten
 - Sprunggelänke / Füße strecken & beugen
 - Knie strecken & beugen / vor & zurück

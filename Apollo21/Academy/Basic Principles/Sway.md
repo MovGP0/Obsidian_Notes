@@ -1,4 +1,3 @@
-# Sway
 | Sway              | Beschreibung                                                           |
 | ----------------- | ---------------------------------------------------------------------- |
 | Technical Sway    | Rotiert oben am Torso. Ensteht aus schnellen Bewegungen zum Abbremsen. |

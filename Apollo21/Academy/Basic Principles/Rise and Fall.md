@@ -1,4 +1,3 @@
-# Rise and Fall
 - 3 Arten von Rise & Fall
 	- Foot-Rise
 	- Leg-Rise (strecken nicht durchstrecken)
