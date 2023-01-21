@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6aa7459a781c5fb3",
+        "id": "bb0ab9de45e991c0",
         "type": "tabs",
         "children": [
           {
-            "id": "c0001ffb09c9fc60",
+            "id": "ff2fc742ce1eeb70",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -127,17 +127,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "c0001ffb09c9fc60",
+  "active": "ff2fc742ce1eeb70",
   "lastOpenFiles": [
-    "Frontend/Rust/Rust Awesome Crates.md",
-    "Business Central 365/Application Language Codeunit.md",
-    "Business Central 365/Application Language Page.md",
-    "Business Central 365/Application Language Page Extension.md",
-    "Business Central 365/Application Language Table.md",
-    "Business Central 365/Application Language (AL).md",
+    "Frontend/Rust/Rust Function.md",
+    "Frontend/Rust/Rust Data Types.md",
+    "Frontend/Rust/Rust if-else loop while for.md",
+    "Frontend/Rust/Rust Type conversion.md",
+    "Frontend/Rust/Rust Comments.md",
     "Frontend/Rust/Rust.md",
-    "Docker/Docker Commands Quick Reference.md",
-    "BotBuilder/Microsoft Bot Builder Activities.md",
-    "BotBuilder/Microsoft Bot Builder.md"
+    "Frontend/Rust/Rust Variables.md",
+    "Frontend/Rust/Rust Common Macros.md",
+    "Frontend/Rust/cargo.md",
+    "Frontend/Rust/Cargo.toml.md"
   ]
 }
