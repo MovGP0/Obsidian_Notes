@@ -2,6 +2,11 @@
 
 ## Examples
 
+Install using WinGet
+```powershell
+winget install -e --id 'Rustlang.Rustup'
+```
+
 Update Rust toolchain
 ```powershell
 rustup update

@@ -15,7 +15,9 @@ cargo COMMAND --help
 
 Create a new project
 ```powershell
-cargo new 'PROJECTNAME'
+cargo new 'PROJECTNAME' # crate .exe crate
+cargo new --bin 'PROJECTNAME' # crate .exe crate
+corgo new --lib 'LIBNAME' # create .dll crate
 ```
 
 Check program
@@ -27,6 +29,7 @@ Run tests
 ```powershell
 cargo test
 ```
+*see also:* [[Rust Testing]]
 
 Run benchmarks
 ```powershell

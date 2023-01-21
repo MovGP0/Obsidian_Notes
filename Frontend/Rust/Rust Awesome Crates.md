@@ -21,6 +21,12 @@
 | [pretty_env_logger](https://crates.io/crates/pretty_env_logger) | colored output for log levels                                        |
 | [tracing](https://crates.io/crates/tracing)                     | Application-level tracing                                            |
 
+## Testing
+
+| Crate                                        | Description   |
+| -------------------------------------------- | ------------- |
+| [rspec](https://github.com/rust-rspec/rspec) | BDD Framework |
+
 ## Databases
 
 | Crate                                                  | Descrpition |

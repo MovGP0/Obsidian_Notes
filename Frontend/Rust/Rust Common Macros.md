@@ -25,6 +25,15 @@ println!("string");
 println!("x = {}", x);
 ```
 
+## panic!
+
+throws an exception
+```rust
+panic!();
+panic!("exception has occured");
+panic!("exception has occured: {} {message}", "type", message = "message");
+```
+
 ## assert!
 
 Asserts an boolean expression:

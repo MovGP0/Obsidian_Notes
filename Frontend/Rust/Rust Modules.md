@@ -11,3 +11,6 @@ mod ModuleName;
 
 // use module here
 ```
+
+- Use `Module::SubModule::Object::Function` to access object with absolute reference.
+- Use `super::` to access parent module.
