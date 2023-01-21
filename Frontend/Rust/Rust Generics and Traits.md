@@ -94,3 +94,29 @@ enum Result<T, E> {
 ```
 
 *see also:* [[Rust Enums]]
+
+## Common Traits
+
+| Trait                | Description                                                                     |
+| -------------------- | ------------------------------------------------------------------------------- |
+| `Clone`              | deep copy of object                                                             |
+| `Copy`               | shallow copy of object                                                          |
+| `Debug`              | implement `{:?}` and `{:#?}` format specifiers in `format!` and `print!` macros |
+| `Eq`, `PartialEq`    | equality comparison                                                             |
+| `Hash`               | calculate hash                                                                  |
+| `Ord`, `PartialOrd`  | enable ordering comparisons                                                     |
+| `ToString`           | enable conversion to string                                                     |
+| `From`, `Into`       | Convert between types                                                           |
+| `Iterator`           | Enables `for` loops                                                             |
+| `Display`            | implement `{}` format specifier in `format!` and `print!` macros                |
+| `AsRef`, `AsMut`     | type conversion with shared reference                                           |
+| `Index`, `IndexMut`  | Indexing and mutable indexing of object                                         |
+| `Deref`, `DerefMut`  | Enable `*` operator for smart pointer                                           |
+| `Read`, `Write`      | Read/write operations on streams                                                |
+| `Send`, `Sync`       | Send and share data between threads savely                                      |
+| `Default`            | Default values on object                                                        |
+| `Drop`               | Implement destructor                                                            |
+| `FromStr`            | Deserialize object from string                                                  |
+| `serde::Serialize`   | serialize using serde library                                                   |
+| `serde::Deserialize` | deserialize using serde library                                                 |
+| `TryFrom`, `TryInto` | Save type conversion                                                            |

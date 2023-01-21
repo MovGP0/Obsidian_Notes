@@ -17,13 +17,15 @@ format!("{:.2}%", percentage*100.0); // format percentage with two digits after 
 | `format!("{:?}", x)` | use `std::fmt::Debug`                              |
 | `format!("{x}")`     | use string interpolation using `std::fmt::Display` |
 
-## println!
+## print! println!
 
 Executes a format on a string an prints to the `stdout`.
 ```rust
 println!("string");
 println!("x = {}", x);
 ```
+
+`println!` prints a line ending, while `print!` does not.
 
 ## panic!
 
@@ -36,17 +38,22 @@ panic!("exception has occured: {} {message}", "type", message = "message");
 
 ## assert!
 
-Asserts an boolean expression:
+Assert an boolean expression
 ```rust
 assert!(x == 5);
 ```
 
-## assert_eq!
+## assert_eq! assert_ne!
 
-Asserts the equality of two variables:
+Assert the equality of two variables
 ```rust
 let vec = Vec::new([0, 1, 2, 3]);
-assert_eq!(vec, [0, 1, 2, 3])
+assert_eq!(vec, [0, 1, 2, 3]);
+```
+
+Assert the inequality of two variables
+```rust
+assert_ne!(5, 7);
 ```
 
 ## vec!
