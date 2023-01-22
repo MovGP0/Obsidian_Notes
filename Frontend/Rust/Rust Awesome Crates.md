@@ -1,9 +1,10 @@
-| Crate                                                           | Descrption                                                           |
-| --------------------------------------------------------------- | -------------------------------------------------------------------- |
-| [serde](https://crates.io/crates/serde)                         | framework for *ser*ializing and *de*serializing Rust data structures |
-| [serde_json](https://crates.io/crates/serde_json)               |                                                                      |
-| [tokio](https://crates.io/crates/tokio)                         | asynchronous I/O                                                     |
-| [chrono](https://crates.io/crates/chrono)                       | Date and Time library                                                |
+| Crate                                             | Descrption                                                           |
+| ------------------------------------------------- | -------------------------------------------------------------------- |
+| [serde](https://crates.io/crates/serde)           | framework for *ser*ializing and *de*serializing Rust data structures |
+| [serde_json](https://crates.io/crates/serde_json) |                                                                      |
+| [tokio](https://crates.io/crates/tokio)           | asynchronous I/O                                                     |
+| [chrono](https://crates.io/crates/chrono)         | Date and Time library                                                |
+| [evcxr_repl](https://crates.io/crates/evcxr_repl) | Rust REPL and Jupyter Notebook Kernel                                |
 
 ## Error handling
 
