@@ -7,3 +7,10 @@ FROM(
 ) t
 WHERE t.[bar] = Targettable.[baz]
 ```
+
+```sql
+UPDATE t1
+SET Columnname = 'foobar'
+FROM Tablename t1
+JOIN OtherTable t2 ON t1.[Id] = t2.[TablenameId]
+```

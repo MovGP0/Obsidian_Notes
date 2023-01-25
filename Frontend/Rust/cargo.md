@@ -54,3 +54,13 @@ Clean build
 ```powershell
 cargo clean
 ```
+
+Format code
+```powershell
+cargo fmt
+```
+
+Clippy throws error on compiler warning
+```
+cargo clippy
+```
