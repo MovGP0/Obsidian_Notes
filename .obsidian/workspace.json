@@ -4,18 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "2caf3eff07207896",
+        "id": "b9fac8aefd5088b3",
         "type": "tabs",
         "children": [
           {
-            "id": "03e4cfbad69ad6fe",
+            "id": "a415e94d8c84c36c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Apollo21/Academy/Principles Latin/Latin Lead.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "5471c82a1750428a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Apollo21/Academy/Principles Latin/Latin Shaping.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -57,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 363.5
   },
   "right": {
     "id": "73a64b91218644df",
@@ -73,6 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Apollo21/Academy/Principles Latin/Latin Shaping.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Apollo21/Academy/Principles Latin/Latin Shaping.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Apollo21/Academy/Principles Latin/Latin Shaping.md"
+              }
             }
           }
         ]
@@ -127,17 +148,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "03e4cfbad69ad6fe",
+  "active": "5471c82a1750428a",
   "lastOpenFiles": [
-    "Frontend/Rust/Rust Common Mistakes.md",
-    "Frontend/Rust/cargo.md",
-    "Frontend/Rust/Rust Common Macros.md",
-    "Frontend/Rust/Rust Generics and Traits.md",
-    "TSQL/TSQL Update.md",
-    "Apollo21/Academy/Basic Principles/Drive, Power, and Balance.md",
-    "Docker/Docker commands/docker create.md",
-    "Docker/Docker commands/docker run.md",
-    "Docker/Docker Commands Quick Reference.md",
-    "OAuth 2.0/OAuth 2.0 - Assertion Flow.md"
+    "Apollo21/Academy/Principles Latin/Latin Lead.md",
+    "Apollo21/Academy/Principles Latin/Latin Hold.md",
+    "Untitled.md",
+    "Apollo21/Academy/Principles Latin/Latin Couple Position.md",
+    "Apollo21/Academy/Principles Latin/Latin Alignment.md",
+    "Apollo21/Academy/Principles Latin/Latin Posture.md",
+    "Apollo21/Academy/Principles General/Alignment.md",
+    "Frontend/Rust/Rust Object-Oriented Programming.md",
+    "Frontend/Rust/Rust Concurrency.md",
+    "Frontend/Rust/Rust Common Mistakes.md"
   ]
 }
