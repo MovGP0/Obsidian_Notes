@@ -9,9 +9,13 @@
 ## Installation
 
 ### Winget
+
 ```powershell
 winget install -e --id 'Rustlang.Rustup'
 ```
+
+## Web Frameworks
+- [Rust Web Framework Comparison](https://github.com/flosse/rust-web-framework-comparison)
 
 ## See also
 - [Rust By Example](https://doc.rust-lang.org/rust-by-example/)

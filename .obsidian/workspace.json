@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "ed1af634bda7a920",
+        "id": "b129085110861685",
         "type": "tabs",
         "children": [
           {
-            "id": "8abcc6a7ac3ab456",
+            "id": "38b740d960e664eb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Frontend/Rust/Rust Object-Oriented Programming.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Frontend/Rust/Rust Object-Oriented Programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Frontend/Rust/Rust Object-Oriented Programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +113,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Frontend/Rust/Rust Object-Oriented Programming.md"
+              }
             }
           }
         ]
@@ -127,8 +135,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "8abcc6a7ac3ab456",
+  "active": "38b740d960e664eb",
   "lastOpenFiles": [
+    "Frontend/Rust/Rust.md",
     "Apollo21/Academy/Principles General/Drive, Power, and Balance.md",
     "Apollo21/Academy/Principles General/Axis and Planes.md",
     "Apollo21/Academy/Principles General/Foot Actions.md",
@@ -137,7 +146,6 @@
     "Apollo21/Academy/Principles General/Swing.md",
     "Apollo21/Academy/Principles Standard/Sway.md",
     "Apollo21/Academy/Academy.md",
-    "Apollo21/Academy/Dances Standard/English Waltz/English Waltz Basic Principles.md",
-    "Apollo21/Academy/Principles General/Foot Placement.md"
+    "Apollo21/Academy/Dances Standard/English Waltz/English Waltz Basic Principles.md"
   ]
 }
