@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "99a9bf30aa3a9446",
+        "id": "ed1af634bda7a920",
         "type": "tabs",
         "children": [
           {
-            "id": "ed4b65e8092fb217",
+            "id": "8abcc6a7ac3ab456",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -127,17 +127,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "ed4b65e8092fb217",
+  "active": "8abcc6a7ac3ab456",
   "lastOpenFiles": [
-    "Apollo21/Academy/Principles General/Timing.md",
+    "Apollo21/Academy/Principles General/Drive, Power, and Balance.md",
     "Apollo21/Academy/Principles General/Axis and Planes.md",
     "Apollo21/Academy/Principles General/Foot Actions.md",
-    "Apollo21/Academy/Principles General/Foot Placement.md",
-    "Apollo21/Academy/Principles General/Alignment.md",
-    "Apollo21/Academy/Principles Latin/Latin General Actions.md",
-    "Apollo21/Academy/Principles Latin/Latin Lead.md",
-    "Apollo21/Academy/ChaChaCha/ChaChaCha Basic Principles.md",
-    "Apollo21/Academy/Samba/Samba Basic Principles.md",
-    "Apollo21/Academy/Samba/Samba Bounce.md"
+    "Apollo21/Academy/Principles Standard/Rise and Fall.md",
+    "Apollo21/Academy/Principles General/Timing.md",
+    "Apollo21/Academy/Principles General/Swing.md",
+    "Apollo21/Academy/Principles Standard/Sway.md",
+    "Apollo21/Academy/Academy.md",
+    "Apollo21/Academy/Dances Standard/English Waltz/English Waltz Basic Principles.md",
+    "Apollo21/Academy/Principles General/Foot Placement.md"
   ]
 }

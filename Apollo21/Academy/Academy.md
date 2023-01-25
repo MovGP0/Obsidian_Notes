@@ -5,10 +5,10 @@
 * [[Drive, Power, and Balance]]
 
 ### Dance specific
-* [[Walz Basic Principles]]
+* [[English Waltz Basic Principles]]
 
 ## Latin Basic Principles
 
 ### Dance specific
 * [[Samba Basic Principles]]
-* [[ChaChaCha Basic Principles]]
+* [[Cha-Cha Basic Principles]]
