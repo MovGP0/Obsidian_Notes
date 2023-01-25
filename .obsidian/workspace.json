@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "b9fac8aefd5088b3",
+        "id": "99a9bf30aa3a9446",
         "type": "tabs",
         "children": [
           {
-            "id": "a415e94d8c84c36c",
+            "id": "ed4b65e8092fb217",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Apollo21/Academy/Principles Latin/Latin Lead.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "5471c82a1750428a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Apollo21/Academy/Principles Latin/Latin Shaping.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Apollo21/Academy/Principles Latin/Latin Shaping.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Apollo21/Academy/Principles Latin/Latin Shaping.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,9 +107,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Apollo21/Academy/Principles Latin/Latin Shaping.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,17 +127,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "5471c82a1750428a",
+  "active": "ed4b65e8092fb217",
   "lastOpenFiles": [
-    "Apollo21/Academy/Principles Latin/Latin Lead.md",
-    "Apollo21/Academy/Principles Latin/Latin Hold.md",
-    "Untitled.md",
-    "Apollo21/Academy/Principles Latin/Latin Couple Position.md",
-    "Apollo21/Academy/Principles Latin/Latin Alignment.md",
-    "Apollo21/Academy/Principles Latin/Latin Posture.md",
+    "Apollo21/Academy/Principles General/Timing.md",
+    "Apollo21/Academy/Principles General/Axis and Planes.md",
+    "Apollo21/Academy/Principles General/Foot Actions.md",
+    "Apollo21/Academy/Principles General/Foot Placement.md",
     "Apollo21/Academy/Principles General/Alignment.md",
-    "Frontend/Rust/Rust Object-Oriented Programming.md",
-    "Frontend/Rust/Rust Concurrency.md",
-    "Frontend/Rust/Rust Common Mistakes.md"
+    "Apollo21/Academy/Principles Latin/Latin General Actions.md",
+    "Apollo21/Academy/Principles Latin/Latin Lead.md",
+    "Apollo21/Academy/ChaChaCha/ChaChaCha Basic Principles.md",
+    "Apollo21/Academy/Samba/Samba Basic Principles.md",
+    "Apollo21/Academy/Samba/Samba Bounce.md"
   ]
 }
