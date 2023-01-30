@@ -1,17 +1,3 @@
-## if-else
-```rust
-if x == 5 {
-    // ...
-}
-else if x > 5 {
-    // ...
-}
-else {
-    // ...
-}
-```
-
-## loop
 ```rust
 fn main() {
     let mut x = 0;
@@ -37,23 +23,16 @@ fn main() {
 }
 ```
 
-## while
+Loops can be labeled
 ```rust
-fn main() {
-  let mut x = 0;
-  while x < 3 {
-      x += 1;
-      println!("x = {}", x);
-  }
-}
-```
-
-## for
-```rust
-fn main() {
-    let arr = [10, 20, 30, 40];
-    for item in arr.iter() {
-        println!("item = {}", item);
-    }
+'outer: loop { 
+	'inner: loop {
+	    if condition {
+		    break; // break the inner loop
+		}
+		else {
+		    break 'outer; // break the outer loop
+		}
+	}
 }
 ```

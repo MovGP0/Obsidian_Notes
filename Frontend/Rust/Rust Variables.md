@@ -25,3 +25,17 @@ let mut foobar = String::from("foobar");
 
 let ref2 = &mut foobar; // ownership is given to ref2
 ```
+
+## Static Variables
+
+```rust
+static mut COUNTER: u32 = 0;
+```
+
+## Shadowing
+
+Creates a new constant that hides/disposes the old one.
+```rust
+let x = 5;
+let x = x + 1;
+```
