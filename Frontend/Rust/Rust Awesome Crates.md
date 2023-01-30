@@ -6,6 +6,13 @@
 | [chrono](https://crates.io/crates/chrono)         | Date and Time library                                                |
 | [evcxr_repl](https://crates.io/crates/evcxr_repl) | Rust REPL and Jupyter Notebook Kernel                                |
 
+## Web
+
+| Crate                                                                                    | Description               |
+| ---------------------------------------------------------------------------------------- | ------------------------- |
+| [html-to-string-macro](https://crates.io/crates/html-to-string-macro/0.2.5/dependencies) | Inline HTML               |
+| [axum - crates.io: Rust Package Registry](https://crates.io/crates/axum)                 | Axum Web Server Framework |
+
 ## Error handling
 
 | Crate                                                           | Descrption                                                           |
@@ -15,12 +22,13 @@
 
 ## Logging and Tracing
 
-| Crate                                                           | Descrption                                                           |
-| --------------------------------------------------------------- | -------------------------------------------------------------------- |
-| [log](https://crates.io/crates/log)                             | logging facade                                                       |
-| [env_logger](https://crates.io/crates/env_logger)               | logger that can be configured via environment variables              |
-| [pretty_env_logger](https://crates.io/crates/pretty_env_logger) | colored output for log levels                                        |
-| [tracing](https://crates.io/crates/tracing)                     | Application-level tracing                                            |
+| Crate                                                           | Descrption                                              |
+| --------------------------------------------------------------- | ------------------------------------------------------- |
+| [log](https://crates.io/crates/log)                             | logging facade                                          |
+| [env_logger](https://crates.io/crates/env_logger)               | logger that can be configured via environment variables |
+| [pretty_env_logger](https://crates.io/crates/pretty_env_logger) | colored output for log levels                           |
+| [tracing](https://crates.io/crates/tracing)                     | Application-level tracing                               |
+| [slog](https://crates.io/crates/slog)                           | Structured Logging                                      |
 
 ## Testing
 
@@ -33,3 +41,4 @@
 | Crate                                                  | Descrpition |
 | ------------------------------------------------------ | ----------- |
 | [tiberius](https://docs.rs/tiberius/latest/tiberius/#) | SQL Server  |
+| [sqlx](https://crates.io/crates/sqlx)                  | SQL Macros  |

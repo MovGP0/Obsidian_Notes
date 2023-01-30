@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "b129085110861685",
+        "id": "e36ccf584d5e36a7",
         "type": "tabs",
         "children": [
           {
-            "id": "38b740d960e664eb",
+            "id": "f21e237161197194",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Frontend/Rust/Rust Object-Oriented Programming.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Frontend/Rust/Rust Object-Oriented Programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Frontend/Rust/Rust Object-Oriented Programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -113,9 +107,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Frontend/Rust/Rust Object-Oriented Programming.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -135,17 +127,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "38b740d960e664eb",
+  "active": "f21e237161197194",
   "lastOpenFiles": [
-    "Frontend/Rust/Rust.md",
-    "Apollo21/Academy/Principles General/Drive, Power, and Balance.md",
-    "Apollo21/Academy/Principles General/Axis and Planes.md",
-    "Apollo21/Academy/Principles General/Foot Actions.md",
-    "Apollo21/Academy/Principles Standard/Rise and Fall.md",
-    "Apollo21/Academy/Principles General/Timing.md",
-    "Apollo21/Academy/Principles General/Swing.md",
-    "Apollo21/Academy/Principles Standard/Sway.md",
-    "Apollo21/Academy/Academy.md",
-    "Apollo21/Academy/Dances Standard/English Waltz/English Waltz Basic Principles.md"
+    "Frontend/Rust/Cargo.toml.md",
+    "Frontend/Rust/cargo.md",
+    "Frontend/Rust/Rust Awesome Crates.md",
+    "Git/Setup SSH Key for Git.md",
+    "Git/Git Ignore Self-Signed Certificate.md",
+    "Git/Git Config Username and Email.md",
+    "Frontend/Rust/Rust Macros.md",
+    "Readme.md",
+    "Frontend/Rust/Rust Object-Oriented Programming.md",
+    "Frontend/Rust/Rust.md"
   ]
 }

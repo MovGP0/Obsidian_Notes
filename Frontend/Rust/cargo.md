@@ -61,6 +61,6 @@ cargo fmt
 ```
 
 Clippy throws error on compiler warning
-```
+```powershell
 cargo clippy
 ```

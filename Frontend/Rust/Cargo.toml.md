@@ -24,6 +24,12 @@ some-crate = { version = "1.0", registry = "my-registry" }
 # dependency on git repository
 regex = { git = "https://github.com/rust-lang/regex", branch = "main" }
 
+[profile.release]
+strip = true # enable tree shaking
+opt-level = "s" # optimize for binary size instead of speed
+lto = true # enable link-time optimization
+codegen-units = 1 # size reduction but longer compile-time
+
 [build-dependencies]
 # dependencies for build-time only
 
