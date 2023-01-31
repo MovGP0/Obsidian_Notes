@@ -19,14 +19,18 @@ Iteration is finished when `.next()` function returns `Option.None`.
 
 ## Iteration methods
 
-| Method         | Description                                                                   |
-| -------------- | ----------------------------------------------------------------------------- |
-| `.iter()`      | Creates iteration object. Collection can be used after iteration.             |
-| `.into_iter()` | Creates iteration object and transfers ownership. Collection can't be reused. |
-| `.iter_mut()`  | Crates iteration object. Items in the collection can be modified.             |
+| Method                   | Description                                                                   |
+| ------------------------ | ----------------------------------------------------------------------------- |
+| `.iter()`                | Creates iteration object. Collection can be used after iteration.             |
+| `.into_iter()`           | Creates iteration object and transfers ownership. Collection can't be reused. |
+| `.iter_mut()`            | Crates iteration object. Items in the collection can be modified.             |
+| `.iter().sum()`          | Sums numbers                                                                  |
+| `.iter().map(|x| x + 1)` | Maps iterator                                                                 |
+| `.iter().collect()`      | Creates a new collection of type `Vec<_>`                                     |
 
-## Example
+## Implement Iterator Trait
 
+Example 1
 ```rust
 struct Counter {
     current_count: u32,
@@ -51,6 +55,30 @@ impl Interator for Counter {
         }
         return None;
     }
+}
+```
+
+Example 2
+```rust
+struct Counter { count: u32, } 
+
+impl Counter {
+    fn new() -> Counter {
+        Counter { count: 0 }
+    }
+}
+        
+impl Iterator for Counter {
+    type Item = u32;
+    fn next(&mut self) -> Option {
+        if self.count < 5 {
+            self.count += 1;
+            Some(self.count)
+        }
+        else {
+	        None
+	    }
+	}
 }
 ```
 

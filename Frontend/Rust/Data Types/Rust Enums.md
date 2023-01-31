@@ -56,3 +56,30 @@ Usage:
 let some = Option::Some(true);
 let none = Option::None;
 ```
+
+## Important Enums
+
+### Option
+
+```rust
+fn get_user_id(name: &str) -> Option {
+	if database.user_exists(name) { 
+		return Some(database.get_id(name));
+	}
+	return None;
+}
+```
+
+### Result
+
+```rust
+fn get_user(user_id: u32) -> Result<User, Error> {
+	if is_logged_in(user_id) {
+	    let user = get_user_by_id(user_id);
+	    return Ok(user);
+	}
+
+    let error = Error { msg: "not logged in" };
+	return Err(error);
+}
+```

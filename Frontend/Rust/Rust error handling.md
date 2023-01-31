@@ -11,6 +11,11 @@ enum Result<T, E>{
 
 ## Examples
 
+Throw exception (throw only unrecoverable errors!)
+```rust
+panic!("some message");
+```
+
 ```rust
 fn area_square(side: &str) -> i32 {
     let s:Result<i32, ParseIntError> = side.parse();
