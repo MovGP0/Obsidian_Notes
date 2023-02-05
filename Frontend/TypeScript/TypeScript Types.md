@@ -26,17 +26,123 @@
 | `Regexp`  | regular expression pattern                                                     |
 | `Promise` | a value that may not be available yet, but will be at some point in the future |
 
-## Type Literals
+## Custom types
 
-| Type       | Example                       | Description |
-| ---------- | ----------------------------- | ----------- |
-| `Object`   | `{ field: string }`           |             |
-| `Function` | `(arg: number) => string`     |             |
-| `Array`    | `string[]` or `Array<string>` |             |
-| `Tuple`    | `[string, number]`            |             |
+### Primitive type
 
-## Algebraic Type
+Provides an alias for a type
+```typescript
+type EmailAddress = string;
+```
+
+### Object
 
 ```typescript
-number | string
+const location: { x: number; y: number } = { x: 5, y: 7 };
 ```
+
+```typescript
+type Location {
+    x: number;
+    y: number;
+}
+
+const location: Location = { x: 5, y: 7 };
+```
+
+### Array
+
+```typescript
+let value: string[] = [1, 2, 3];
+let value: Array<string> = [1, 2, 3];
+let value: Array = /* ... */;
+```
+
+### Tuple
+
+```typescript
+const tuple: [string, number] = ["foo", 5];
+```
+
+```typescript
+type MyTuple = [
+    key: string,
+    value: number
+];
+
+const tuple: MyTuple = ["foo", 5];
+```
+
+### Type intersection/merge
+
+```typescript
+type Location = { x: number } & { y: number };
+```
+
+### Type indexing
+
+```typescript
+type Response = { data: any };
+
+type Data = Response["data"];
+```
+
+### `typeof`
+
+```typescript
+const type: Type = typeof data;
+```
+
+### `ReturnType`
+
+Gets the return type of a function.
+
+```typescript
+const someFunction: Function = /* ... */;
+
+type SomeFunctionReturnType = ReturnType<typeof someFunction>;
+
+function test(fun: SomeFunctionReturnType) {
+    // ...
+}
+```
+
+### Type from Module
+
+```typescript
+const data: import("./data").data;
+```
+
+### Mapped type
+
+```typescript
+type Person = { firstName: string, lastName: string, age: number };
+
+type Subscriber<Type> = {
+    [Property in keyof Type]: (newValue: Type[Property]) => void
+}
+
+type PersonSubscriber = Subscriber<Person>;
+```
+results in 
+```typescript
+type PersonSubscriber = {
+    firstName(newValue: string): void;
+    lastName(newValue: string): void;
+    age(newValue: number): void;
+}
+```
+
+### Conditional types
+
+```typescript
+type HasFourLegs<Animal> = Animal extends { legs: 4 } ? Animal : Never;
+
+type Animals = Bird | Dog | Ant | Wolf;
+
+type FourLeggedAnimals = HasFourLegs<Animals>;
+```
+
+## See also
+
+- [[TypeScript Discriminated Unions]]

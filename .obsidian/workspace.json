@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e92c9c3ff38ce2dc",
+        "id": "08df671f7230b522",
         "type": "tabs",
         "children": [
           {
-            "id": "825812a9c0715b92",
+            "id": "03e6a2b1aea68646",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Frontend/TypeScript/TypeScript Types.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Frontend/TypeScript/TypeScript Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Frontend/TypeScript/TypeScript Types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -113,9 +107,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Frontend/TypeScript/TypeScript Types.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -135,17 +127,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "825812a9c0715b92",
+  "active": "03e6a2b1aea68646",
   "lastOpenFiles": [
+    "Frontend/TypeScript/TypeScript Types.md",
+    "Frontend/TypeScript/TypeScript Discriminated Unions.md",
+    "Frontend/TypeScript/TypeScript Control Flow Analysis.md",
+    "Frontend/TypeScript/TypeScript.md",
     "Frontend/TypeScript/TypeScript Class.md",
     "Frontend/TypeScript/TypeScript Interfaces.md",
-    "Frontend/TypeScript/TypeScript Types.md",
     "Frontend/Rust/Control Flow/Rust Coalescing Operator.md",
     "Frontend/Rust/Data Types/Rust Enums.md",
     "Untitled 2.md",
-    "Frontend/Rust/Rust Operators.md",
-    "Frontend/Rust/Rust error handling.md",
-    "Frontend/Rust/Control Flow/Rust Iterators.md",
-    "Frontend/Rust/Rust Variables.md"
+    "Frontend/Rust/Rust Operators.md"
   ]
 }
