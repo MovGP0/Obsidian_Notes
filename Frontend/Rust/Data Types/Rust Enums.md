@@ -1,4 +1,6 @@
 
+Enums are represented by [Tagget Unions](https://en.wikipedia.org/wiki/Tagged_union).
+
 ## Declare enum
 
 ```rust
