@@ -5,7 +5,21 @@ winget install yarn
 yarn global add @angular/cli
 ```
 
-## Create Project
+## Examples
+
+Create Project
 ```powershell
 ng new PROJECTNAME
 ```
+
+Add Component to Project
+```powershell
+cd PROJECTNAME
+ng generate component COMPONENTNAME
+```
+
+Run unit tests
+```powershell
+ng test
+```
+
