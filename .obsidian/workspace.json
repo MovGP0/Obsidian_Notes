@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "10ff0ea5c19cd816",
+        "id": "c12b73af5c4c402e",
         "type": "tabs",
         "children": [
           {
-            "id": "c28e72984cb97dfc",
+            "id": "6e36bcec66bf05cc",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -127,17 +127,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "c28e72984cb97dfc",
+  "active": "6e36bcec66bf05cc",
   "lastOpenFiles": [
+    "Bewerbungen/HR-SCOPE/Ansprechpartner.md",
+    "Bewerbungen/HR-SCOPE/MicroSea Systems Solutions GMBH.md",
+    "Bewerbungen/Ardekay IT Recruitment/Ansprechpartner.md",
+    "Bewerbungen/Zehn Recruting/Ansprechpartner.md",
+    "Bewerbungen/Zehn Recruting/Bewerbung 2 HDI Versicherung.md",
+    "Bewerbungen/Zehn Recruting/Bewerbung 1 H&S Heilig und Schubert Software AG.md",
+    "Apollo21/Academy/Figurenfolgen.md",
+    "Apollo21/Academy/Academy.md",
     "Git/Git Ignore Self-Signed Certificate.md",
-    "Frontend/Angular/Angular.md",
-    "Frontend/Angular/Angular Package Management.md",
-    "BotBuilder/Microsoft Bot Builder.md",
-    "Git/Setup SSH Key for Git.md",
-    "Frontend/Angular/Angular CLI.md",
-    "Git/Git Config Username and Email.md",
-    "Frontend/TypeScript/TypeScript Types.md",
-    "Frontend/TypeScript/TypeScript Discriminated Unions.md",
-    "Frontend/TypeScript/TypeScript Control Flow Analysis.md"
+    "Frontend/Angular/Angular.md"
   ]
 }
