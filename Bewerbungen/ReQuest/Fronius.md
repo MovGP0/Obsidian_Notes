@@ -1,0 +1,2 @@
+[Fullstack Software Engineer (.NET, Angular) for Solar Energy (m/f/x) (myworkdayjobs.com)](https://fronius.wd3.myworkdayjobs.com/en-US/Job_Board/job/Vienna/Fullstack-Engineer--NET--Angular--fr-Solar-Energy--m-w-d-_REQ-10001475)
+[Backend.NET Developer für Solar Energy (m/w/d) (myworkdayjobs.com)](https://fronius.wd3.myworkdayjobs.com/en-US/Job_Board/job/Thalheim-bei-Wels/Developer-Software-Development-SE_REQ-10002260)

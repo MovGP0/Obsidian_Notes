@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c12b73af5c4c402e",
+        "id": "7486c32cc2001084",
         "type": "tabs",
         "children": [
           {
-            "id": "6e36bcec66bf05cc",
+            "id": "f00684946eec1617",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -127,17 +127,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "6e36bcec66bf05cc",
+  "active": "f00684946eec1617",
   "lastOpenFiles": [
-    "Bewerbungen/HR-SCOPE/Ansprechpartner.md",
+    "Bewerbungen/ReQuest/Ansprechpartner.md",
+    "Bewerbungen/ReQuest/Post.at.md",
+    "Bewerbungen/ReQuest/Fronius.md",
     "Bewerbungen/HR-SCOPE/MicroSea Systems Solutions GMBH.md",
+    "Bewerbungen/Ardekay IT Recruitment/DCCS.md",
+    "Bewerbungen/HR-SCOPE/Ansprechpartner.md",
     "Bewerbungen/Ardekay IT Recruitment/Ansprechpartner.md",
     "Bewerbungen/Zehn Recruting/Ansprechpartner.md",
     "Bewerbungen/Zehn Recruting/Bewerbung 2 HDI Versicherung.md",
-    "Bewerbungen/Zehn Recruting/Bewerbung 1 H&S Heilig und Schubert Software AG.md",
-    "Apollo21/Academy/Figurenfolgen.md",
-    "Apollo21/Academy/Academy.md",
-    "Git/Git Ignore Self-Signed Certificate.md",
-    "Frontend/Angular/Angular.md"
+    "Bewerbungen/Zehn Recruting/Bewerbung 1 H&S Heilig und Schubert Software AG.md"
   ]
 }
