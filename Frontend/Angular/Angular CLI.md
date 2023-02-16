@@ -23,3 +23,12 @@ Run unit tests
 ng test
 ```
 
+Run lint
+```powershell
+ng lint
+```
+
+Run project
+```powershell
+ng serve
+```

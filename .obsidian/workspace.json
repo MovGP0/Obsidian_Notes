@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "db882895deb48348",
+        "id": "76acff05a8c7d1ae",
         "type": "tabs",
         "children": [
           {
-            "id": "3276855c32498b2d",
+            "id": "c0bc9bced1f5aae2",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -127,17 +127,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "3276855c32498b2d",
+  "active": "c0bc9bced1f5aae2",
   "lastOpenFiles": [
-    "TLS/Self-Signed TLS Zertifikate.md",
+    "Frontend/Angular/Angular.md",
+    "Frontend/Angular/Angular CLI.md",
+    "Frontend/Angular/Angular Project Structure.md",
+    "Bewerbungen/ReQuest/Ansprechpartner.md",
     "Bewerbungen/ReQuest/Post.at.md",
+    "TLS/Self-Signed TLS Zertifikate.md",
     "Bewerbungen/HR-SCOPE/MicroSea Systems Solutions GMBH.md",
     "Bewerbungen/Ardekay IT Recruitment/DCCS.md",
     "Bewerbungen/X/Interwest.md",
-    "Bewerbungen/ReQuest/Fronius.md",
-    "Bewerbungen/HR-SCOPE/Ansprechpartner.md",
-    "Bewerbungen/Ardekay IT Recruitment/Ansprechpartner.md",
-    "Bewerbungen/Zehn Recruting/Bewerbung 2 HDI Versicherung.md",
-    "Bewerbungen/Zehn Recruting/Bewerbung 1 H&S Heilig und Schubert Software AG.md"
+    "Bewerbungen/ReQuest/Fronius.md"
   ]
 }
