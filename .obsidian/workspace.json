@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "76acff05a8c7d1ae",
+        "id": "f33fbe9edcb517f9",
         "type": "tabs",
         "children": [
           {
-            "id": "c0bc9bced1f5aae2",
+            "id": "dcc7eba016c39e05",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -127,17 +127,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "c0bc9bced1f5aae2",
+  "active": "dcc7eba016c39e05",
   "lastOpenFiles": [
+    "Bewerbungen/HR-SCOPE/MicroSea Systems Solutions GMBH.md",
+    "Bewerbungen/HR-SCOPE/Ansprechpartner.md",
     "Frontend/Angular/Angular.md",
     "Frontend/Angular/Angular CLI.md",
     "Frontend/Angular/Angular Project Structure.md",
     "Bewerbungen/ReQuest/Ansprechpartner.md",
     "Bewerbungen/ReQuest/Post.at.md",
     "TLS/Self-Signed TLS Zertifikate.md",
-    "Bewerbungen/HR-SCOPE/MicroSea Systems Solutions GMBH.md",
     "Bewerbungen/Ardekay IT Recruitment/DCCS.md",
-    "Bewerbungen/X/Interwest.md",
-    "Bewerbungen/ReQuest/Fronius.md"
+    "Bewerbungen/X/Interwest.md"
   ]
 }
