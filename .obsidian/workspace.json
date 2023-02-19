@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "aca30d1e04d211bb",
+        "id": "7b73251c09843ce4",
         "type": "tabs",
         "children": [
           {
-            "id": "ea1761ff46cc196d",
+            "id": "c4b758c15ffb9608",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Apollo21/Diverses/Antriebsaktionen nach Rudolf von Laban.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Apollo21/Diverses/Antriebsaktionen nach Rudolf von Laban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Apollo21/Diverses/Antriebsaktionen nach Rudolf von Laban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -113,9 +107,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Apollo21/Diverses/Antriebsaktionen nach Rudolf von Laban.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -135,17 +127,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "ea1761ff46cc196d",
+  "active": "c4b758c15ffb9608",
   "lastOpenFiles": [
+    "Apollo21/Diverses/Rollen in der Tanzpartnerschaft.md",
+    "Apollo21/Diverses/Tanz-Bewertungskriterien.md",
+    "Apollo21/Diverses/Antriebsaktionen nach Rudolf von Laban.md",
     "Bewerbungen/Zehn Recruting/Bewerbung 2 HDI Versicherung.md",
     "Bewerbungen/Zehn Recruting/Ansprechpartner.md",
     "Bewerbungen/ReQuest/Fronius.md",
     "Bewerbungen/ReQuest/Ansprechpartner.md",
     "Bewerbungen/HR-SCOPE/Ansprechpartner.md",
     "Bewerbungen/HR-SCOPE/MicroSea Systems Solutions GMBH.md",
-    "Frontend/Angular/Angular.md",
-    "Frontend/Angular/Angular CLI.md",
-    "Frontend/Angular/Angular Project Structure.md",
-    "Bewerbungen/ReQuest/Post.at.md"
+    "Frontend/Angular/Angular.md"
   ]
 }
