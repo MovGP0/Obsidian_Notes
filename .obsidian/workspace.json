@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "916311f13bf1d760",
+        "id": "8af3d03553de6ea9",
         "type": "tabs",
         "children": [
           {
-            "id": "6e01bb4e75a4a6dd",
+            "id": "dcf385e6ee23d450",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -127,17 +127,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "6e01bb4e75a4a6dd",
+  "active": "dcf385e6ee23d450",
   "lastOpenFiles": [
+    "HTTP File.md",
+    "Untitled.md",
+    "Readme.md",
     "Exchange Server/Exchange Server Zertifikat erneuern.md",
     "Bewerbungen/ReQuest/Post.at.md",
     "Bewerbungen/ReQuest/Ansprechpartner.md",
     "Apollo21/Diverses/Rollen in der Tanzpartnerschaft.md",
     "Apollo21/Diverses/Tanz-Bewertungskriterien.md",
     "Apollo21/Diverses/Antriebsaktionen nach Rudolf von Laban.md",
-    "Bewerbungen/Zehn Recruting/Bewerbung 2 HDI Versicherung.md",
-    "Bewerbungen/Zehn Recruting/Ansprechpartner.md",
-    "Bewerbungen/ReQuest/Fronius.md",
-    "Bewerbungen/HR-SCOPE/Ansprechpartner.md"
+    "Bewerbungen/Zehn Recruting/Bewerbung 2 HDI Versicherung.md"
   ]
 }
