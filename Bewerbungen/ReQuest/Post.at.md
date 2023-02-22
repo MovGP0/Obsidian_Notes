@@ -16,3 +16,17 @@ Herr Eric Ewle - Talentmanagement
 Personalmanagement /Talentmanagement
 Rochusplatz 1
 1030 Wien
+
+## Hintergrund
+
+- Operativer Prozess im Hintregrund
+- 4 SRCUM Teams
+	- 4-5 Entwicklier
+	- 1-2 Tester
+	- Product Owner + SCRUM Master
+- .NET/C# Services
+- ältere Applikationen mit WCF bis .NET Core 6.0
+- On-Premises Deployment / Monoliten
+- Neue Applikationen sind Cloud-First in Azure
+- interne UI in React oder Blazor
+- Azure DevOPS / Git

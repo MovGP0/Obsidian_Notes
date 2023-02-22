@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7b73251c09843ce4",
+        "id": "916311f13bf1d760",
         "type": "tabs",
         "children": [
           {
-            "id": "c4b758c15ffb9608",
+            "id": "6e01bb4e75a4a6dd",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -127,17 +127,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "c4b758c15ffb9608",
+  "active": "6e01bb4e75a4a6dd",
   "lastOpenFiles": [
+    "Exchange Server/Exchange Server Zertifikat erneuern.md",
+    "Bewerbungen/ReQuest/Post.at.md",
+    "Bewerbungen/ReQuest/Ansprechpartner.md",
     "Apollo21/Diverses/Rollen in der Tanzpartnerschaft.md",
     "Apollo21/Diverses/Tanz-Bewertungskriterien.md",
     "Apollo21/Diverses/Antriebsaktionen nach Rudolf von Laban.md",
     "Bewerbungen/Zehn Recruting/Bewerbung 2 HDI Versicherung.md",
     "Bewerbungen/Zehn Recruting/Ansprechpartner.md",
     "Bewerbungen/ReQuest/Fronius.md",
-    "Bewerbungen/ReQuest/Ansprechpartner.md",
-    "Bewerbungen/HR-SCOPE/Ansprechpartner.md",
-    "Bewerbungen/HR-SCOPE/MicroSea Systems Solutions GMBH.md",
-    "Frontend/Angular/Angular.md"
+    "Bewerbungen/HR-SCOPE/Ansprechpartner.md"
   ]
 }
