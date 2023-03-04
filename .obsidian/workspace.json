@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8af3d03553de6ea9",
+        "id": "7423992f307cb2a3",
         "type": "tabs",
         "children": [
           {
-            "id": "dcf385e6ee23d450",
+            "id": "34b3bac6ef9cac22",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -127,17 +127,37 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "dcf385e6ee23d450",
+  "active": "34b3bac6ef9cac22",
   "lastOpenFiles": [
-    "HTTP File.md",
-    "Untitled.md",
-    "Readme.md",
-    "Exchange Server/Exchange Server Zertifikat erneuern.md",
-    "Bewerbungen/ReQuest/Post.at.md",
-    "Bewerbungen/ReQuest/Ansprechpartner.md",
-    "Apollo21/Diverses/Rollen in der Tanzpartnerschaft.md",
-    "Apollo21/Diverses/Tanz-Bewertungskriterien.md",
-    "Apollo21/Diverses/Antriebsaktionen nach Rudolf von Laban.md",
-    "Bewerbungen/Zehn Recruting/Bewerbung 2 HDI Versicherung.md"
+    "Rust/Data Types/Rust Enums.md",
+    "Rust/Gang of Four Patterns/Rust Gang of Four Patterns.md",
+    "Rust/Gang of Four Patterns/Structural patterns/Proxy.md",
+    "Rust/Gang of Four Patterns/Structural patterns/Flyweight.md",
+    "Rust/Gang of Four Patterns/Structural patterns/Facade.md",
+    "Rust/Gang of Four Patterns/Structural patterns/Decorator.md",
+    "Rust/Gang of Four Patterns/Structural patterns/Composite.md",
+    "Rust/Gang of Four Patterns/Structural patterns/Bridge.md",
+    "Rust/Gang of Four Patterns/Structural patterns/Adapter.md",
+    "Rust/Gang of Four Patterns/Creational Patterns/Singleton.md",
+    "Rust/Gang of Four Patterns/Creational Patterns/Prototype.md",
+    "Rust/Gang of Four Patterns/Creational Patterns/Factory Method.md",
+    "Rust/Gang of Four Patterns/Creational Patterns/Builder.md",
+    "Rust/Gang of Four Patterns/Creational Patterns/Abstract Factory.md",
+    "Rust/Gang of Four Patterns/Behavioral patterns/Untitled.md",
+    "Rust/Gang of Four Patterns/Behavioral patterns/Visitor.md",
+    "Rust/Gang of Four Patterns/Behavioral patterns/Template Method.md",
+    "Rust/Gang of Four Patterns/Behavioral patterns/Strategy.md",
+    "Rust/Gang of Four Patterns/Behavioral patterns/State.md",
+    "Rust/Gang of Four Patterns/Behavioral patterns/Observer.md",
+    "Rust/Gang of Four Patterns/Behavioral patterns/Interpreter.md",
+    "Rust/Gang of Four Patterns/Behavioral patterns/Command.md",
+    "Rust/Gang of Four Patterns/Behavioral patterns/Chain of Responsibility.md",
+    "Rust/Gang of Four Patterns/Behavioral patterns/Iterator.md",
+    "Rust/Gang of Four Patterns/Behavioral patterns/Mediator.md",
+    "Rust/Gang of Four Patterns/Structural patterns",
+    "Rust/Gang of Four Patterns/Behavioral patterns",
+    "Rust/Gang of Four Patterns/Behavioral patterns/Memento.md",
+    "Rust/Gang of Four Patterns/Creational Patterns",
+    "Rust/Gang of Four Patterns"
   ]
 }

@@ -45,7 +45,39 @@ let sex_string = sex.get_sex_string();
 
 Enum values can have a data assinged.
 
-Example with generic type:
+### DayOfWeek
+
+Example with integer values:
+```rust
+enum DayOfWeek {
+    Sunday = 0,
+    Monday = 1,
+    Tuesday = 2,
+    Wednesday = 3,
+    Thursday = 4,
+    Friday = 5,
+    Saturday = 6,
+}
+```
+
+Values can also be any type:
+```rust
+enum DayOfWeek {
+    Sunday = { number: 0, name: "Sunday".to_string(), is_weekend: true },
+    Monday = { number: 1, name: "Monday".to_string(), is_weekend: false },
+    Tuesday = { number: 2, name: "Tuesday".to_string(), is_weekend: false },
+    Wednesday = { number: 3, name: "Wednesday".to_string(), is_weekend: false },
+    Thursday = { number: 4, name: "Thursday".to_string(), is_weekend: false },
+    Friday = { number: 5, name: "Friday".to_string(), is_weekend: false },
+    Saturday = { number: 5, name: "Saturday".to_string(), is_weekend: true },
+}
+```
+
+## Important Enums
+
+### Option
+
+Option type is declared as:
 ```rust
 enum Option<T> {
     Some(T),
@@ -59,16 +91,32 @@ let some = Option::Some(true);
 let none = Option::None;
 ```
 
-## Important Enums
-
-### Option
-
 ```rust
 fn get_user_id(name: &str) -> Option {
 	if database.user_exists(name) { 
 		return Some(database.get_id(name));
 	}
 	return None;
+}
+```
+
+Unwrap in [[Rust if-else]] statement:
+```rust
+let wrapped_value = Option::Some(100_usize);
+if let Some(the_value) = wrapped_value {
+    println!("Some: {}" the_value);
+}
+else {
+    println!("None");
+}
+```
+
+Unwrap using [[Rust Match (Switch)]] statement:
+```rust
+let wrapped_value = Option::Some(100_usize);
+match wrapped_value {
+    Some(the_value) => println!("Some: {}" the_value),
+    None => println!("None");
 }
 ```
 

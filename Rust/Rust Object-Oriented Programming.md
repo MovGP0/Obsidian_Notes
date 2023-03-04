@@ -38,7 +38,7 @@ impl CustomStack {
         }
     }
 
-    pub fn new() {
+    pub fn new() -> Self {
         return CustomStack {
             elements: vec![],
             max: 0
@@ -72,7 +72,7 @@ struct Rectangle {
 }
 
 impl Shape for Rectangle {
-    fn area(&shelf) -> f64 {
+    fn area(&self) -> f64 {
         self.heigth * self.width
     }
 }
@@ -84,7 +84,7 @@ struct Triangle {
 }
 
 impl Shape for Triangle {
-    fn area(&shelf) -> f64 {
+    fn area(&self) -> f64 {
         let (a, b, c) = (self.a, self.b, self.c);
         let s = (a + b + c) / 2.0;
         (s*(s-a)*(s-b)*(s-c)).sqrt()
