@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7423992f307cb2a3",
+        "id": "a68a54738ed8fb35",
         "type": "tabs",
         "children": [
           {
-            "id": "34b3bac6ef9cac22",
+            "id": "5c0896e0193dd98c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "certificate",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -127,8 +127,14 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "34b3bac6ef9cac22",
+  "active": "5c0896e0193dd98c",
   "lastOpenFiles": [
+    "dotNET/dotNET Cryptography.md",
+    "Windows/Certificate Store.md",
+    "TLS/Self-Signed TLS Zertifikate.md",
+    "dotNET",
+    "Rust/Rust.md",
+    "Rust/Rust Stack.md",
     "Rust/Data Types/Rust Enums.md",
     "Rust/Gang of Four Patterns/Rust Gang of Four Patterns.md",
     "Rust/Gang of Four Patterns/Structural patterns/Proxy.md",
@@ -150,13 +156,8 @@
     "Rust/Gang of Four Patterns/Behavioral patterns/State.md",
     "Rust/Gang of Four Patterns/Behavioral patterns/Observer.md",
     "Rust/Gang of Four Patterns/Behavioral patterns/Interpreter.md",
-    "Rust/Gang of Four Patterns/Behavioral patterns/Command.md",
-    "Rust/Gang of Four Patterns/Behavioral patterns/Chain of Responsibility.md",
-    "Rust/Gang of Four Patterns/Behavioral patterns/Iterator.md",
-    "Rust/Gang of Four Patterns/Behavioral patterns/Mediator.md",
     "Rust/Gang of Four Patterns/Structural patterns",
     "Rust/Gang of Four Patterns/Behavioral patterns",
-    "Rust/Gang of Four Patterns/Behavioral patterns/Memento.md",
     "Rust/Gang of Four Patterns/Creational Patterns",
     "Rust/Gang of Four Patterns"
   ]
