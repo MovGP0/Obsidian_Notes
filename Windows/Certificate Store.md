@@ -10,4 +10,3 @@ The certificates are stored in the System Registry
 | `HKEY_CURRENT_USER\Software\Microsoft\System\Certificates`           | contains registry settings for the current user. Those can include the BLOB (Binary Large object) and various settings for the certificate, as well as settings related to the CA certificates that support the user certificates. |
 | `HKEY_Current_User\Software\Policies\Microsoft\System\Certificates`  | contains registry settings for the current user, but for certificates distributed via Group Policy.                                                                                                                                |
 | `HKEY_Users\User\SID\Software\Microsoft\System\Certificates`         | contains this info for the corresponding user                                                                                                                                                                                      |
-

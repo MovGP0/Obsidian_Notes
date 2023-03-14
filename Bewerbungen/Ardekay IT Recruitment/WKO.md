@@ -21,12 +21,20 @@ WKO Inhouse
 - Operations Infrastruktur
 	- Service Desk
 	- Hardware/Infrastruktur
-- SAP & DBW
+- Entwicklung für SAP & DPW
 - Indiv Entwickung
-- - zB. Lehrlingsförderung
-- - Governance Bourds - Informationsaustausch zwischen Teeams
-	- - Best Practices
-- 	- Nominierte Vertreter
-- - WKIS / Microsoft AD
-- - SonarCube
-- - OpenShift / RedHat
+  - zB. Lehrlingsförderung
+  - Governance Boards - Informationsaustausch zwischen Teams
+    - Best Practices
+    - Nominierte Vertreter
+  - WKIS / Microsoft AD
+  - SonarCube
+	  - Qalitätssicherung
+	  - stat. Codeanalysen
+  - OpenShift / RedHat
+  - BizTalk
+
+## Tech-Interview
+
+- Sven Hofians / Teamleitung
+- Markus Kramer
