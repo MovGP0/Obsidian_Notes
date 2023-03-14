@@ -47,8 +47,8 @@ Code-Reviews zu 100%
 - Pluralsight
 
 
-9:30-14 Uhr Kernzeit
-1 Probemanat / 2 Manate befristet
+9:30-14:30 Uhr Kernzeit
+1 Probemanat / 2 Monate befristet
 Bei Vollanstellung in Voraustzahlung / Möglichkeit einer Kranzenzusatzpaket 60 %
 U6 Meidlung / 10 min Fußweg
 

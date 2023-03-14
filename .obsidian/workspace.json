@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8d178eaf246b3312",
+        "id": "cb4c6b0bab8629bb",
         "type": "tabs",
         "children": [
           {
-            "id": "357752f42dc4a8cd",
+            "id": "89b4400737151e63",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -127,15 +127,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "357752f42dc4a8cd",
+  "active": "89b4400737151e63",
   "lastOpenFiles": [
+    "Git/Git Config Username and Email.md",
+    "Git/Git Config Credential Manager.md",
+    "Git/Setup SSH Key for Git.md",
+    "Git/Git Ignore Self-Signed Certificate.md",
+    "Bewerbungen/Zehn Recruting/Bewerbung 2 HDI Versicherung.md",
     "dotNET/TPL Task Parallel Library.md",
     "Rust/Control Flow/Rust Coalescing Operator.md",
     "Rust/Commands/cargo.md",
     "Rust/Rust.md",
-    "Git/Git Ignore Self-Signed Certificate.md",
-    "Git/Setup SSH Key for Git.md",
-    "Git/Git Config Username and Email.md",
     "Bewerbungen/Ardekay IT Recruitment/WKO.md",
     "Frontend/TypeScript/TypeScript.md",
     "Frontend/TypeScript/TypeScript Types.md",
@@ -145,7 +147,6 @@
     "Frontend/TypeScript/TypeScript Class.md",
     "Frontend/Angular/Angular Project Structure.md",
     "Frontend/Angular/Angular.md",
-    "Bewerbungen/Zehn Recruting/Bewerbung 2 HDI Versicherung.md",
     "Bewerbungen/ReQuest/Ansprechpartner.md",
     "Bewerbungen/Zehn Recruting/Ansprechpartner.md",
     "Bewerbungen/HR-SCOPE/Ansprechpartner.md",
@@ -154,7 +155,6 @@
     "Bewerbungen/Ardekay IT Recruitment/Ansprechpartner.md",
     "Windows/Certificate Store.md",
     "dotNET/dotNET Cryptography.md",
-    "TLS/Self-Signed TLS Zertifikate.md",
     "dotNET",
     "Rust/Gang of Four Patterns/Structural patterns",
     "Rust/Gang of Four Patterns/Behavioral patterns",
