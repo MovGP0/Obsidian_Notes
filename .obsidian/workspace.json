@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "cb4c6b0bab8629bb",
+        "id": "3ce27488534efd42",
         "type": "tabs",
         "children": [
           {
-            "id": "89b4400737151e63",
+            "id": "476b6d561aefb6b8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Bewerbungen/Charlie Skipper/Interwetten.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Bewerbungen/Charlie Skipper/Interwetten.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Bewerbungen/Charlie Skipper/Interwetten.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +113,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Bewerbungen/Charlie Skipper/Interwetten.md"
+              }
             }
           }
         ]
@@ -127,8 +135,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "89b4400737151e63",
+  "active": "476b6d561aefb6b8",
   "lastOpenFiles": [
+    "Rust/Gang of Four Patterns/Structural patterns/Adapter.md",
+    "Rust/Gang of Four Patterns/Rust Gang of Four Patterns.md",
+    "Software Architecture/Databases.md",
     "Git/Git Config Username and Email.md",
     "Git/Git Config Credential Manager.md",
     "Git/Setup SSH Key for Git.md",
@@ -152,9 +163,6 @@
     "Bewerbungen/HR-SCOPE/Ansprechpartner.md",
     "Bewerbungen/Charlie Skipper/Ansprechpartner.md",
     "Bewerbungen/Charlie Skipper/Interwetten.md",
-    "Bewerbungen/Ardekay IT Recruitment/Ansprechpartner.md",
-    "Windows/Certificate Store.md",
-    "dotNET/dotNET Cryptography.md",
     "dotNET",
     "Rust/Gang of Four Patterns/Structural patterns",
     "Rust/Gang of Four Patterns/Behavioral patterns",
