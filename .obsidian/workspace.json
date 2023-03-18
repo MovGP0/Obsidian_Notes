@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "3ce27488534efd42",
+        "id": "1df51ccf6a3e76ae",
         "type": "tabs",
         "children": [
           {
-            "id": "476b6d561aefb6b8",
+            "id": "b0f86d48f1e8f955",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bewerbungen/Charlie Skipper/Interwetten.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "certificate",
+                "query": "traits",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bewerbungen/Charlie Skipper/Interwetten.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bewerbungen/Charlie Skipper/Interwetten.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -113,9 +107,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Bewerbungen/Charlie Skipper/Interwetten.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -135,34 +127,35 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "476b6d561aefb6b8",
+  "active": "b0f86d48f1e8f955",
   "lastOpenFiles": [
+    "Protobuf/Protobuf .NET Load Balancing using Proxy.md",
+    "Protobuf/Protobuf .NET Load Balancing using Resolver.md",
+    "Protobuf/Protobuf .NET Load Balancing using custom Resolver.md",
+    "Protobuf/Protobuf .NET Load Balancing using DNS.md",
+    "Protobuf/Protobuf .NET Load Balancing using server list.md",
+    "Protobuf/Protobuf .NET Client.md",
+    "Protobuf/Protobuf ASP.NET Server.md",
+    "Protobuf/Protobuf .proto File Format.md",
+    "Protobuf/Protobuf - Protocol Buffers.md",
+    "dotNET/SignalR.md",
+    "Untitled.md",
+    "Protobuf/Protobuf Primitive Datatypes.md",
+    "SignalR.md",
+    "Rust/Rust Generics and Traits.md",
+    "Rust/Rust Implement Common Traits.md",
+    "Protobuf",
+    "Rust/Rust Protobuf.md",
+    "Rust/Rust Borrowing Rules.md",
+    "Git/Git Config Username and Email.md",
+    "Bewerbungen/Charlie Skipper/Interwetten.md",
     "Rust/Gang of Four Patterns/Structural patterns/Adapter.md",
     "Rust/Gang of Four Patterns/Rust Gang of Four Patterns.md",
     "Software Architecture/Databases.md",
-    "Git/Git Config Username and Email.md",
     "Git/Git Config Credential Manager.md",
     "Git/Setup SSH Key for Git.md",
     "Git/Git Ignore Self-Signed Certificate.md",
     "Bewerbungen/Zehn Recruting/Bewerbung 2 HDI Versicherung.md",
-    "dotNET/TPL Task Parallel Library.md",
-    "Rust/Control Flow/Rust Coalescing Operator.md",
-    "Rust/Commands/cargo.md",
-    "Rust/Rust.md",
-    "Bewerbungen/Ardekay IT Recruitment/WKO.md",
-    "Frontend/TypeScript/TypeScript.md",
-    "Frontend/TypeScript/TypeScript Types.md",
-    "Frontend/TypeScript/TypeScript Interfaces.md",
-    "Frontend/TypeScript/TypeScript Discriminated Unions.md",
-    "Frontend/TypeScript/TypeScript Control Flow Analysis.md",
-    "Frontend/TypeScript/TypeScript Class.md",
-    "Frontend/Angular/Angular Project Structure.md",
-    "Frontend/Angular/Angular.md",
-    "Bewerbungen/ReQuest/Ansprechpartner.md",
-    "Bewerbungen/Zehn Recruting/Ansprechpartner.md",
-    "Bewerbungen/HR-SCOPE/Ansprechpartner.md",
-    "Bewerbungen/Charlie Skipper/Ansprechpartner.md",
-    "Bewerbungen/Charlie Skipper/Interwetten.md",
     "dotNET",
     "Rust/Gang of Four Patterns/Structural patterns",
     "Rust/Gang of Four Patterns/Behavioral patterns",

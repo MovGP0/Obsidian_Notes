@@ -1,0 +1,6 @@
+- Set up a Proxy
+	- [YARP](https://microsoft.github.io/reverse-proxy/)
+	- [HAProxy](https://www.haproxy.org/)
+	- [nginx](http://nginx.org/en/docs/http/load_balancing.html)
+	- [Traefik Proxy](https://doc.traefik.io/)
+- Use the proxy address for GRPC

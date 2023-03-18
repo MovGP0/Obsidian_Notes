@@ -97,6 +97,21 @@ enum Result<T, E> {
 
 ## Common Traits
 
+Implement on all (public) types:
+- `Debug`
+- `Clone`
+- `Default`
+- `PartialEq`
+- Dependent on Use-case
+	- `PartialOrd`
+	- `Hash`
+	- `Eq`
+	- `Ord`
+- For multithreading: 
+	- `Send` / `Sync`
+- For serialization over network:
+	- `serde::Serialize` / `serde::Deserialize`
+
 | Trait                | Description                                                                     |
 | -------------------- | ------------------------------------------------------------------------------- |
 | `Clone`              | deep copy of object                                                             |
@@ -120,3 +135,7 @@ enum Result<T, E> {
 | `serde::Serialize`   | serialize using serde library                                                   |
 | `serde::Deserialize` | deserialize using serde library                                                 |
 | `TryFrom`, `TryInto` | Save type conversion                                                            |
+
+## See also
+
+- [[Rust Implement Common Traits]]
