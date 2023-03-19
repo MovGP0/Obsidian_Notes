@@ -1,3 +1,8 @@
+| Role           | Technology     |
+| -------------- | -------------- |
+| Authentication | OpenID Connect |
+| Authorization  | OAuth          |
+
 ## Flows
 
 | Flow                                                     | Description                                                                                                                                                                                                       |
