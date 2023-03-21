@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e356180aad22282f",
+        "id": "065f075dd5d9711f",
         "type": "tabs",
         "children": [
           {
-            "id": "1e2bcd987e62e504",
+            "id": "8ab1197f083e79a5",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -127,14 +127,16 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "1e2bcd987e62e504",
+  "active": "8ab1197f083e79a5",
   "lastOpenFiles": [
+    "Protobuf/Protobuf Logging and Metrics.md",
+    "Protobuf/Protobuf Metrics.md",
+    "Protobuf/Protobuf OAuth Bearer Authentication.md",
     "Protobuf/Protobuf ASP.NET Server.md",
     "Protobuf/Certificate Authentication/Protobuf ASP.NET Server Certificate Authentication.md",
     "Protobuf/Certificate Authentication/Protobuf .NET Client Certificate Authentication.md",
     "Protobuf/Protobuf .NET Client.md",
     "Protobuf/Certificate Authentication",
-    "Protobuf/Untitled.md",
     "Protobuf/Load Balancing/Protobuf .NET Load Balancing using DNS.md",
     "Protobuf/Load Balancing",
     "OAuth 2.0/OAuth 2.0.md",
@@ -156,8 +158,6 @@
     "Git/Git Config Username and Email.md",
     "Bewerbungen/Charlie Skipper/Interwetten.md",
     "Rust/Gang of Four Patterns/Structural patterns/Adapter.md",
-    "Rust/Gang of Four Patterns/Rust Gang of Four Patterns.md",
-    "Software Architecture/Databases.md",
     "dotNET",
     "Rust/Gang of Four Patterns/Structural patterns",
     "Rust/Gang of Four Patterns/Behavioral patterns",
