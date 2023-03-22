@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "065f075dd5d9711f",
+        "id": "faf6c09bff4ff683",
         "type": "tabs",
         "children": [
           {
-            "id": "8ab1197f083e79a5",
+            "id": "045ba227181e66e7",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -57,7 +57,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 363.5
+    "width": 363.5,
+    "collapsed": true
   },
   "right": {
     "id": "73a64b91218644df",
@@ -127,8 +128,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "8ab1197f083e79a5",
+  "active": "045ba227181e66e7",
   "lastOpenFiles": [
+    "Software Architecture/Databases.md",
     "Protobuf/Protobuf Logging and Metrics.md",
     "Protobuf/Protobuf Metrics.md",
     "Protobuf/Protobuf OAuth Bearer Authentication.md",
@@ -157,7 +159,6 @@
     "Rust/Rust Borrowing Rules.md",
     "Git/Git Config Username and Email.md",
     "Bewerbungen/Charlie Skipper/Interwetten.md",
-    "Rust/Gang of Four Patterns/Structural patterns/Adapter.md",
     "dotNET",
     "Rust/Gang of Four Patterns/Structural patterns",
     "Rust/Gang of Four Patterns/Behavioral patterns",
