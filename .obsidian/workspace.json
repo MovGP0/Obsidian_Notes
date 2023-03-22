@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "c5b1e20fcdd3a9a7",
+        "id": "c2a83a892e1a4dff",
         "type": "tabs",
         "children": [
           {
-            "id": "beae94b64af82e9a",
+            "id": "1c0c757ca8105b82",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Software Architecture/Scalability.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Software Architecture/Scalability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Software Architecture/Scalability.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +113,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Software Architecture/Scalability.md"
+              }
             }
           }
         ]
@@ -127,8 +135,13 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "beae94b64af82e9a",
+  "active": "1c0c757ca8105b82",
   "lastOpenFiles": [
+    "Software Architecture/Twitter Snowflake.md",
+    "Software Architecture/Scalability.md",
+    "Software Architecture/Consistent Hashing.md",
+    "Software Architecture/Databases.md",
+    "Software Architecture/Rate-Limiting Algorithms.md",
     "Blazor/Blazor OAuth Authentication.md",
     "Blazor/Blazor.md",
     "Blazor/Blazor Lifecycle Methods.md",
@@ -136,7 +149,6 @@
     "Untitled.md",
     "Blazor",
     "Untitled 1.md",
-    "Software Architecture/Databases.md",
     "Protobuf/Protobuf Logging and Metrics.md",
     "Protobuf/Protobuf Metrics.md",
     "Protobuf/Protobuf OAuth Bearer Authentication.md",
@@ -154,10 +166,6 @@
     "Protobuf/Load Balancing/Protobuf .NET Load Balancing using Resolver.md",
     "Protobuf/Protobuf .NET Load Balancing using custom Resolver.md",
     "Protobuf/Load Balancing/Protobuf .NET Load Balancing using server list.md",
-    "Protobuf/Protobuf - Protocol Buffers.md",
-    "dotNET/SignalR.md",
-    "SignalR.md",
-    "Rust/Rust Generics and Traits.md",
     "Protobuf",
     "dotNET",
     "Rust/Gang of Four Patterns/Structural patterns",
