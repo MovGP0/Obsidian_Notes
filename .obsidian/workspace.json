@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "faf6c09bff4ff683",
+        "id": "c5b1e20fcdd3a9a7",
         "type": "tabs",
         "children": [
           {
-            "id": "045ba227181e66e7",
+            "id": "beae94b64af82e9a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -57,8 +57,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 363.5,
-    "collapsed": true
+    "width": 363.5
   },
   "right": {
     "id": "73a64b91218644df",
@@ -128,8 +127,15 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "045ba227181e66e7",
+  "active": "beae94b64af82e9a",
   "lastOpenFiles": [
+    "Blazor/Blazor OAuth Authentication.md",
+    "Blazor/Blazor.md",
+    "Blazor/Blazor Lifecycle Methods.md",
+    "Blazor/Blazor with ReactiveUI.md",
+    "Untitled.md",
+    "Blazor",
+    "Untitled 1.md",
     "Software Architecture/Databases.md",
     "Protobuf/Protobuf Logging and Metrics.md",
     "Protobuf/Protobuf Metrics.md",
@@ -150,15 +156,9 @@
     "Protobuf/Load Balancing/Protobuf .NET Load Balancing using server list.md",
     "Protobuf/Protobuf - Protocol Buffers.md",
     "dotNET/SignalR.md",
-    "Untitled.md",
     "SignalR.md",
     "Rust/Rust Generics and Traits.md",
-    "Rust/Rust Implement Common Traits.md",
     "Protobuf",
-    "Rust/Rust Protobuf.md",
-    "Rust/Rust Borrowing Rules.md",
-    "Git/Git Config Username and Email.md",
-    "Bewerbungen/Charlie Skipper/Interwetten.md",
     "dotNET",
     "Rust/Gang of Four Patterns/Structural patterns",
     "Rust/Gang of Four Patterns/Behavioral patterns",
