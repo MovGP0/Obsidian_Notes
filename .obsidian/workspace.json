@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bcbf0af0aad613ea",
+        "id": "72af98391e399a93",
         "type": "tabs",
         "children": [
           {
-            "id": "59d50aac9f8c3355",
+            "id": "27aa1ad3ebee79ac",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -127,8 +127,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "59d50aac9f8c3355",
+  "active": "27aa1ad3ebee79ac",
   "lastOpenFiles": [
+    "TSQL/TSQL Three Way Merge.md",
+    "TSQL/TSQL Datatypes.md",
+    "TSQL/TSQL JSON Data.md",
     "dotNET/CSharp Keywords.md",
     "dotNET/InteropServices.Marshal.md",
     "Untitled.md",
@@ -155,9 +158,6 @@
     "Protobuf/Certificate Authentication",
     "Protobuf/Load Balancing/Protobuf .NET Load Balancing using DNS.md",
     "Protobuf/Load Balancing",
-    "OAuth 2.0/OAuth 2.0.md",
-    "Protobuf/Protobuf .proto File Format.md",
-    "Protobuf/Protobuf Primitive Datatypes.md",
     "Protobuf",
     "dotNET",
     "Rust/Gang of Four Patterns/Structural patterns",
