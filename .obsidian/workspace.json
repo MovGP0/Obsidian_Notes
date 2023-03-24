@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "72af98391e399a93",
+        "id": "2a467dcbaf38004d",
         "type": "tabs",
         "children": [
           {
-            "id": "27aa1ad3ebee79ac",
+            "id": "23e90ebf8aa47319",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -127,8 +127,24 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "27aa1ad3ebee79ac",
+  "active": "23e90ebf8aa47319",
   "lastOpenFiles": [
+    "dotNET/Roslyn/Roslyn.md",
+    "dotNET/Roslyn/Roslyn Code Fix Provider.md",
+    "dotNET/Roslyn/Roslyn Syntax Rewriter.md",
+    "dotNET/Roslyn/Roslyn Distribute Plugins.md",
+    "dotNET/Roslyn/Roslyn Source Generator.md",
+    "dotNET/Roslyn/Roslyn Analyzer.md",
+    "dotNET/Roslyn",
+    "dotNET/Untitled.md",
+    "dotNET/Circuit Breaker using Polly.md",
+    "Engineering Software/Simulation Software.md",
+    "Engineering Software/Parametric 3D CAD.md",
+    "dotNET/dotNET Physical Units.md",
+    "Engineering Software",
+    "dotNET/Unit Testing Libraries.md",
+    "dotNET/dotNET Cryptography.md",
+    "dotNET/TPL Task Parallel Library.md",
     "TSQL/TSQL Three Way Merge.md",
     "TSQL/TSQL Datatypes.md",
     "TSQL/TSQL JSON Data.md",
@@ -141,28 +157,13 @@
     "Software Architecture/Twitter Snowflake.md",
     "Software Architecture/Consistent Hashing.md",
     "Software Architecture/Databases.md",
-    "Software Architecture/Rate-Limiting Algorithms.md",
-    "Blazor/Blazor OAuth Authentication.md",
-    "Blazor/Blazor.md",
-    "Blazor/Blazor Lifecycle Methods.md",
-    "Blazor/Blazor with ReactiveUI.md",
     "Blazor",
-    "Untitled 1.md",
-    "Protobuf/Protobuf Logging and Metrics.md",
-    "Protobuf/Protobuf Metrics.md",
-    "Protobuf/Protobuf OAuth Bearer Authentication.md",
-    "Protobuf/Protobuf ASP.NET Server.md",
-    "Protobuf/Certificate Authentication/Protobuf ASP.NET Server Certificate Authentication.md",
-    "Protobuf/Certificate Authentication/Protobuf .NET Client Certificate Authentication.md",
-    "Protobuf/Protobuf .NET Client.md",
     "Protobuf/Certificate Authentication",
-    "Protobuf/Load Balancing/Protobuf .NET Load Balancing using DNS.md",
     "Protobuf/Load Balancing",
     "Protobuf",
     "dotNET",
     "Rust/Gang of Four Patterns/Structural patterns",
     "Rust/Gang of Four Patterns/Behavioral patterns",
-    "Rust/Gang of Four Patterns/Creational Patterns",
-    "Rust/Gang of Four Patterns"
+    "Rust/Gang of Four Patterns/Creational Patterns"
   ]
 }

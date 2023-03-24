@@ -1,0 +1,7 @@
+- [SolidWorks](https://www.solidworks.com/de)
+- [Dassault Systems CATIA](https://www.3ds.com/products-services/catia/)
+- [FreeCAD](https://www.freecad.org/)
+- [PDC Creo Parametric](https://www.ptc.com/en/products/creo/parametric)
+- [Siemens NX](https://www.plm.automation.siemens.com/global/en/products/nx/)
+- [Autodesk Fusion 360 & Autodesk Inventor](https://www.autodesk.de/)
+- [Macad 3D](https://macad3d.net/)
