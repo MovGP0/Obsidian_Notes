@@ -33,3 +33,5 @@
 	- Consider [[Twitter Snowflake]]
 
 - Use a URL shortening service and [HashID](https://hashids.org/net/)
+
+- Use a [[Bloom Filter]] to check if a value is likely contained in a set of values
