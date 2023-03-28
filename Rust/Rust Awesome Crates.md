@@ -1,17 +1,19 @@
-| Crate                                             | Descrption                                                           |
-| ------------------------------------------------- | -------------------------------------------------------------------- |
-| [serde](https://crates.io/crates/serde)           | framework for *ser*ializing and *de*serializing Rust data structures |
-| [serde_json](https://crates.io/crates/serde_json) |                                                                      |
-| [tokio](https://crates.io/crates/tokio)           | asynchronous I/O                                                     |
-| [chrono](https://crates.io/crates/chrono)         | Date and Time library                                                |
-| [evcxr_repl](https://crates.io/crates/evcxr_repl) | Rust REPL and Jupyter Notebook Kernel                                |
+| Crate                                                    | Descrption                                                           |
+| -------------------------------------------------------- | -------------------------------------------------------------------- |
+| [serde](https://crates.io/crates/serde)                  | framework for *ser*ializing and *de*serializing Rust data structures |
+| [serde_json](https://crates.io/crates/serde_json)        |                                                                      |
+| [tokio](https://crates.io/crates/tokio)                  | asynchronous I/O                                                     |
+| [chrono](https://crates.io/crates/chrono)                | Date and Time library                                                |
+| [evcxr_repl](https://crates.io/crates/evcxr_repl)        | Rust REPL and Jupyter Notebook Kernel                                |
+| [itertools](https://docs.rs/itertools/latest/itertools/) | LINQ for Rust                                                        |
 
 ## Web
 
 | Crate                                                                                    | Description               |
 | ---------------------------------------------------------------------------------------- | ------------------------- |
 | [html-to-string-macro](https://crates.io/crates/html-to-string-macro/0.2.5/dependencies) | Inline HTML               |
-| [axum - crates.io: Rust Package Registry](https://crates.io/crates/axum)                 | Axum Web Server Framework |
+| [axum](https://crates.io/crates/axum)                 | Axum Web Server Framework |
+| [tide](https://github.com/http-rs/tide)                                                  | Web Server Framework      |
 
 ## Error handling
 

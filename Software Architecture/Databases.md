@@ -42,15 +42,27 @@ In general, Accumulo and Cassandra are more suited for structured and semi-struc
 
 ## Graph Databases
 
-| Database       | Query Language  | Pros                                                                | Cons                                            | Use Cases                                                         |
-| -------------- | --------------- | ------------------------------------------------------------------- | ----------------------------------------------- | ----------------------------------------------------------------- |
-| Neo4j          | Cypher          | Highly connected data, powerful querying, ACID transactions         | Steeper learning curve, less mature scalability | Social networks, fraud detection, recommendation engines          |
-| Amazon Neptune | Gremlin, SPARQL | Managed, highly available, scalable, multiple query languages       | Cost, limited customizability                   | Knowledge graphs, social networks, fraud detection                |
-| ArangoDB       | AQL             | Multi-model (graph, document, key-value), flexible querying         | Less mature, steeper learning curve             | Multi-model applications, social networks, recommendation engines |
-| OrientDB       | SQL-like        | Multi-model (graph, document), ACID transactions, flexible querying | Smaller community, less mature                  | Multi-model applications, social networks, content management     |
-| JanusGraph     | Gremlin         | Scalable, distributed, pluggable storage backends                   | Complex setup, smaller community                | Social networks, large-scale graphs, real-time analytics          |
-| Virtuoso       | SPARQL, SQL     | Multi-model (graph, relational), high performance, mature           | Steeper learning curve, less user-friendly      | Knowledge graphs, semantic web, linked data                       |
-| TigerGraph     | GSQL            | Scalable, high performance, expressive query language               | Proprietary, cost                               | Social networks, fraud detection, IoT analytics                   |
+| Database       | Query Language  | Pros                                                                | Cons                                            | Use Cases                                                                               |
+| -------------- | --------------- | ------------------------------------------------------------------- | ----------------------------------------------- | --------------------------------------------------------------------------------------- |
+| Neo4j          | Cypher          | Highly connected data, powerful querying, ACID transactions         | Steeper learning curve, less mature scalability | Social networks, fraud detection, recommendation engines                                |
+| Amazon Neptune | Gremlin, SPARQL | Managed, highly available, scalable, multiple query languages       | Cost, limited customizability                   | Knowledge graphs, social networks, fraud detection                                      |
+| ArangoDB       | AQL             | Multi-model (graph, document, key-value), flexible querying         | Less mature, steeper learning curve             | Multi-model applications, social networks, recommendation engines                       |
+| OrientDB       | SQL-like        | Multi-model (graph, document), ACID transactions, flexible querying | Smaller community, less mature                  | Multi-model applications, social networks, content management                           |
+| JanusGraph     | Gremlin         | Scalable, distributed, pluggable storage backends                   | Complex setup, smaller community                | Social networks, large-scale graphs, real-time analytics                                |
+| Virtuoso       | SPARQL, SQL     | Multi-model (graph, relational), high performance, mature           | Steeper learning curve, less user-friendly      | Knowledge graphs, semantic web, linked data                                             |
+| TigerGraph     | GSQL            | Scalable, high performance, expressive query language               | Proprietary, cost                               | Social networks, fraud detection, IoT analytics                                         |
+
+## Vector Databases
+
+- [Chroma](https://www.trychroma.com/)
+- [DeepsetAI](https://www.deepset.ai/)
+- [FAISS](https://github.com/facebookresearch/faiss)
+- [Milvus](https://milvus.io/)
+- [pgvector](https://github.com/pgvector/pgvector) (for Postgres; Part of [Supabase](https://supabase.com/docs))
+- [Pinecone](https://www.pinecone.io/)
+- [Qdrant](https://qdrant.tech/)
+- [Vespa](https://github.com/vespa-engine/vespa)
+- [Weaviate](https://weaviate.io/)
 
 ## Search Databases
 
