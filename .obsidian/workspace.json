@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4ffeab7f7c228be3",
+        "id": "51663ee260715080",
         "type": "tabs",
         "children": [
           {
-            "id": "fd8626da9c315de9",
+            "id": "752fcddc63586274",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -127,8 +127,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "fd8626da9c315de9",
+  "active": "752fcddc63586274",
   "lastOpenFiles": [
+    "Rust/Rust Databases.md",
     "Software Architecture/Databases.md",
     "Rust/Rust Awesome Crates.md",
     "Apollo21/Academy/Dances Latin/Samba/Samba Bounce.md",
@@ -156,7 +157,6 @@
     "TSQL/TSQL JSON Data.md",
     "dotNET/CSharp Keywords.md",
     "dotNET/InteropServices.Marshal.md",
-    "Untitled.md",
     "Blazor",
     "Protobuf/Certificate Authentication",
     "Protobuf/Load Balancing",
