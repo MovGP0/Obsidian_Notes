@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c1f4a975766471c8",
+        "id": "9cf13d087ab2c824",
         "type": "tabs",
         "children": [
           {
-            "id": "b85231c2fbf3bab3",
+            "id": "d3f2bb5ffec79859",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -127,8 +127,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "b85231c2fbf3bab3",
+  "active": "d3f2bb5ffec79859",
   "lastOpenFiles": [
+    "PowerShell/PowerShell Workflow/PowerShell Workflow.md",
+    "PowerShell/PowerShell Workflow/PowerShell Jobs.md",
+    "PowerShell/PowerShell Workflow",
     "Rust/Rust Databases.md",
     "Software Architecture/Databases.md",
     "Rust/Rust Awesome Crates.md",
@@ -155,15 +158,12 @@
     "TSQL/TSQL Three Way Merge.md",
     "TSQL/TSQL Datatypes.md",
     "TSQL/TSQL JSON Data.md",
-    "dotNET/CSharp Keywords.md",
-    "dotNET/InteropServices.Marshal.md",
     "Blazor",
     "Protobuf/Certificate Authentication",
     "Protobuf/Load Balancing",
     "Protobuf",
     "dotNET",
     "Rust/Gang of Four Patterns/Structural patterns",
-    "Rust/Gang of Four Patterns/Behavioral patterns",
-    "Rust/Gang of Four Patterns/Creational Patterns"
+    "Rust/Gang of Four Patterns/Behavioral patterns"
   ]
 }
