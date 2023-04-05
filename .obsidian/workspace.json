@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "88520ea0c9451940",
+        "id": "e11aaac3860e62e9",
         "type": "tabs",
         "children": [
           {
-            "id": "46ad494f6b8fdd91",
+            "id": "0eaa61b2d6b8e9a8",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -127,8 +127,14 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "46ad494f6b8fdd91",
+  "active": "0eaa61b2d6b8e9a8",
   "lastOpenFiles": [
+    "dotNET/Semantic Kernels/Create Semantic Planner.md",
+    "dotNET/Semantic Kernels/Create Semantic Kernel.md",
+    "dotNET/Semantic Kernels/Create Semantic Memory Store.md",
+    "dotNET/Semantic Kernels/Create Sematic Functions.md",
+    "dotNET/Semantic Kernels/Semantic Kernels.md",
+    "dotNET/Semantic Kernels",
     "dotNET/InteropServices.Marshal.md",
     "dotNET/dotNET Physical Units.md",
     "dotNET/Server-Sent Events (SSE).md",
@@ -153,17 +159,11 @@
     "Engineering Software/Simulation Software.md",
     "Engineering Software/Parametric 3D CAD.md",
     "Engineering Software",
-    "dotNET/Unit Testing Libraries.md",
-    "dotNET/dotNET Cryptography.md",
-    "dotNET/TPL Task Parallel Library.md",
-    "TSQL/TSQL Three Way Merge.md",
-    "TSQL/TSQL Datatypes.md",
     "Blazor",
     "Protobuf/Certificate Authentication",
     "Protobuf/Load Balancing",
     "Protobuf",
     "dotNET",
-    "Rust/Gang of Four Patterns/Structural patterns",
-    "Rust/Gang of Four Patterns/Behavioral patterns"
+    "Rust/Gang of Four Patterns/Structural patterns"
   ]
 }
