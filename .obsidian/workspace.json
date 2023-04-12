@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "e11aaac3860e62e9",
+        "id": "19576b6b00cfbc17",
         "type": "tabs",
         "children": [
           {
-            "id": "0eaa61b2d6b8e9a8",
+            "id": "f8bc994c62a32a21",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "dotNET/Semantic Kernels/Semantic Kernels.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "dotNET/Semantic Kernels/Semantic Kernels.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "dotNET/Semantic Kernels/Semantic Kernels.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +113,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "dotNET/Semantic Kernels/Semantic Kernels.md"
+              }
             }
           }
         ]
@@ -127,13 +135,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "0eaa61b2d6b8e9a8",
+  "active": "f8bc994c62a32a21",
   "lastOpenFiles": [
-    "dotNET/Semantic Kernels/Create Semantic Planner.md",
-    "dotNET/Semantic Kernels/Create Semantic Kernel.md",
-    "dotNET/Semantic Kernels/Create Semantic Memory Store.md",
+    "dotNET/Semantic Kernels/Skills/Use TimeSkill.md",
+    "dotNET/Semantic Kernels/Skills/Use PlannerSkill.md",
+    "dotNET/Semantic Kernels/Skills/Use TextMemorySkill.md",
     "dotNET/Semantic Kernels/Create Sematic Functions.md",
     "dotNET/Semantic Kernels/Semantic Kernels.md",
+    "dotNET/Semantic Kernels/Skills",
+    "dotNET/Semantic Kernels/Create Semantic Memory Store.md",
+    "dotNET/Semantic Kernels/Image Generation.md",
+    "dotNET/Semantic Kernels/Create Semantic Kernel.md",
     "dotNET/Semantic Kernels",
     "dotNET/InteropServices.Marshal.md",
     "dotNET/dotNET Physical Units.md",
@@ -155,15 +167,11 @@
     "dotNET/Roslyn/Roslyn Source Generator.md",
     "dotNET/Roslyn/Roslyn Analyzer.md",
     "dotNET/Roslyn",
-    "dotNET/Circuit Breaker using Polly.md",
-    "Engineering Software/Simulation Software.md",
-    "Engineering Software/Parametric 3D CAD.md",
     "Engineering Software",
     "Blazor",
     "Protobuf/Certificate Authentication",
     "Protobuf/Load Balancing",
     "Protobuf",
-    "dotNET",
-    "Rust/Gang of Four Patterns/Structural patterns"
+    "dotNET"
   ]
 }

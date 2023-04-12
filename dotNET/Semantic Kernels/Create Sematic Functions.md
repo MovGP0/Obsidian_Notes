@@ -36,6 +36,35 @@ public sealed class MySkill
 		return ...
 	}
 
+    // TODO: set in Constructor
+	private readonly ISKFunction _helperFunction;
+
+    [SKFunction("DESCRIPTION WHAT THE FUNCTION DOES")]
+	[SKFunctionName("Bar")] // override function name (Optional)
+	[SKFunctionInput(Description = "DESCRIPTION OF THE INPUT PARAMETER")]
+	[SKFunctionContextParameter(Name = "key", Description = "DESCRIPTION OF THE VARIABLE", DefaultValue = "")]
+    public async Task<SkContext> Qux(string input, SKContext context)
+    {
+	    try
+	    {
+	       var innerContext = new SKContext(
+		       bucketVariables,
+		       context.Memory,
+		       context.Skills,
+		       context.Log,
+		       context.CancellationToken);
+			var result = await _helperFunction.InvokeAsync(innerContext);
+			var resultString = result.Result;
+
+		    return context;
+	    }
+	    catch(Exception e)
+	    {
+	        context.Log(e.Message);
+		    return context.Fail(e.Message);
+	    }
+    }
+
     // TODO: add additional functions as needed
 }
 ```

@@ -14,13 +14,23 @@ Kernel.Builder
 
 Remember data
 ```csharp
+await kernel.Memory.SaveInformationAsync(
+	collection: "COLLECTION_NAME",
+	text: "TEXT",
+	id: "INTERNAL_ID",
+	description: "DESCRIPTION",
+	cancellationToken);
+```
+
+Remember data with reference to source
+```csharp
 await kernel.Memory.SaveReferenceAsync(
-	id: "INTERNAL_ID"
-    collection: "COLLECTION_NAME",  
-    description: "DESCRIPTION",  
+	collection: "COLLECTION_NAME",  
     text: "TEXT",  
-    externalId: "https://source/item/id",  
-    externalSourceName: "source" 
+    externalId: "INTERNAL_ID"
+    externalSourceName: "SOURCE",
+    description: "DESCRIPTION",  
+    cancellationToken 
 );
 ```
 
@@ -33,9 +43,14 @@ Search Data by vector similarity
 ```csharp
 var searchResults = kernel.Memory.SearchAsync("COLLECTION_NAME", "some query input", limit: 3, minRelevanceScore: 0.8);
 
-await foreach (var item in searchResults)  
-{  
-    Console.WriteLine(item.Metadata.Text + " : " + item.Relevance);  
+var i = 0;
+await foreach (MemoryQueryResult item in searchResults)  
+{
+    Console.WriteLine($"Result {++i}:");
+    Console.WriteLine("  URL:     : " + memory.Id);
+    Console.WriteLine("  Title    : " + memory.Description);
+    Console.WriteLine("  Relevance: " + memory.Relevance);
+    Console.WriteLine();
 }
 ```
 

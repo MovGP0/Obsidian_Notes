@@ -2,6 +2,10 @@
 ```csharp
 IKernel kernel = KernelBuilder.Create();
 
+kernel.Config.AddOpenAIEmbeddingGeneration("ada", "text-embedding-ada-002", apiKey);
+kernel.Config.AddOpenAITextCompletion("davinci", "text-davinci-003", apiKey, orgId);
+kernel.Config.AddOpenAIImageGenerationService("dallE", apiKey, orgId);
+
 kernel.Config.AddAzureOpenAIEmbeddingGenerationService(
 			"myName2",
 			"embeddingsDeploymentName",
@@ -29,6 +33,8 @@ kernel.Memory = ...;
 
 ## Create Kernel using Builder
 ```csharp
+var memoryStorage = new VolatileMemoryStore(); // in-memory storage for testing
+
 IKernel kernel = Kernel.Builder
 	.WithLogger(NullLogger.Instance)  
 	.WithMemory(memory)
