@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c209398437f1479f",
+        "id": "67bf296a0b8e8bbc",
         "type": "tabs",
         "children": [
           {
-            "id": "552757cade399d2d",
+            "id": "0164be3684b7c345",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -127,8 +127,12 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "552757cade399d2d",
+  "active": "0164be3684b7c345",
   "lastOpenFiles": [
+    "Machine Learning/Machine Learning.md",
+    "Machine Learning/Implement GPT.md",
+    "Readme.md",
+    "Machine Learning",
     "Business Central 365/Business Central 365.md",
     "Business Central 365/Application Language Table Extension.md",
     "Business Central 365/Application Language Table.md",
@@ -153,9 +157,6 @@
     "dotNET/InteropServices.Marshal.md",
     "dotNET/Program.cs.md",
     "dotNET/TPL Task Parallel Library.md",
-    "dotNET/Unit Testing/UnitTest Category.md",
-    "dotNET/Unit Testing/Unit Testing Libraries.md",
-    "dotNET/OAuth 2.0/OAuth 2.0 - Implicit Flow.md",
     "dotNET/ReactiveUI",
     "dotNET/Solution Files",
     "dotNET/ASP.NET",
@@ -163,7 +164,6 @@
     "dotNET/Unit Testing",
     "dotNET/System.IO",
     "dotNET/Serilog",
-    "dotNET/NodaTime",
-    "dotNET/Hangfire"
+    "dotNET/NodaTime"
   ]
 }
