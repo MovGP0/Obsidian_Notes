@@ -1,5 +1,3 @@
-# DataTypes and Fields in Application Language
-
 see also: [Data Types and Methods in AL](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/library)
 
 | Type           | Description                                                                      |
@@ -19,6 +17,7 @@ see also: [Data Types and Methods in AL](https://learn.microsoft.com/en-us/dynam
 | `Blob`         | Binary data (see also `Subtype` and `Compressed` properties)                     |
 
 ## Field triggers
+
 ```json
 table 5100 "tableName"
 {

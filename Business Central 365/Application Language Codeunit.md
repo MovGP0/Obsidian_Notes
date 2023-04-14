@@ -1,7 +1,6 @@
-# Code Units in Application Language
 Used to declare executable procedures
 
-```al
+```json
 codeunit 10100 CodeUnitName
 {
     trigger OnRun() // event to handle

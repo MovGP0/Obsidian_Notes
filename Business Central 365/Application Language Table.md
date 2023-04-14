@@ -1,4 +1,3 @@
-# Tables in Application Language
 **Note:** Table names are in Singular (ie. `Product` instead of `Products`)
 
 ```json

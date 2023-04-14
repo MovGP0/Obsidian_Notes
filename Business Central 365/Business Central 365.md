@@ -1,5 +1,4 @@
-# Business Central 365
-### Filter
+## Filter
 
 | Zeichen               | Beispiel   | Beschreibung                         |
 | --------------------- | ---------- | ------------------------------------ |
@@ -24,7 +23,8 @@
 | `%Ich` / `%Me`        |            | Alias für `%Benutzer`                |
 | `%Mandant`            |            | Filter nach aktuellen Mandantennamen |
 
-### Felder
+## Felder
+
 - Zahlenfelder können einfache Grundrechnungsarten
 - bei Datumsfeldern kann Trennzeichen entfallen
     - wenn Monat/Jahr nicht angegeben wird, wird das aktuelle Jahr/Monat angenommen
@@ -35,4 +35,5 @@
 - Drop-Down-Felder mit `alt+down` auswählen
 
 ## Programming
+
 - [[Application Language (AL)]]

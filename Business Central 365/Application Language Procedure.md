@@ -1,11 +1,12 @@
-# Procedures in Application Language
 ## Declare Variables
+
 ```pascal
 VariableName : Type "Description"
 VariableName : Type[20] "Description" // Type with size limitation
 ```
 
 ## Declare Procedure
+
 ```pascal
 local procedure ProcedureName(
     ParameterName1 : Type "Description";

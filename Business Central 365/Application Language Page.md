@@ -8,6 +8,7 @@
 | Journal/Worksheet | list of records with detail-view on bottom               |
 
 ## Card
+
 ```json
 page 50200 "CardName"
 {
@@ -26,7 +27,9 @@ page 50200 "CardName"
     }
 }
 ```
+
 ## List
+
 ```json
 table 50100 "TableName"
 {
@@ -77,13 +80,16 @@ table 50300 "AnotherTableName"
 ```
 
 ## Package files
+
 - Open `AL: Package` to create package that is deployed to Business Central
 
 ### Edit `.docx` file
+
 - Open Document in MS Word
 - Enable Developer tab in `Options` / `Customize Ribbon` / `[x] Developer`
 - Select Developer Tab in Word and select `XML Mapping Pane`
 
 ### Edit `.rdlc` file
+
 - Open in `SQL Server Report Designer`
 

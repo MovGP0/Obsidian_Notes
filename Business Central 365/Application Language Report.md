@@ -1,4 +1,3 @@
-# Report in Application Language
 ```json
 report 50201 "ListName"
 {

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f447fd0ff45e0702",
+        "id": "c209398437f1479f",
         "type": "tabs",
         "children": [
           {
-            "id": "c579e2ac7e0c9009",
+            "id": "552757cade399d2d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -127,8 +127,19 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "c579e2ac7e0c9009",
+  "active": "552757cade399d2d",
   "lastOpenFiles": [
+    "Business Central 365/Business Central 365.md",
+    "Business Central 365/Application Language Table Extension.md",
+    "Business Central 365/Application Language Table.md",
+    "Business Central 365/Application Language Report.md",
+    "Business Central 365/Application Language Query.md",
+    "Business Central 365/Application Language Procedure.md",
+    "Business Central 365/Application Language Page Extension.md",
+    "Business Central 365/Application Language Page.md",
+    "Business Central 365/Application Language DataTypes and Fields.md",
+    "Business Central 365/Application Language Codeunit.md",
+    "Business Central 365/Application Language (AL).md",
     "dotNET/ASP.NET/ASP.NET Middleware.md",
     "dotNET/ASP.NET/IP Address Filter Middleware.md",
     "dotNET/ASP.NET/Server-Sent Events (SSE).md",
@@ -145,17 +156,6 @@
     "dotNET/Unit Testing/UnitTest Category.md",
     "dotNET/Unit Testing/Unit Testing Libraries.md",
     "dotNET/OAuth 2.0/OAuth 2.0 - Implicit Flow.md",
-    "dotNET/OAuth 2.0/OAuth 2.0 - Client Credentials Flow.md",
-    "dotNET/OAuth 2.0/OAuth 2.0 - Authorization Code Flow.md",
-    "dotNET/OAuth 2.0/OAuth 2.0 - Assertion Flow.md",
-    "File Formats/JSON Path.md",
-    "File Formats/HTTP File.md",
-    "Readme.md",
-    "Untitled.md",
-    "Unity Game Development.md",
-    "SignalR.md",
-    "Registrierkassa.md",
-    "dotNET/Blazor/Blazor Cheat Sheet.md",
     "dotNET/ReactiveUI",
     "dotNET/Solution Files",
     "dotNET/ASP.NET",

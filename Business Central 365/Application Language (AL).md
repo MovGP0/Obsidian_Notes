@@ -1,4 +1,3 @@
-# Business Central Application Language (AL)
 ## Comments
 ```pascal
 // this is a comment
