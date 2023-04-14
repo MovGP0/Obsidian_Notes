@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "19576b6b00cfbc17",
+        "id": "4860c33fc331eef8",
         "type": "tabs",
         "children": [
           {
-            "id": "f8bc994c62a32a21",
+            "id": "54ea057dbf84026d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dotNET/Semantic Kernels/Semantic Kernels.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dotNET/Semantic Kernels/Semantic Kernels.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dotNET/Semantic Kernels/Semantic Kernels.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -113,9 +107,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "dotNET/Semantic Kernels/Semantic Kernels.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -135,43 +127,43 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "f8bc994c62a32a21",
+  "active": "54ea057dbf84026d",
   "lastOpenFiles": [
-    "dotNET/Semantic Kernels/Skills/Use TimeSkill.md",
-    "dotNET/Semantic Kernels/Skills/Use PlannerSkill.md",
-    "dotNET/Semantic Kernels/Skills/Use TextMemorySkill.md",
-    "dotNET/Semantic Kernels/Create Sematic Functions.md",
-    "dotNET/Semantic Kernels/Semantic Kernels.md",
-    "dotNET/Semantic Kernels/Skills",
-    "dotNET/Semantic Kernels/Create Semantic Memory Store.md",
-    "dotNET/Semantic Kernels/Image Generation.md",
-    "dotNET/Semantic Kernels/Create Semantic Kernel.md",
-    "dotNET/Semantic Kernels",
+    "dotNET/Solution Files/Solution File.md",
+    "dotNET/Solution Files/Central Package Management.md",
+    "dotNET/Solution Files/Solution File Common Properties.md",
+    "dotNET/Solution Files/Solution File with TypeScript.md",
+    "dotNET/Solution Files/Solution File with Docker.md",
+    "dotNET/Solution Files",
+    "dotNET/Hangfire/Hangfire Console.md",
+    "dotNET/Hangfire/Hangfire Monitoring API.md",
+    "dotNET/Hangfire/Hangfire Schedule Recurring Job.md",
+    "dotNET/ASP.NET/SignalR.md",
+    "dotNET/ASP.NET/ASP.NET Middleware.md",
+    "dotNET/ASP.NET",
+    "dotNET/ASP.NET/Server-Sent Events (SSE).md",
+    "dotNET/ASP.NET/IP Address Filter Middleware.md",
     "dotNET/InteropServices.Marshal.md",
     "dotNET/dotNET Physical Units.md",
-    "dotNET/Server-Sent Events (SSE).md",
-    "PowerShell/PowerShell Workflow/PowerShell Workflow.md",
-    "PowerShell/PowerShell Workflow/PowerShell Jobs.md",
-    "PowerShell/PowerShell Workflow",
-    "Rust/Rust Databases.md",
-    "Software Architecture/Databases.md",
-    "Rust/Rust Awesome Crates.md",
-    "Apollo21/Academy/Dances Latin/Samba/Samba Bounce.md",
-    "Apollo21/Diverses/Tanz-Bewertungskriterien.md",
-    "Apollo21/Academy/Academy.md",
-    "Apollo21/Academy/Unterrichten.md",
-    "dotNET/Roslyn/Roslyn.md",
-    "dotNET/Roslyn/Roslyn Code Fix Provider.md",
-    "dotNET/Roslyn/Roslyn Syntax Rewriter.md",
-    "dotNET/Roslyn/Roslyn Distribute Plugins.md",
-    "dotNET/Roslyn/Roslyn Source Generator.md",
-    "dotNET/Roslyn/Roslyn Analyzer.md",
-    "dotNET/Roslyn",
-    "Engineering Software",
-    "Blazor",
-    "Protobuf/Certificate Authentication",
-    "Protobuf/Load Balancing",
-    "Protobuf",
-    "dotNET"
+    "dotNET/CSharp Keywords.md",
+    "dotNET/Semantic Kernels/Create Semantic Kernel.md",
+    "dotNET/Program.cs.md",
+    "dotNET/HL7 MLP/HL7 Message.md",
+    "dotNET/HL7 MLP/HL7 MLP.md",
+    "dotNET/HL7 MLP/HL7 Message Sender.md",
+    "dotNET/HL7 MLP/HL7 SpecialCharacters.md",
+    "dotNET/HL7 MLP/HL7 Message Receiver.md",
+    "dotNET/HL7 MLP/HL7 DependencyInjection.md",
+    "dotNET/HL7 MLP",
+    "dotNET/Unit Testing Libraries.md",
+    "dotNET/Circuit Breaker using Polly.md",
+    "dotNET/Serilog/Serilog Logger Factory.md",
+    "dotNET/Unit Testing",
+    "dotNET/System.IO",
+    "dotNET/Serilog",
+    "dotNET/NodaTime",
+    "dotNET/Hangfire",
+    "dotNET/Fluent Validation",
+    "dotNET/Swagger/Swagger Examples"
   ]
 }

@@ -1,0 +1,5 @@
+MLP stands for Minimal Lower-Layer Protocol. The protocol specifies how you wrap an HL7 message with a header and footer to ensure you know where a message starts, where a message stops, and where the next message starts.
+  
+HL7 messages are transferred using the TCP/IP protocol. TCP/IP data is sent as a stream of bytes. So, multiple HL7 messages may be sent as a continuous stream. So, how will we find out the starting and ending of an HL7 message? MLP is used for this purpose. It helps us to find out starting an ending of a message by adding a header and a footer which are non-printable.
+
+To transport an HL7 message using the MLLP protocol, add a vertical tab (VT) character (hexadecimal value 0x0b) at the start of the message. Add a file separator character (FS) (hexadecimal value 0x1c) and a carriage return (CR) (hexadecimal value 0x0d) at the end of the message.
