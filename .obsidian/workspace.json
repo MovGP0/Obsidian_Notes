@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "67bf296a0b8e8bbc",
+        "id": "63f10e76417acf57",
         "type": "tabs",
         "children": [
           {
-            "id": "0164be3684b7c345",
+            "id": "e04594c46c8d1205",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -127,8 +127,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "0164be3684b7c345",
+  "active": "e04594c46c8d1205",
   "lastOpenFiles": [
+    "Mechanics/Material Properties.md",
+    "Mechanics",
+    "Rust/Commands/cargo.md",
+    "Rust/Commands/Cargo.toml.md",
+    "Rust/Commands/rustc.md",
+    "Rust/Commands/rustdoc.md",
+    "Rust/Commands/rustup.md",
+    "dotNET/dotNet Notes.zip",
+    "dotNET/InteropServices.Marshal.zip",
     "Machine Learning/Machine Learning.md",
     "Machine Learning/Implement GPT.md",
     "Readme.md",
@@ -151,19 +160,10 @@
     "dotNET/Polly/Circuit Breaker using Polly.md",
     "dotNET/Polly",
     "dotNET/CSharp Keywords.md",
-    "dotNET/dotnet CLI.md",
-    "dotNET/dotNET Cryptography.md",
-    "dotNET/dotNET Physical Units.md",
-    "dotNET/InteropServices.Marshal.md",
-    "dotNET/Program.cs.md",
-    "dotNET/TPL Task Parallel Library.md",
     "dotNET/ReactiveUI",
     "dotNET/Solution Files",
     "dotNET/ASP.NET",
     "dotNET/HL7 MLP",
-    "dotNET/Unit Testing",
-    "dotNET/System.IO",
-    "dotNET/Serilog",
-    "dotNET/NodaTime"
+    "dotNET/Unit Testing"
   ]
 }
