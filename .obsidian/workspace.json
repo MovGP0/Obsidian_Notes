@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c41e713ce1c2417c",
+        "id": "793f57aa74fb90ab",
         "type": "tabs",
         "children": [
           {
-            "id": "ec37efb7e0de9fc0",
+            "id": "628946a2d2e4f8b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dotNET/Performance Testing/Performance Statistics.md",
+                "file": "dotNET/Performance Testing/Memory Benchmarks.md",
                 "mode": "source",
                 "source": true
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dotNET/Performance Testing/Performance Statistics.md",
+                "file": "dotNET/Performance Testing/Memory Benchmarks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dotNET/Performance Testing/Performance Statistics.md",
+                "file": "dotNET/Performance Testing/Memory Benchmarks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dotNET/Performance Testing/Performance Statistics.md"
+                "file": "dotNET/Performance Testing/Memory Benchmarks.md"
               }
             }
           }
@@ -135,10 +135,14 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "ec37efb7e0de9fc0",
+  "active": "628946a2d2e4f8b4",
   "lastOpenFiles": [
+    "dotNET/Performance Testing/Memory Benchmarks.md",
     "dotNET/Performance Testing/dotNet Performance.md",
+    "dotNET/Performance Testing/CPU Benchmarks.md",
+    "dotNET/Performance Testing/BenchmarkDotNet.md",
     "dotNET/Performance Testing/Performance Statistics.md",
+    "dotNET/Performance Testing/Performance Test Types.md",
     "dotNET/Performance Testing/Performance Testing Pitfalls.md",
     "dotNET/Performance Testing/Performance Testing Build Configurations.md",
     "dotNET/Performance Testing/StopWatch.md",
@@ -164,10 +168,6 @@
     "Business Central 365/Application Language Procedure.md",
     "Business Central 365/Application Language Page Extension.md",
     "Business Central 365/Application Language Page.md",
-    "Business Central 365/Application Language DataTypes and Fields.md",
-    "Business Central 365/Application Language Codeunit.md",
-    "Business Central 365/Application Language (AL).md",
-    "dotNET/ASP.NET/ASP.NET Middleware.md",
     "dotNET/Polly",
     "dotNET/ReactiveUI",
     "dotNET/Solution Files",

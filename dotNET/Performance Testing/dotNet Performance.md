@@ -17,6 +17,17 @@
 	- DataDog
 	- NewRelic
 
+## What to measure
+
+- Wall-Clock time
+	- measure execution time using `Stopwatch`
+- Throughput
+- Asymptotic Complexity
+	- How much increases the execution time with more data?
+- Hardware Counters
+- I/O Metrics
+- GC.CollectionCount
+
 ## Profiling Options
 
 - dotnet CLI
@@ -26,6 +37,20 @@
 ## Benchmark Options
 
 - [BenchmarkDotNet](https://benchmarkdotnet.org/)
+
+## Diagnostic Tools
+
+- Benchmark Harness
+	- Unit Tests
+	- [[BenchmarkDotNet]]
+- Performance Profiler
+- Memory Profiler
+- C#/F# Decompiler
+- IL Decompiler
+- ASM Decompiler
+- Debugger
+- System monitoring tool
+	- Sysinternals Suite (RAMMap, VMMap, Process Monitor)
 
 ## References
 
