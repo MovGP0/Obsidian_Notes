@@ -1,0 +1,16 @@
+- measuring the performance of the application reduces the performance of the application
+	- do not use debugger or profiles while measuring the performance
+- measuring the performance in `Debug` instead of `Release` reduces the performance of the application
+- different compiler versions do different optimizations that can effect performance
+	- unrolling of loops
+	- inlining (consider `[MethodImpl(MethodImplOptions)]`)
+	- removing code that is not used in benchmark
+	- removing code when return value is not used
+	- inlining constants (`Math.Sqt(9)` => `3`)
+- other applications might impact the performance of the test
+- energy saving mode reduces the performance of the application
+- consider multiple runs and collect statistics/distribution because of random noise
+- consider differend data sizes to measure scalability
+- cold start (first run) can result in different performance (ie. caching, JIT). Create dedicated benchmarks for cold start and hot state
+- fast methods need to be executed/invoked many times to reduce the variation in the time measurements
+- Security updates in the Runtime or OS might reduce performance

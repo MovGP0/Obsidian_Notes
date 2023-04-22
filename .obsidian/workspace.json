@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "63f10e76417acf57",
+        "id": "c41e713ce1c2417c",
         "type": "tabs",
         "children": [
           {
-            "id": "e04594c46c8d1205",
+            "id": "ec37efb7e0de9fc0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "dotNET/Performance Testing/Performance Statistics.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "traits",
+                "query": "event counter",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "dotNET/Performance Testing/Performance Statistics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "dotNET/Performance Testing/Performance Statistics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +113,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "dotNET/Performance Testing/Performance Statistics.md"
+              }
             }
           }
         ]
@@ -127,8 +135,14 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "e04594c46c8d1205",
+  "active": "ec37efb7e0de9fc0",
   "lastOpenFiles": [
+    "dotNET/Performance Testing/dotNet Performance.md",
+    "dotNET/Performance Testing/Performance Statistics.md",
+    "dotNET/Performance Testing/Performance Testing Pitfalls.md",
+    "dotNET/Performance Testing/Performance Testing Build Configurations.md",
+    "dotNET/Performance Testing/StopWatch.md",
+    "dotNET/Performance Testing",
     "Mechanics/Material Properties.md",
     "Mechanics",
     "Rust/Commands/cargo.md",
@@ -154,16 +168,10 @@
     "Business Central 365/Application Language Codeunit.md",
     "Business Central 365/Application Language (AL).md",
     "dotNET/ASP.NET/ASP.NET Middleware.md",
-    "dotNET/ASP.NET/IP Address Filter Middleware.md",
-    "dotNET/ASP.NET/Server-Sent Events (SSE).md",
-    "dotNET/ASP.NET/SignalR.md",
-    "dotNET/Polly/Circuit Breaker using Polly.md",
     "dotNET/Polly",
-    "dotNET/CSharp Keywords.md",
     "dotNET/ReactiveUI",
     "dotNET/Solution Files",
     "dotNET/ASP.NET",
-    "dotNET/HL7 MLP",
-    "dotNET/Unit Testing"
+    "dotNET/HL7 MLP"
   ]
 }
