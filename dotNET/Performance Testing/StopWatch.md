@@ -22,3 +22,10 @@ var endTicks = Stopwatch.GetTimestamp();
 double elapsedSeconds = (double)(endTicks - startTicks) / Stopwatch.Frequency;
 TimeSpan duration = TimeSpan.FromSeconds(elapsedSeconds);
 ```
+
+New
+```csharp
+var startTicks = Stopwatch.GetTimestamp();
+// do something
+TimeSpan duration = Stopwatch.GetElapsedTime(startTicks);
+```
