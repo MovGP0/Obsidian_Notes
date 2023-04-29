@@ -61,3 +61,37 @@ let borrowed_x: Ref<i32> = rc.borrow();
 
 Thread-save version of `RefCell<T>` with locking.
 
+### Cow
+
+Copy-on-Write will create a clone of the object only when the object gets mutated.
+
+The object must implement the `Clone` trait.
+```rust
+#[derive(Clone)]
+struct Person
+{
+	pub firstName: String,
+	pub lastName: String
+}
+```
+```rust
+struct Person
+{
+	pub firstName: String,
+	pub lastName: String
+}
+
+impl Clone for Person
+{
+	fn clone(&self) -> Self
+	{
+		return Person
+		{
+			firstName: self.firstName,
+			lastName: self.lastName
+		}
+	}
+}
+```
+
+- [std::borrow::Cow](https://doc.rust-lang.org/std/borrow/enum.Cow.html)

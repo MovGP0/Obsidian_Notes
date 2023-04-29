@@ -21,4 +21,3 @@ Unterschied zu [[Rise and Fall]] besteht in
 | 2      | runter    |
 
 - Hip tiltet nach vor / nicht nach hinten
-- 

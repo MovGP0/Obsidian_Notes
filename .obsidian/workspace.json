@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "0368eb68990ee377",
+        "id": "4545b39a17115546",
         "type": "tabs",
         "children": [
           {
-            "id": "425c5045e767252a",
+            "id": "2cc3a1bc480fe82c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Rust/Rust Smart Pointers.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Rust/Rust Smart Pointers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Rust/Rust Smart Pointers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +113,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Rust/Rust Smart Pointers.md"
+              }
             }
           }
         ]
@@ -127,8 +135,16 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "425c5045e767252a",
+  "active": "2cc3a1bc480fe82c",
   "lastOpenFiles": [
+    "Rust/Rust Macros.md",
+    "Apollo21/Academy/Dances Latin/Cha-Cha/Cha-Cha Basic Principles.md",
+    "Apollo21/Academy/Dances Latin/Samba/Samba Bounce.md",
+    "Apollo21/Academy/Dances Latin/Samba/Samba Basic Principles.md",
+    "Apollo21/Academy/Figurenfolgen.md",
+    "Apollo21/Academy/Academy.md",
+    "Rust/Rust Awesome Crates.md",
+    "Rust/Rust Protobuf.md",
     "Rust/Object Oriented Programming/Rust Object-Oriented Programming.md",
     "Rust/Object Oriented Programming/Rust Dynamic Dispatch or Duck Typing.md",
     "Rust/Object Oriented Programming/Rust Static Dispatch or Monomorhpism.md",
@@ -138,7 +154,6 @@
     "Rust/Object Oriented Programming",
     "Rust/Rust Variables.md",
     "Rust/Rust async await.md",
-    "Rust/Rust Awesome Crates.md",
     "Rust/Commands/cargo.md",
     "Rust/Gang of Four Patterns/Structural patterns/Flyweight.md",
     "Rust/Rust Labda-Functions and Closures.md",
@@ -149,14 +164,7 @@
     "Software Architecture/Workflow Patterns/Iteration Patterns.md",
     "Software Architecture/Workflow Patterns/Termination Patterns.md",
     "Software Architecture/Workflow Patterns/Advanced Branching and Synchronization Patterns.md",
-    "Software Architecture/Workflow Patterns/Basic Control Flow Patterns.md",
-    "Software Architecture/Workflow Patterns/Workflow Patterns.md",
     "Software Architecture/Workflow Patterns",
-    "Rust/Rust Attributes.md",
-    "Rust/Rust Macros.md",
-    "Rust/Rust.md",
-    "dotNET/MediatR/MediatR Notification Pattern.md",
-    "dotNET/MediatR/MediatR Command Pattern.md",
     "dotNET/Open Telemetry",
     "dotNET/MediatR",
     "dotNET/Performance Testing",
