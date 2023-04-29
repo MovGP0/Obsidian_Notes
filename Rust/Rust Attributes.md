@@ -11,3 +11,4 @@
 | `#[repr(C)]`                        | Type layout should be compatible with C-language |
 | `#[warn(dead_code)]`                | Emit warning for unused code                     |
 | `#[allow(unused_variables)]`        | Suppress warning for unused variables            |
+| `#![forbid(unsafe_code)]`           | Prevents unsave code                             |

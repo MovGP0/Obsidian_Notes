@@ -60,7 +60,16 @@ Format code
 cargo fmt
 ```
 
+## Clippy
+
 Clippy throws error on compiler warning
 ```powershell
 cargo clippy
 ```
+
+Enable those parameters by default
+```powershell
+cargo clippy --fix -W clippy::pedantic -W clippy::nursery -W clippy::unwrap_used -W clippy::expect_used
+```
+
+Additional parameters see [Clippy](https://github.com/rust-lang/rust-clippy)

@@ -29,3 +29,13 @@ $$ c_i = a_i\,b_i $$
 Magnitude and Angle of 2D vector
 $$ \forall a,b\in\mathbb{R}^2: a\,b = |a|\,|b|\,\cos\gamma $$
 $$ \cos\gamma = \frac{a\,b}{|a|\,|b|} $$
+
+## Cross product
+
+Cross product in 3D
+$$ c_i = ε_{ijk} \, a_i \, b_j $$
+
+mit
+
+Higher order cross product
+$$ c_i = ε_{ijkl} \, a_j \, b_k \, e_l $$
