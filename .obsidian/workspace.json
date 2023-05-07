@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3a893482c7454257",
+        "id": "a57bb0304dc66d68",
         "type": "tabs",
         "children": [
           {
-            "id": "f2667b366c35ab18",
+            "id": "42c84e2cecaf60fc",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -127,8 +127,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "f2667b366c35ab18",
+  "active": "42c84e2cecaf60fc",
   "lastOpenFiles": [
+    "Git/Git TFS.md",
     "Mechanics/Material Properties.md",
     "Rust/Rust Smart Pointers.md",
     "Rust/Rust Macros.md",
@@ -155,7 +156,6 @@
     "Software Architecture/Workflow Patterns/Multiple Instance Patterns.md",
     "Software Architecture/Workflow Patterns/State-based Patterns.md",
     "Software Architecture/Workflow Patterns/Cancellation and Force Completion Patterns.md",
-    "Software Architecture/Workflow Patterns/Iteration Patterns.md",
     "Software Architecture/Workflow Patterns",
     "dotNET/Open Telemetry",
     "dotNET/MediatR",
