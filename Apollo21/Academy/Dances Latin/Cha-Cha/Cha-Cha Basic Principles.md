@@ -1,1 +1,0 @@
-- Hüfte tiltet von einem Bein auf das andere

@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4545b39a17115546",
+        "id": "3a893482c7454257",
         "type": "tabs",
         "children": [
           {
-            "id": "2cc3a1bc480fe82c",
+            "id": "f2667b366c35ab18",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rust/Rust Smart Pointers.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rust/Rust Smart Pointers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rust/Rust Smart Pointers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -113,9 +107,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Rust/Rust Smart Pointers.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -135,8 +127,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "2cc3a1bc480fe82c",
+  "active": "f2667b366c35ab18",
   "lastOpenFiles": [
+    "Mechanics/Material Properties.md",
+    "Rust/Rust Smart Pointers.md",
     "Rust/Rust Macros.md",
     "Apollo21/Academy/Dances Latin/Cha-Cha/Cha-Cha Basic Principles.md",
     "Apollo21/Academy/Dances Latin/Samba/Samba Bounce.md",
@@ -162,8 +156,6 @@
     "Software Architecture/Workflow Patterns/State-based Patterns.md",
     "Software Architecture/Workflow Patterns/Cancellation and Force Completion Patterns.md",
     "Software Architecture/Workflow Patterns/Iteration Patterns.md",
-    "Software Architecture/Workflow Patterns/Termination Patterns.md",
-    "Software Architecture/Workflow Patterns/Advanced Branching and Synchronization Patterns.md",
     "Software Architecture/Workflow Patterns",
     "dotNET/Open Telemetry",
     "dotNET/MediatR",
