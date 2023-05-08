@@ -52,6 +52,14 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "7f3c50741d30074f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -119,18 +127,19 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false
+      "markdown-importer:Open format converter": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "42c84e2cecaf60fc",
   "lastOpenFiles": [
     "Git/Git TFS.md",
     "Mechanics/Material Properties.md",
+    "PowerShell/Enable Long Path Names.md",
     "Rust/Rust Smart Pointers.md",
     "Rust/Rust Macros.md",
     "Apollo21/Academy/Dances Latin/Cha-Cha/Cha-Cha Basic Principles.md",
@@ -156,6 +165,7 @@
     "Software Architecture/Workflow Patterns/Multiple Instance Patterns.md",
     "Software Architecture/Workflow Patterns/State-based Patterns.md",
     "Software Architecture/Workflow Patterns/Cancellation and Force Completion Patterns.md",
+    "Software Architecture/Workflow Patterns/Iteration Patterns.md",
     "Software Architecture/Workflow Patterns",
     "dotNET/Open Telemetry",
     "dotNET/MediatR",
