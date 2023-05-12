@@ -12,7 +12,7 @@ choco install gittfs
 
 List Remote Branches
 ```powershell
-git tfs list remote-branches 'https://tfs.mydomain.com/Workspace/'
+git tfs list-remote-branches 'https://tfs.mydomain.com/Workspace/'
 ```
 ```txt
 $/Project/Source
