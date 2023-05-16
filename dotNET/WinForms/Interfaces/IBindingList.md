@@ -1,4 +1,4 @@
-Provides the features required to support both complex and simple scenarios when binding to a data source.
+Provides the features required to support both complex and simple scenarios when binding to a data source, like sorting and searching.
 
 Implemented by the `System.Data.DataView` and the derived `System.Windows.Forms.BindingSource` class.
 

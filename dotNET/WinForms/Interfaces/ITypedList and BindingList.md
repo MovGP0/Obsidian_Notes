@@ -1,4 +1,4 @@
-Provides functionality to discover the schema for a bindable list, where the properties available for binding differ from the public properties of the object to bind to.
+Provides functionality to discover the schema for a bindable list, where the properties available for binding differ from the public properties of the object to bind to. `ITypedList` is only used by Visual Studio Designer.
 
 Base interface for `BindingList<T>`, which provides a generic collection that supports data binding.
 

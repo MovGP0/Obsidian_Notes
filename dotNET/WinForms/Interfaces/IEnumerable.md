@@ -1,5 +1,10 @@
 Provides enumerations via an enumerator. Can return multiple enumerators to support different enumerations at the same time.
 
+Important Properties of Enumerator:
+- `bool MoveNext()`
+- `T Current`
+- `void Reset()`
+
 ## How to avoid Eager Enumeration
 
 Avoid eager enumeration in LINQ methods. Using `yield` causes the .NET compiler to create a state-machine to solve the problem.
