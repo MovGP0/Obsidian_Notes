@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b5cd713fdda81dbd",
+        "id": "73c0a56b780228ea",
         "type": "tabs",
         "children": [
           {
-            "id": "2a9616d84d5fdf96",
+            "id": "236f6c812790f6e3",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -135,8 +135,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "2a9616d84d5fdf96",
+  "active": "236f6c812790f6e3",
   "lastOpenFiles": [
+    "dotNET/WinForms/WinForms Task Scheduling.md",
     "dotNET/WinForms/Interfaces/INotifyPropertyChanged and INotifyPropertyChanging.md",
     "dotNET/WinForms/Interfaces/IBindingList.md",
     "dotNET/WinForms/Interfaces/ITypedList and BindingList.md",
@@ -166,7 +167,6 @@
     "Rust/Rust Smart Pointers.md",
     "Rust/Rust Macros.md",
     "Apollo21/Academy/Dances Latin/Cha-Cha/Cha-Cha Basic Principles.md",
-    "Apollo21/Academy/Dances Latin/Samba/Samba Bounce.md",
     "Rust/Object Oriented Programming",
     "Software Architecture/Workflow Patterns",
     "dotNET/Open Telemetry",
