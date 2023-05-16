@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1d0d188e855411cc",
+        "id": "05f4af455c541801",
         "type": "tabs",
         "children": [
           {
-            "id": "ce4cee4101da960c",
+            "id": "f11a434917d2e6b4",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "unwrap",
+                "query": "TPL Task",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -135,8 +135,20 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "ce4cee4101da960c",
+  "active": "f11a434917d2e6b4",
   "lastOpenFiles": [
+    "Software Architecture/Concurrency Patterns/_Concurrency Patterns.md",
+    "Software Architecture/Concurrency Patterns/Guarded Suspension.md",
+    "Software Architecture/Concurrency Patterns/Event-Driven Pattern.md",
+    "Software Architecture/Concurrency Patterns/Pipeline Pattern.md",
+    "Software Architecture/Concurrency Patterns/Work Crew Pattern.md",
+    "Software Architecture/Concurrency Patterns/Readers-Writers Pattern.md",
+    "Software Architecture/Concurrency Patterns/Producer-Consumer Pattern.md",
+    "dotNET/TPL Task Parallel Library.md",
+    "Software Architecture/Concurrency Patterns/Thread-Local Variable.md",
+    "Software Architecture/Concurrency Patterns/Thread-Save Interface.md",
+    "Software Architecture/Concurrency Patterns",
+    "dotNET/Autofac.md",
     "dotNET/WinForms/WinForms Control Lifecycle.md",
     "Untitled.md",
     "dotNET/WinForms/WinForms Task Scheduling.md",
@@ -153,25 +165,13 @@
     "dotNET/WinForms/WinForms DataBinding.md",
     "dotNET/OWIN Katana/OWIN Pipeline.md",
     "dotNET/OWIN Katana",
-    "PowerShell/Enable Long Path Names.md",
-    "dotNET/Message Bus.md",
     "dotNET/Message Bus",
-    "dotNET/WinForms/WinForms Data-Binding Interfaces.md",
-    "dotNET/WinForms/Interfaces/ISupportInitialize and ISupportInitializeNotification.md",
-    "dotNET/WinForms/Interfaces/IListSource.md",
-    "dotNET/WinForms/Interfaces/IEditableObject.md",
-    "dotNET/WinForms/Interfaces/IRaiseItemChangedEvents.md",
-    "dotNET/WinForms/WinForms Design-Time Attributes.md",
     "dotNET/WinForms/Interfaces",
     "dotNET/WinForms",
-    "Git/Git TFS.md",
-    "Mechanics/Material Properties.md",
-    "Rust/Rust Smart Pointers.md",
     "Rust/Object Oriented Programming",
     "Software Architecture/Workflow Patterns",
     "dotNET/Open Telemetry",
     "dotNET/MediatR",
-    "dotNET/Performance Testing",
-    "Mechanics"
+    "dotNET/Performance Testing"
   ]
 }

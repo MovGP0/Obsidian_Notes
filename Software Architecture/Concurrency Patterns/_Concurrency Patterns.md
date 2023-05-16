@@ -1,0 +1,18 @@
+- [[Thread-Local Variable]]
+- [[Thread-Save Interface]]
+- [[Producer-Consumer Pattern]]
+- [[Readers-Writers Pattern]]
+- [[Work Crew Pattern]]
+- [[Pipeline Pattern]]
+- [[Event-Driven Pattern]]
+- [[Guarded Suspension]]
+- [[Leader and Followers Pattern]] This pattern provides an efficient concurrency model where multiple threads can efficiently demultiplex events and process them.
+- [[Balking Pattern]] This pattern is used when an object cannot or should not handle a request in its current state. The method that is performing the request will return immediately without doing any work.
+- [[Active Object Pattern]] This pattern decouples method execution from method invocation in order to simplify synchronized processing. It uses a scheduler to order the execution of method requests.
+- [[Monitor Object Pattern]] This pattern synchronizes method execution to ensure that only one method at a time runs within an object. It also allows an object's methods to cooperatively schedule their execution sequences.
+- [[Half-Sync/Half-Async Pattern]] This pattern separates the synchronous and asynchronous processing in a system, so that they can be modified independently. The asynchronous portion generally uses the Producer-Consumer pattern to queue requests to the synchronous portion.
+- [[Double Checked Locking Pattern]] This pattern reduces the overhead of acquiring a lock by testing the locking criterion (the 'lock hint') before acquiring the lock.
+- [[Reactor Pattern]]This pattern allows event-driven applications to demultiplex and dispatch service requests that are delivered to an application from one or more clients.
+- [[Proactor Pattern]] This pattern is an asynchronous event handling pattern, where long running activities are running in background and get triggered once the response is ready.
+- [[Asynchronous Completion Token]] This pattern helps in efficient demonstration of handling of asynchronous IO operations, requests, etc.
+- [[Thread-Specific Storage]] This pattern helps in creating key-value pair like structure for individual threads to hold their local data.
