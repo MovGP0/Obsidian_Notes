@@ -1,6 +1,6 @@
 ## Examples
 
-## Classical Event Handler
+### Classical Event Handler
 
 ```csharp
 using System;
