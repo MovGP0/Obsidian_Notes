@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4eae6b98becbec7e",
+        "id": "02c079c052a04d93",
         "type": "tabs",
         "children": [
           {
-            "id": "2ea1573d07f1d01b",
+            "id": "4e8501fff0b0582e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "TPL Task",
+                "query": "IFile",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -135,8 +135,18 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "0532ea71f8302973",
+  "active": "4e8501fff0b0582e",
   "lastOpenFiles": [
+    "dotNET/Entity Framework/EntityFramework Multi-Tenancy.md",
+    "dotNET/System.IO/System.IO Wrappers.md",
+    "dotNET/WinForms/WinForms Task Scheduling.md",
+    "dotNET/WinForms/WinForms DataBinding.md",
+    "dotNET/WinForms/Interfaces/IDataErrorInfo.md",
+    "dotNET/ReactiveUI/ReactiveUI.md",
+    "dotNET/Blazor/Blazor with ReactiveUI.md",
+    "dotNET/ReactiveUI/Behavior managing a list of items.md",
+    "dotNET/Task Parallel Library/TaskCompletionSource.md",
+    "dotNET/Autofac.md",
     "Software Architecture/Concurrency Patterns/_Concurrency Patterns.md",
     "Software Architecture/Concurrency Patterns/Asynchronous Completion Token.md",
     "Software Architecture/Concurrency Patterns/Proactor Pattern.md",
@@ -153,18 +163,8 @@
     "Software Architecture/Concurrency Patterns/Event-Driven Pattern.md",
     "Software Architecture/Concurrency Patterns/Guarded Suspension.md",
     "Software Architecture/Concurrency Patterns/Producer-Consumer Pattern.md",
-    "Software Architecture/Concurrency Patterns/Readers-Writers Pattern.md",
-    "Software Architecture/Concurrency Patterns/Thread-Local Variable.md",
-    "Software Architecture/Concurrency Patterns/Thread-Save Interface.md",
-    "Software Architecture/Concurrency Patterns/Work Crew Pattern.md",
-    "dotNET/Task Parallel Library/ReaderWriterLockSlim.md",
-    "Software Architecture/Concurrency Patterns/Pipeline Pattern.md",
-    "dotNET/Task Parallel Library/TaskCompletionSource.md",
-    "dotNET/Task Parallel Library/BufferBlock.md",
     "dotNET/Task Parallel Library",
-    "dotNET/WinForms/WinForms Task Scheduling.md",
     "Software Architecture/Concurrency Patterns",
-    "dotNET/Autofac.md",
     "dotNET/OWIN Katana",
     "dotNET/Message Bus",
     "dotNET/WinForms/Interfaces",
