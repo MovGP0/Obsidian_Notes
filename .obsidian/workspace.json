@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "02c079c052a04d93",
+        "id": "0fe17c03838fb886",
         "type": "tabs",
         "children": [
           {
-            "id": "4e8501fff0b0582e",
+            "id": "9f2184d44a76d681",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "PowerShell/PowerShell Manage NuGet Packages.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "PowerShell/PowerShell Manage NuGet Packages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "PowerShell/PowerShell Manage NuGet Packages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +121,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "PowerShell/PowerShell Manage NuGet Packages.md"
+              }
             }
           }
         ]
@@ -135,11 +143,12 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "4e8501fff0b0582e",
+  "active": "9f2184d44a76d681",
   "lastOpenFiles": [
+    "PowerShell/PowerShell Manage NuGet Packages.md",
+    "dotNET/WinForms/WinForms Task Scheduling.md",
     "dotNET/Entity Framework/EntityFramework Multi-Tenancy.md",
     "dotNET/System.IO/System.IO Wrappers.md",
-    "dotNET/WinForms/WinForms Task Scheduling.md",
     "dotNET/WinForms/WinForms DataBinding.md",
     "dotNET/WinForms/Interfaces/IDataErrorInfo.md",
     "dotNET/ReactiveUI/ReactiveUI.md",
@@ -162,7 +171,6 @@
     "dotNET/Task Parallel Library/Parallel.ForEach.md",
     "Software Architecture/Concurrency Patterns/Event-Driven Pattern.md",
     "Software Architecture/Concurrency Patterns/Guarded Suspension.md",
-    "Software Architecture/Concurrency Patterns/Producer-Consumer Pattern.md",
     "dotNET/Task Parallel Library",
     "Software Architecture/Concurrency Patterns",
     "dotNET/OWIN Katana",
