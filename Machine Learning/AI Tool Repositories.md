@@ -1,0 +1,4 @@
+- [There is an AI for that](https://theresanaiforthat.com/)
+- [What Plugin](https://www.whatplugin.ai/)
+- [Futuretools](https://www.futuretools.io/)
+- [Huggingface](https://huggingface.co/)
