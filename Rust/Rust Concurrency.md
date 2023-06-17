@@ -137,6 +137,13 @@ fn main() {
 }
 ```
 
+- Prefer `Arc<[T]>` over `Vec<T>` when the data is read-only
+	- Smaller size on stack (16 bytes vs 24)
+	- Implements `Deref<T>`
+	- Clone works in *O(1)*
+- Use `Rc<T>` instead of `Arc<[T]>` when the data is not shared between threads.
+- Use `Arc<str>` instead of `Arc<String>` to prevent double pointers to the character data.
+
 ## `Sync` and `Send` traits
 
 - *Ownership* of objects with `Send` traits can be transferred between threads. Objects without `Send` trait can only be used within a single thread.

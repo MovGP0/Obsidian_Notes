@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "0fe17c03838fb886",
+        "id": "7d9a14b937355876",
         "type": "tabs",
         "children": [
           {
-            "id": "9f2184d44a76d681",
+            "id": "7b73f2eabed82ca7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PowerShell/PowerShell Manage NuGet Packages.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PowerShell/PowerShell Manage NuGet Packages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PowerShell/PowerShell Manage NuGet Packages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,9 +115,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "PowerShell/PowerShell Manage NuGet Packages.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -143,34 +135,34 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "9f2184d44a76d681",
+  "active": "7b73f2eabed82ca7",
   "lastOpenFiles": [
+    "Rust/Data Types/Rust Collection Types.md",
+    "Rust/Data Types/Rust Vector.md",
+    "Rust/Data Types/Rust Structs.md",
+    "Rust/Data Types/Rust Strings.md",
+    "Rust/Data Types/Rust Slices.md",
+    "Rust/Data Types/Rust Hash Map (Dictionary).md",
+    "Rust/Data Types/Rust Enums.md",
+    "Rust/Data Types/Rust Datatype Size.md",
+    "Rust/Data Types/Rust Data Types.md",
+    "Rust/Data Types/Rust Compile-Time Constants.md",
+    "Rust/Data Types/Rust Array.md",
+    "Rust/Rust Variables.md",
+    "Rust/Rust Labda-Functions and Closures.md",
+    "Rust/Rust Implement Common Traits.md",
+    "Rust/Rust Generics and Traits.md",
+    "Rust/Rust Concurrency.md",
+    "Rust/Rust Common Mistakes.md",
+    "Rust/Rust Common Macros.md",
+    "Rust/Rust Comments.md",
+    "Rust/Rust Borrowing Rules.md",
+    "Rust/Rust Awesome Crates.md",
+    "Rust/Rust Attributes.md",
+    "Rust/Rust async await.md",
+    "Rust/Rust access modifiers.md",
+    "Rust/Rust.md",
     "PowerShell/PowerShell Manage NuGet Packages.md",
-    "dotNET/WinForms/WinForms Task Scheduling.md",
-    "dotNET/Entity Framework/EntityFramework Multi-Tenancy.md",
-    "dotNET/System.IO/System.IO Wrappers.md",
-    "dotNET/WinForms/WinForms DataBinding.md",
-    "dotNET/WinForms/Interfaces/IDataErrorInfo.md",
-    "dotNET/ReactiveUI/ReactiveUI.md",
-    "dotNET/Blazor/Blazor with ReactiveUI.md",
-    "dotNET/ReactiveUI/Behavior managing a list of items.md",
-    "dotNET/Task Parallel Library/TaskCompletionSource.md",
-    "dotNET/Autofac.md",
-    "Software Architecture/Concurrency Patterns/_Concurrency Patterns.md",
-    "Software Architecture/Concurrency Patterns/Asynchronous Completion Token.md",
-    "Software Architecture/Concurrency Patterns/Proactor Pattern.md",
-    "Software Architecture/Concurrency Patterns/Reactor Pattern.md",
-    "Software Architecture/Concurrency Patterns/Double Checked Locking Pattern.md",
-    "Software Architecture/Concurrency Patterns/Half-Sync Half-Async Pattern.md",
-    "Software Architecture/Concurrency Patterns/Monitor Object Pattern.md",
-    "Software Architecture/Concurrency Patterns/Active Object Pattern.md",
-    "Software Architecture/Concurrency Patterns/Balking Pattern.md",
-    "Software Architecture/Concurrency Patterns/Leader and Followers Pattern.md",
-    "dotNET/Task Parallel Library/_Task Parallel Library.md",
-    "dotNET/Task Parallel Library/BlockingCollection.md",
-    "dotNET/Task Parallel Library/Parallel.ForEach.md",
-    "Software Architecture/Concurrency Patterns/Event-Driven Pattern.md",
-    "Software Architecture/Concurrency Patterns/Guarded Suspension.md",
     "dotNET/Task Parallel Library",
     "Software Architecture/Concurrency Patterns",
     "dotNET/OWIN Katana",
