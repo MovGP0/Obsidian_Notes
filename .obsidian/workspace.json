@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7d9a14b937355876",
+        "id": "4f532658a17f22b3",
         "type": "tabs",
         "children": [
           {
-            "id": "7b73f2eabed82ca7",
+            "id": "71b6d7c1953558c3",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -135,8 +135,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "7b73f2eabed82ca7",
+  "active": "71b6d7c1953558c3",
   "lastOpenFiles": [
+    "DevExpress/XPO.md",
+    "DevExpress/XPO Data-Binding.md",
+    "DevExpress/XPO Entities.md",
     "Rust/Data Types/Rust Collection Types.md",
     "Rust/Data Types/Rust Vector.md",
     "Rust/Data Types/Rust Structs.md",
@@ -160,9 +163,6 @@
     "Rust/Rust Awesome Crates.md",
     "Rust/Rust Attributes.md",
     "Rust/Rust async await.md",
-    "Rust/Rust access modifiers.md",
-    "Rust/Rust.md",
-    "PowerShell/PowerShell Manage NuGet Packages.md",
     "dotNET/Task Parallel Library",
     "Software Architecture/Concurrency Patterns",
     "dotNET/OWIN Katana",
