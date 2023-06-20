@@ -23,8 +23,7 @@ Install-Package `
     -Name 'System.Reactive' `
     -Provider 'NuGet' `
     -Source 'https://api.nuget.org/v3/index.json' `
-    -Force `
-    -AcceptLicense
+    -Force
 ```
 
 Install specific version of an package
@@ -35,8 +34,7 @@ Install-Package `
     -Source 'https://api.nuget.org/v3/index.json' `
     -RequiredVersion '7.0.0-alpha' `
     -AllowPrereleaseVersions `
-    -Force `
-    -AcceptLicense
+    -Force
 ```
 
 Package should now be located in the NuGet cache
