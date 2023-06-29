@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8e51689816a6ccad",
+        "id": "77c89a7a64c12515",
         "type": "tabs",
         "children": [
           {
-            "id": "1d1d251f6d2bfab2",
+            "id": "4aaf0e80ed80d8cf",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -135,8 +135,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "1d1d251f6d2bfab2",
+  "active": "4aaf0e80ed80d8cf",
   "lastOpenFiles": [
+    "Windows/Add the Recycle Bin to Windows Explorer.md",
+    "Windows/Create a DevDrive - VHDX with ReFS.md",
     "PowerShell/PowerShell Return Value.md",
     "PowerShell/PowerShell Parameters.md",
     "PowerShell/PowerShell Manage NuGet Packages.md",
@@ -147,7 +149,6 @@
     "PowerShell/PowerShell get proper ProgramFiles folder.md",
     "DevExpress/XPO Repositories.md",
     "DevExpress/XPO Entities.md",
-    "Windows/Create a DevDrive - VHDX with ReFS.md",
     "Untitled",
     "DevExpress/XPO Attributes.md",
     "DevExpress/XPO.md",
@@ -163,7 +164,6 @@
     "Rust/Data Types/Rust Data Types.md",
     "Rust/Data Types/Rust Compile-Time Constants.md",
     "Rust/Data Types/Rust Array.md",
-    "Rust/Rust Variables.md",
     "dotNET/Task Parallel Library",
     "Software Architecture/Concurrency Patterns",
     "dotNET/OWIN Katana",
