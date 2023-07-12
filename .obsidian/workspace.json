@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "77c89a7a64c12515",
+        "id": "d5fbc72fab43fd53",
         "type": "tabs",
         "children": [
           {
-            "id": "4aaf0e80ed80d8cf",
+            "id": "e1eec030565ddd24",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Rust/Rust CSharp Interop.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Rust/Rust CSharp Interop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Rust/Rust CSharp Interop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +121,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Rust/Rust CSharp Interop.md"
+              }
             }
           }
         ]
@@ -135,8 +143,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "4aaf0e80ed80d8cf",
+  "active": "e1eec030565ddd24",
   "lastOpenFiles": [
+    "Rust/Rust CSharp Interop.md",
+    "dotNET/Archive Formats (zip, tar, gzip).md",
     "Windows/Add the Recycle Bin to Windows Explorer.md",
     "Windows/Create a DevDrive - VHDX with ReFS.md",
     "PowerShell/PowerShell Return Value.md",
@@ -162,8 +172,6 @@
     "Rust/Data Types/Rust Enums.md",
     "Rust/Data Types/Rust Datatype Size.md",
     "Rust/Data Types/Rust Data Types.md",
-    "Rust/Data Types/Rust Compile-Time Constants.md",
-    "Rust/Data Types/Rust Array.md",
     "dotNET/Task Parallel Library",
     "Software Architecture/Concurrency Patterns",
     "dotNET/OWIN Katana",
