@@ -47,7 +47,7 @@ function Import-Certificate {
         [Parameter(Position = 0, Mandatory = $true)]
         [ValidateNotNull()]
         [ValidateScript( { Test-Path $_ })]
-        [strig]$path,
+        [string]$path,
 
         [Parameter(Position = 1, Mandatory = $true)]
         [ValidateNotNull()]

@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d5fbc72fab43fd53",
+        "id": "2b9c769a02953ea1",
         "type": "tabs",
         "children": [
           {
-            "id": "e1eec030565ddd24",
+            "id": "dcad0a5fd5de4ebb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rust/Rust CSharp Interop.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rust/Rust CSharp Interop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rust/Rust CSharp Interop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,9 +115,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Rust/Rust CSharp Interop.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -143,8 +135,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "e1eec030565ddd24",
+  "active": "dcad0a5fd5de4ebb",
   "lastOpenFiles": [
+    "TLS/Self-Signed TLS Zertifikate.md",
     "Rust/Rust CSharp Interop.md",
     "dotNET/Archive Formats (zip, tar, gzip).md",
     "Windows/Add the Recycle Bin to Windows Explorer.md",
@@ -171,7 +164,6 @@
     "Rust/Data Types/Rust Hash Map (Dictionary).md",
     "Rust/Data Types/Rust Enums.md",
     "Rust/Data Types/Rust Datatype Size.md",
-    "Rust/Data Types/Rust Data Types.md",
     "dotNET/Task Parallel Library",
     "Software Architecture/Concurrency Patterns",
     "dotNET/OWIN Katana",
