@@ -4,8 +4,5 @@
   "alwaysUpdateLinks": true,
   "promptDelete": false,
   "readableLineLength": false,
-  "spellcheckLanguages": [
-    "en-GB",
-    "de"
-  ]
+  "spellcheckLanguages": null
 }

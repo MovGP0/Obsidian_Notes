@@ -1,0 +1,1 @@
+The Category set of all possible [[Category]].
