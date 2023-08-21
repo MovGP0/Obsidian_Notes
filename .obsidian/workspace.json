@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "1fda1409ed43853d",
+        "id": "88f3e2f13345c4bd",
         "type": "tabs",
         "children": [
           {
-            "id": "455b2db8ace63cf2",
+            "id": "74ac309f53c02bca",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Mechanics/Lagrangians/Nothers Theorem.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Mechanics/Lagrangians/Nothers Theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Mechanics/Lagrangians/Nothers Theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +121,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Mechanics/Lagrangians/Nothers Theorem.md"
+              }
             }
           }
         ]
@@ -135,8 +143,15 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "455b2db8ace63cf2",
+  "active": "74ac309f53c02bca",
   "lastOpenFiles": [
+    "Mechanics/Hamlitonian/Legendre transformation.md",
+    "Mechanics/Lagrangians/Nothers Theorem.md",
+    "Mechanics/Hamlitonian/Hamiltonian Equation.md",
+    "Mechanics/Lagrangians/Lagrange Equation.md",
+    "Mechanics/Hamlitonian",
+    "Mathematics/Category Theory/Group.md",
+    "Mathematics/Category Theory/Category.md",
     "Mechanics/Lagrangians/Double pendulum.md",
     "Mechanics/Lagrangians/Atwood machine.md",
     "Mechanics/Newtons laws.md",
@@ -146,7 +161,6 @@
     "Mechanics/Conservation Laws.md",
     "Mechanics/Lagrangians",
     "Mechanics/Lagrangians/Euler-Lagrange equation.md",
-    "Mechanics/Lagrangians/Lagrange Equation.md",
     "Mathematics/Vector Operations.md",
     "Mathematics/Sinussatz.md",
     "Mathematics/Kosinussatz.md",
@@ -154,24 +168,18 @@
     "Mathematics/Complex Numbers.md",
     "Mathematics",
     "Mathematics/Category Theory/Equivalence.md",
-    "Mathematics/Category Theory/Group.md",
     "Mathematics/Category Theory/Functor.md",
     "Mathematics/Category Theory/Isomorphism.md",
-    "Mathematics/Category Theory/Category.md",
     "Mathematics/Category Theory/Category of Categories.md",
     "Mathematics/Category Theory/Category Theory.md",
     "Mathematics/Category Theory",
     "Engineering Software/Parametric 3D CAD.md",
     "Engineering Software/Simulation Software.md",
-    "dotNET/Performance Testing/StopWatch.md",
-    "dotNET/Performance Testing/dotNet Performance.md",
-    "TLS/Self-Signed TLS Zertifikate.md",
     "dotNET/Task Parallel Library",
     "Software Architecture/Concurrency Patterns",
     "dotNET/OWIN Katana",
     "dotNET/Message Bus",
     "dotNET/WinForms/Interfaces",
-    "dotNET/WinForms",
-    "Rust/Object Oriented Programming"
+    "dotNET/WinForms"
   ]
 }
