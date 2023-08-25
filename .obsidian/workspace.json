@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "55cce2a8d16cf1db",
+        "id": "499411c68c28f910",
         "type": "tabs",
         "children": [
           {
-            "id": "7f93b9488ac5811e",
+            "id": "8baa130f411fd1e0",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -135,8 +135,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "7f93b9488ac5811e",
+  "active": "8baa130f411fd1e0",
   "lastOpenFiles": [
+    "Git/Git Tagging.md",
     "Mechanics/Brachistochrone vs Geodesic.md",
     "Mechanics/Hamlitonian/Hamiltonian of the Hydrogen Atom.md",
     "Mechanics/Hamlitonian/Hamiltonian Equation.md",
@@ -165,7 +166,6 @@
     "Mathematics/Category Theory/Functor.md",
     "Mathematics/Category Theory/Isomorphism.md",
     "Mathematics/Category Theory/Category of Categories.md",
-    "Mathematics/Category Theory/Category Theory.md",
     "Mathematics/Category Theory",
     "dotNET/Task Parallel Library",
     "Software Architecture/Concurrency Patterns",
