@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "659a33dee31b4c84",
+        "id": "07ed06cf01af65b9",
         "type": "tabs",
         "children": [
           {
-            "id": "9012adae0369e93b",
+            "id": "b89dd388ea201ff3",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -135,9 +135,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "9012adae0369e93b",
+  "active": "b89dd388ea201ff3",
   "lastOpenFiles": [
+    "Git/Git show-ref.md",
     "Git/Git reset.md",
+    "Git/Setup SSH Key for Git.md",
     "Git/Git bisect (Binary search).md",
     "Git/Git log.md",
     "Git/Git branch.md",
@@ -155,14 +157,12 @@
     "Git/Git reflog.md",
     "Git/Git revert.md",
     "Git/Git.md",
-    "Git/Setup SSH Key for Git.md",
     "Git/Git TFS.md",
     "PowerShell/Awesome PowerShell.md",
     "Mechanics/Brachistochrone vs Geodesic.md",
     "Mechanics/Hamlitonian/Hamiltonian of the Hydrogen Atom.md",
     "Mechanics/Hamlitonian/Hamiltonian Equation.md",
     "Mechanics/Lagrangians/Nothers Theorem.md",
-    "Mechanics/Conservation Laws.md",
     "Mechanics/Hamlitonian",
     "Mechanics/Lagrangians",
     "Mathematics",
