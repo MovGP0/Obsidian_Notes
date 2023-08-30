@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "499411c68c28f910",
+        "id": "f64550c9bed20f66",
         "type": "tabs",
         "children": [
           {
-            "id": "8baa130f411fd1e0",
+            "id": "5cff47f86d8b1216",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -135,8 +135,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "8baa130f411fd1e0",
+  "active": "5cff47f86d8b1216",
   "lastOpenFiles": [
+    "Git/Git Config Username and Email.md",
+    "PowerShell/Awesome PowerShell.md",
     "Git/Git Tagging.md",
     "Mechanics/Brachistochrone vs Geodesic.md",
     "Mechanics/Hamlitonian/Hamiltonian of the Hydrogen Atom.md",
@@ -164,8 +166,6 @@
     "Mathematics",
     "Mathematics/Category Theory/Equivalence.md",
     "Mathematics/Category Theory/Functor.md",
-    "Mathematics/Category Theory/Isomorphism.md",
-    "Mathematics/Category Theory/Category of Categories.md",
     "Mathematics/Category Theory",
     "dotNET/Task Parallel Library",
     "Software Architecture/Concurrency Patterns",
