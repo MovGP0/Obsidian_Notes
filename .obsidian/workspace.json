@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a90ecc5e2ac33072",
+        "id": "adb6b1c26e46649e",
         "type": "tabs",
         "children": [
           {
-            "id": "2686ac6fa0f08a3f",
+            "id": "133fbf8be8046b2b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -135,8 +135,12 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "2686ac6fa0f08a3f",
+  "active": "133fbf8be8046b2b",
   "lastOpenFiles": [
+    "dotNET/dotNET Physical Units.md",
+    "dotNET/dotnet CLI",
+    "dotNET/dotnet CLI/dotnet pack.md",
+    "dotNET/dotnet CLI/dotnet CLI.md",
     "TLS/Let's Encrypt Certificates.md",
     "Git/Git show-ref.md",
     "Git/Git reset.md",
@@ -160,9 +164,6 @@
     "Git/Git.md",
     "Git/Git TFS.md",
     "PowerShell/Awesome PowerShell.md",
-    "Mechanics/Brachistochrone vs Geodesic.md",
-    "Mechanics/Hamlitonian/Hamiltonian of the Hydrogen Atom.md",
-    "Mechanics/Hamlitonian/Hamiltonian Equation.md",
     "Mechanics/Hamlitonian",
     "Mechanics/Lagrangians",
     "Mathematics",
@@ -171,7 +172,6 @@
     "Software Architecture/Concurrency Patterns",
     "dotNET/OWIN Katana",
     "dotNET/Message Bus",
-    "dotNET/WinForms/Interfaces",
-    "dotNET/WinForms"
+    "dotNET/WinForms/Interfaces"
   ]
 }
