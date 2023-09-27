@@ -1,0 +1,30 @@
+Allows adding notes to a specific commit. 
+
+Create a new note
+```bash
+git notes add -m "Comment"
+git notes add -m "Comment" <commit_hash>
+```
+
+Edit an existing note
+```bash
+git notes edit -m "Comment"
+git notes edit -m "Comment" <commit_hash>
+```
+
+Remove a note
+```bash
+git notes remove
+git notes remove <commit_hash>
+```
+
+Notes can be organized in a namespace
+```bash
+git notes add -m "Comment" --ref=<namespace>
+```
+
+## Related commands
+
+* Notes are shown using [[git log]].
+* Notes are pushed to the remote using [[git push]].
+* Notes are pulled using [[git fetch]].
