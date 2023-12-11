@@ -7,9 +7,9 @@
 ## `$profile` File
 
 ```powershell
-oh-my-posh init pwsh | Invoke-Expression
+oh-my-posh init pwsh --config '~\AppData\Local\Programs\oh-my-posh\themes\marcduiker.omp.json' | Invoke-Expression
 Import-Module PowerShellAI | Out-Null
 Import-Module Terminal-Icons | Out-Null
 Enable-AIShortCutKey
-cd ~
+Set-Location ~
 ```

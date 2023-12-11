@@ -11,8 +11,12 @@
             "id": "49ffea9ab65481d3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "PowerShell/Awesome PowerShell.md",
+                "mode": "preview",
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "PowerShell/Awesome PowerShell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "PowerShell/Awesome PowerShell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +121,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "PowerShell/Awesome PowerShell.md"
+              }
             }
           }
         ]
@@ -137,6 +145,7 @@
   },
   "active": "49ffea9ab65481d3",
   "lastOpenFiles": [
+    "PowerShell/PowerShell Documentation Resources.md",
     "Git/Git tag.md",
     "Git/Git TFS.md",
     "Git/Git show-ref.md",
@@ -163,7 +172,6 @@
     "Git/Git config Visual Studio Code.md",
     "Git/Git reflog.md",
     "Git/Git.md",
-    "PowerShell/Awesome PowerShell.md",
     "Mechanics/Hamlitonian",
     "Mechanics/Lagrangians",
     "Mathematics",
