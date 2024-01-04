@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "02ceb7a1d83e5b02",
+        "id": "cb43caef48a4d116",
         "type": "tabs",
         "children": [
           {
-            "id": "49ffea9ab65481d3",
+            "id": "7d578552be91c91c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PowerShell/Awesome PowerShell.md",
+                "file": "Mathematics/Vector Operations.md",
                 "mode": "preview",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PowerShell/Awesome PowerShell.md",
+                "file": "Mathematics/Vector Operations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PowerShell/Awesome PowerShell.md",
+                "file": "Mathematics/Vector Operations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PowerShell/Awesome PowerShell.md"
+                "file": "Mathematics/Vector Operations.md"
               }
             }
           }
@@ -143,8 +143,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "49ffea9ab65481d3",
+  "active": "7d578552be91c91c",
   "lastOpenFiles": [
+    "PowerShell/Awesome PowerShell.md",
     "PowerShell/PowerShell Documentation Resources.md",
     "Git/Git tag.md",
     "Git/Git TFS.md",
@@ -171,7 +172,6 @@
     "Git/Git config Username and Email.md",
     "Git/Git config Visual Studio Code.md",
     "Git/Git reflog.md",
-    "Git/Git.md",
     "Mechanics/Hamlitonian",
     "Mechanics/Lagrangians",
     "Mathematics",
