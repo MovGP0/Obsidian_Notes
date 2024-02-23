@@ -10,6 +10,7 @@
 | IBM Db2              | Commercial  | Scalable, advanced features, high availability                 | Cost, complex licensing, steep learning curve | Enterprise applications, data warehousing, analytics  |
 | MariaDB              | Open-Source | MySQL-compatible, more features, community-driven              | Limited scalability, less mature than MySQL   | Web applications, small to medium-sized projects      |
 | Amazon Aurora        | Managed     | MySQL/PostgreSQL-compatible, scalable, managed, fault-tolerant | Cost, limited customizability                 | Cloud applications, data warehousing, analytics       |
+| [DuckDB](https://duckdb.org/) | Embedded, Open-Source |                                             |                                               | Small Projects, Various data imports                  |
 
 ## Wide-Column Store
 

@@ -11,7 +11,7 @@
 ### Winget
 
 ```powershell
-winget install -e --id 'Rustlang.Rustup'
+winget install --exact --id 'Rustlang.Rustup'
 ```
 
 ## RYST Stack
@@ -19,7 +19,7 @@ winget install -e --id 'Rustlang.Rustup'
 - [Rocket](https://rocket.rs/) Framework for REST controllers
 - [Yew](https://yew.rs/) Framework for Web programming (similar to React)
 - [SurrealDB](https://surrealdb.com/) Database
-- [Tauri](https://tauri.app/) Front-End application Framework (based on WebVivew2)
+- [Tauri](https://tauri.app/) Front-End application Framework (based on WebView2)
 
 ## Web Frameworks
 - [Rust Web Framework Comparison](https://github.com/flosse/rust-web-framework-comparison)
