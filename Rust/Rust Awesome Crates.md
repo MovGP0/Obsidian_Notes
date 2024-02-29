@@ -10,9 +10,10 @@
 
 ## CLI
 
-| Crate                                     | Description                  |
-| ----------------------------------------- | ---------------------------- |
-| [clap](https://docs.rs/clap/latest/clap/) | Command line argument parser |
+| Crate                                             | Description                  |
+| ------------------------------------------------- | ---------------------------- |
+| [clap](https://docs.rs/clap/latest/clap/)         | Command line argument parser |
+| [RatatUI](https://github.com/ratatui-org/ratatui) | Command line UI library      |
 
 ## Web
 
