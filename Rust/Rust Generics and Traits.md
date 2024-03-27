@@ -122,6 +122,7 @@ Implement on all (public) types:
 | `Ord`, `PartialOrd`  | enable ordering comparisons                                                     |
 | `ToString`           | enable conversion to string                                                     |
 | `From`, `Into`       | Convert between types                                                           |
+| `TryFrom`, `TryInto` | Save type conversion                                                            |
 | `Iterator`           | Enables `for` loops                                                             |
 | `Display`            | implement `{}` format specifier in `format!` and `print!` macros                |
 | `AsRef`, `AsMut`     | type conversion with shared reference                                           |
@@ -134,7 +135,6 @@ Implement on all (public) types:
 | `FromStr`            | Deserialize object from string                                                  |
 | `serde::Serialize`   | serialize using serde library                                                   |
 | `serde::Deserialize` | deserialize using serde library                                                 |
-| `TryFrom`, `TryInto` | Save type conversion                                                            |
 
 ## See also
 
