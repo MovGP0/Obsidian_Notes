@@ -11,8 +11,12 @@
             "id": "e73e35372b98e6a8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Software Architecture/12 Factor App.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Software Architecture/12 Factor App.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Software Architecture/12 Factor App.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +121,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Software Architecture/12 Factor App.md"
+              }
             }
           }
         ]
@@ -137,6 +145,7 @@
   },
   "active": "e73e35372b98e6a8",
   "lastOpenFiles": [
+    "Software Architecture/12 Factor App.md",
     "File Formats/CSV.md",
     "Mathematics/Vector Operations.md",
     "PowerShell/Awesome PowerShell.md",
@@ -163,7 +172,6 @@
     "Git/Git commit.md",
     "Git/Git config Command Alias.md",
     "Git/Git config Credential Manager.md",
-    "Git/Git config Username and Email.md",
     "Mechanics/Hamlitonian",
     "Mechanics/Lagrangians",
     "Mathematics",
