@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "fb21c7f5ab3d145a",
+        "id": "1ca85c076c2cda17",
         "type": "tabs",
         "children": [
           {
-            "id": "e73e35372b98e6a8",
+            "id": "1d794e50790b66cb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software Architecture/12 Factor App.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "IFile",
+                "query": "semantic",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Architecture/12 Factor App.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Architecture/12 Factor App.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,9 +115,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Software Architecture/12 Factor App.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -137,14 +129,23 @@
     "hiddenItems": {
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "e73e35372b98e6a8",
+  "active": "1d794e50790b66cb",
   "lastOpenFiles": [
+    "Software Architecture/Secure System Design.md",
+    "dotNET/Semantic Kernels/Skills/Use TimeSkill.md",
+    "dotNET/Semantic Kernels/Skills/Use TextMemorySkill.md",
+    "dotNET/Semantic Kernels/Skills/Use PlannerSkill.md",
+    "Use FileIOSkill.md",
+    "dotNET/Semantic Kernels/Semantic Kernels.md",
+    "dotNET/Semantic Kernels/Image Generation.md",
+    "dotNET/Semantic Kernels/Create Sematic Functions.md",
+    "dotNET/Semantic Kernels/Create Semantic Memory Store.md",
+    "dotNET/Semantic Kernels/Create Semantic Kernel.md",
+    "dotNET/Performance Testing/StopWatch.md",
     "Software Architecture/12 Factor App.md",
     "File Formats/CSV.md",
     "Mathematics/Vector Operations.md",
@@ -154,7 +155,6 @@
     "Git/Git TFS.md",
     "Git/Git show-ref.md",
     "Git/Git remote.md",
-    "dotNET/Performance Testing/StopWatch.md",
     "Git/Git fsck (File System Check).md",
     "Git/Git revert.md",
     "Git/Git bisect (Binary search).md",
@@ -162,16 +162,6 @@
     "dotNET/dotnet CLI",
     "dotNET/dotnet CLI/dotnet pack.md",
     "dotNET/dotnet CLI/dotnet CLI.md",
-    "TLS/Let's Encrypt Certificates.md",
-    "Git/Git reset.md",
-    "Git/Setup SSH Key for Git.md",
-    "Git/Git log.md",
-    "Git/Git branch.md",
-    "Git/Git stash.md",
-    "Git/Git config Ignore Self-Signed Certificate.md",
-    "Git/Git commit.md",
-    "Git/Git config Command Alias.md",
-    "Git/Git config Credential Manager.md",
     "Mechanics/Hamlitonian",
     "Mechanics/Lagrangians",
     "Mathematics",
