@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1ca85c076c2cda17",
+        "id": "67a47921f82daaec",
         "type": "tabs",
         "children": [
           {
-            "id": "1d794e50790b66cb",
+            "id": "044330a88115fb9f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -133,43 +133,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "1d794e50790b66cb",
+  "active": "044330a88115fb9f",
   "lastOpenFiles": [
-    "Software Architecture/Secure System Design.md",
-    "dotNET/Semantic Kernels/Skills/Use TimeSkill.md",
-    "dotNET/Semantic Kernels/Skills/Use TextMemorySkill.md",
-    "dotNET/Semantic Kernels/Skills/Use PlannerSkill.md",
-    "Use FileIOSkill.md",
-    "dotNET/Semantic Kernels/Semantic Kernels.md",
-    "dotNET/Semantic Kernels/Image Generation.md",
-    "dotNET/Semantic Kernels/Create Sematic Functions.md",
-    "dotNET/Semantic Kernels/Create Semantic Memory Store.md",
-    "dotNET/Semantic Kernels/Create Semantic Kernel.md",
-    "dotNET/Performance Testing/StopWatch.md",
-    "Software Architecture/12 Factor App.md",
-    "File Formats/CSV.md",
-    "Mathematics/Vector Operations.md",
-    "PowerShell/Awesome PowerShell.md",
-    "PowerShell/PowerShell Documentation Resources.md",
-    "Git/Git tag.md",
-    "Git/Git TFS.md",
-    "Git/Git show-ref.md",
-    "Git/Git remote.md",
-    "Git/Git fsck (File System Check).md",
-    "Git/Git revert.md",
-    "Git/Git bisect (Binary search).md",
-    "dotNET/dotNET Physical Units.md",
-    "dotNET/dotnet CLI",
-    "dotNET/dotnet CLI/dotnet pack.md",
-    "dotNET/dotnet CLI/dotnet CLI.md",
-    "Mechanics/Hamlitonian",
-    "Mechanics/Lagrangians",
-    "Mathematics",
-    "Mathematics/Category Theory",
-    "dotNET/Task Parallel Library",
-    "Software Architecture/Concurrency Patterns",
-    "dotNET/OWIN Katana",
-    "dotNET/Message Bus",
-    "dotNET/WinForms/Interfaces"
   ]
 }

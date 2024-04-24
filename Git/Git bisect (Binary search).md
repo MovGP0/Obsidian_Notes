@@ -1,8 +1,10 @@
-Perform a binary search between two commits to find the culprint of an issue.
+Perform a binary search between two commits to find the culprit of an issue.
 ```powershell
 git bisect start
 git bisect bad [bad_commit_hash]
 git bisect good [good_commit_hash]
+git bisect skip [not_building_hash]
+git bisect reset
 ```
 
 ## Example
