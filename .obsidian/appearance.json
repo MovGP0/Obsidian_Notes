@@ -1,7 +1,8 @@
 {
   "baseFontSize": 18,
   "cssTheme": "Atom",
-  "monospaceFontFamily": "JetBrainsMono NF",
-  "textFontFamily": "JetBrainsMono NF",
-  "accentColor": ""
+  "monospaceFontFamily": "JetBrainsMono Nerd Font Mono",
+  "textFontFamily": "JetBrainsMono Nerd Font",
+  "accentColor": "",
+  "interfaceFontFamily": ""
 }
