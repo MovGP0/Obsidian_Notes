@@ -18,6 +18,48 @@ using System.Runtime.InteropServices;
 
 ## Get the Desktop Wallpaper
 
+### Determine Operating System and Desktop Environment
+
+```cs
+var isWindows = RuntimeInformation.IsOSPlatform(OSPlatform.Windows);
+var isLinux = RuntimeInformation.IsOSPlatform(OSPlatform.Linux);
+var isMacOS = RuntimeInformation.IsOSPlatform(OSPlatform.OSX);
+```
+
+On Linux we also need to determine the desktop environment system:
+
+```cs
+// Get the Linux desktop environment
+static string GetDesktopEnvironment()
+{
+	string desktop = Environment.GetEnvironmentVariable("XDG_CURRENT_DESKTOP");
+	if (string.IsNullOrEmpty(desktop))
+	{
+		desktop = Environment.GetEnvironmentVariable("DESKTOP_SESSION");
+	}
+
+	if (string.IsNullOrEmpty(desktop))
+	{
+		return "Unknown";
+	}
+
+	if (desktop.Contains("GNOME", StringComparison.OrdinalIgnoreCase))
+	{
+		return "GNOME";
+	}
+	else if (desktop.Contains("KDE", StringComparison.OrdinalIgnoreCase))
+	{
+		return "KDE";
+	}
+	else
+	{
+		return "Unknown";
+	}
+}
+```
+
+### Windows
+
 ```cs
 // Define the PInvoke signature
 public static class NativeMethods
@@ -40,9 +82,57 @@ string GetDesktopWallpaper()
 - [User32.SystemParametersInfo](https://www.pinvoke.net/default.aspx/user32.systemparametersinfo)
 - [SPI Enumeration](https://pinvoke.net/default.aspx/Enums/SPI.html)
 
-## Extract primary colors from image
+### GNOME
+
 ```cs
-Color[] ExtractPrimaryColors(string imagePath, int nColors = 5)
+static string GetGnomeWallpaper()
+{
+	using var process = new Process();
+	process.StartInfo.FileName = "dconf";
+	process.StartInfo.Arguments = "read /org/gnome/desktop/background/picture-uri";
+	process.StartInfo.RedirectStandardOutput = true;
+	process.StartInfo.UseShellExecute = false;
+	process.Start();
+	string result = process.StandardOutput.ReadToEnd();
+	return result.Trim().Replace("'", "").Replace("file://", "");
+}
+```
+
+### KDE
+
+```cs
+static string GetKdeWallpaper()
+{
+	using var process = new Process();
+	process.StartInfo.FileName = "qdbus";
+	process.StartInfo.Arguments = "org.kde.plasmashell /PlasmaShell org.kde.PlasmaShell.evaluateScript 'print(desktops()[0].wallpaperPlugin); print(desktops()[0].currentConfigGroup = [\"Wallpaper\", \"org.kde.image\", \"General\"]); print(desktops()[0].readConfig(\"Image\"))'";
+	process.StartInfo.RedirectStandardOutput = true;
+	process.StartInfo.UseShellExecute = false;
+	process.Start();
+	string result = process.StandardOutput.ReadToEnd();
+	return result.Split('\n')[2].Trim().Replace("file://", "");
+}
+```
+
+### MacOS
+
+```cs
+static string GetMacWallpaper()
+{
+	using var process = new Process();
+	process.StartInfo.FileName = "osascript";
+	process.StartInfo.Arguments = "-e 'tell application \"System Events\" to get picture of current desktop'";
+	process.StartInfo.RedirectStandardOutput = true;
+	process.StartInfo.UseShellExecute = false;
+	process.Start();
+	return process.StandardOutput.ReadToEnd().Trim();
+}
+```
+
+## Extract primary colors from image
+
+```cs
+public Color[] ExtractPrimaryColors(string imagePath, int nColors = 5)
 {
     // Load the image
     using Bitmap bitmap = new Bitmap(imagePath);
@@ -82,7 +172,7 @@ Color[] ExtractPrimaryColors(string imagePath, int nColors = 5)
 ## HSL ⇆ RGB conversion methods
 
 ```cs
-(double H, double S, double L) RgbToHsl(Color color)
+public (double H, double S, double L) RgbToHsl(Color color)
 {
     double r = color.R / 255.0;
     double g = color.G / 255.0;
@@ -112,7 +202,7 @@ Color[] ExtractPrimaryColors(string imagePath, int nColors = 5)
 ```
 
 ```cs
-Color HslToRgb(double h, double s, double l)
+public Color HslToRgb(double h, double s, double l)
 {
     double c = (1 - Math.Abs(2 * l - 1)) * s;
     double x = c * (1 - Math.Abs((h / 60) % 2 - 1));
@@ -168,14 +258,14 @@ Color HslToRgb(double h, double s, double l)
 ## Calculate color complements
 
 ```cs
-Color GetRgbComplement(Color color)
+public Color GetRgbComplement(Color color)
 {
     return Color.FromArgb(255 - color.R, 255 - color.G, 255 - color.B);
 }
 ```
 
 ```cs
-Color GetHslComplement(Color color)
+public Color GetHslComplement(Color color)
 {
     var (h, s, l) = RgbToHsl(color);
     h = (h + 180) % 360;
@@ -188,7 +278,7 @@ Color GetHslComplement(Color color)
 Blend existing colors to create new colors.
 
 ```cs
-Color[] BlendColors(Color[] colors, int nColors)
+public Color[] BlendColors(Color[] colors, int nColors)
 {
     var blendedColors = new List<Color>(colors);
 
@@ -217,7 +307,7 @@ Interpolate between existing colors to create a new color.
 
 ```cs
 // Function to extrapolate colors if there are fewer than required
-Color[] ExtrapolateColors(Color[] colors, int nColors)
+public Color[] ExtrapolateColors(Color[] colors, int nColors)
 {
     var extendedColors = new List<Color>(colors);
     Random random = new Random();
@@ -251,7 +341,7 @@ Color[] ExtrapolateColors(Color[] colors, int nColors)
 ### Extrapolate additional colors from a single color
 
 ```cs
-Color[] GenerateAnalogousColors(Color baseColor, int nColors)
+public Color[] GenerateAnalogousColors(Color baseColor, int nColors)
 {
     var (h, s, l) = RgbToHsl(baseColor);
     var colors = new List<Color> { baseColor };
@@ -267,7 +357,7 @@ Color[] GenerateAnalogousColors(Color baseColor, int nColors)
 ```
 
 ```cs
-Color[] GenerateMonochromaticColors(Color baseColor, int nColors)
+public Color[] GenerateMonochromaticColors(Color baseColor, int nColors)
 {
     var (h, s, l) = RgbToHsl(baseColor);
     var colors = new List<Color> { baseColor };
@@ -284,7 +374,7 @@ Color[] GenerateMonochromaticColors(Color baseColor, int nColors)
 ```
 
 ```cs
-Color[] GenerateTriadColors(Color baseColor, int nColors)
+public Color[] GenerateTriadColors(Color baseColor, int nColors)
 {
     var (h, s, l) = RgbToHsl(baseColor);
     return new Color[]
@@ -297,7 +387,7 @@ Color[] GenerateTriadColors(Color baseColor, int nColors)
 ```
 
 ```cs
-Color[] GenerateComplementaryColors(Color baseColor, int nColors)
+public Color[] GenerateComplementaryColors(Color baseColor, int nColors)
 {
     var (h, s, l) = RgbToHsl(baseColor);
     return new Color[]
@@ -309,7 +399,7 @@ Color[] GenerateComplementaryColors(Color baseColor, int nColors)
 ```
 
 ```cs
-Color[] GenerateSplitComplementaryColors(Color baseColor, int nColors)
+public Color[] GenerateSplitComplementaryColors(Color baseColor, int nColors)
 {
     var (h, s, l) = RgbToHsl(baseColor);
     return new Color[]
@@ -322,7 +412,7 @@ Color[] GenerateSplitComplementaryColors(Color baseColor, int nColors)
 ```
 
 ```cs
-Color[] GenerateSquareColors(Color baseColor, int nColors)
+public Color[] GenerateSquareColors(Color baseColor, int nColors)
 {
     var (h, s, l) = RgbToHsl(baseColor);
     return new Color[]
@@ -336,7 +426,7 @@ Color[] GenerateSquareColors(Color baseColor, int nColors)
 ```
 
 ```cs
-Color[] GenerateCompoundColors(Color baseColor, int nColors)
+public Color[] GenerateCompoundColors(Color baseColor, int nColors)
 {
     var (h, s, l) = RgbToHsl(baseColor);
     var complementary = (h + 180) % 360;
@@ -371,7 +461,7 @@ Color[] GenerateShades(Color baseColor, int nColors)
 
 ```cs
 // Function to create and display a color theme
-Bitmap PlotColorTheme(Color[] colors)
+public Bitmap PlotColorTheme(Color[] colors)
 {
     int width = 100;
     int height = 100;
@@ -437,7 +527,9 @@ PlotColorTheme(GenerateCompoundColors(baseColor, requiredColors));
 PlotColorTheme(GenerateShades(baseColor, requiredColors));
 ```
 
-## Windows theme and colors
+## System theme and colors
+
+### Windows
 
 Check if light or dark theme is enabled
 ```cs
@@ -481,6 +573,7 @@ public enum WindowsTheme
 ```
 
 Get windows theme colors
+
 ```bash
 dotnet add package Microsoft.Windows.Compatibility
 ```
@@ -506,4 +599,62 @@ var foregroundColor = uiSettings.GetColorValue(UIColorType.Foreground);
 var accent = Color.FromArgb(accentColor.A, accentColor.R, accentColor.G, accentColor.B);
 var background = Color.FromArgb(backgroundColor.A, backgroundColor.R, backgroundColor.G, backgroundColor.B);
 var foreground = Color.FromArgb(foregroundColor.A, foregroundColor.R, foregroundColor.G, foregroundColor.B);
+```
+
+### MacOS
+
+Extract the system setting using AppleScript
+
+```cs
+static string GetMacTheme()
+{
+    using var process = new Process();
+	process.StartInfo.FileName = "osascript";
+	process.StartInfo.Arguments = "-e 'tell application \"System Events\" to tell appearance preferences to get dark mode'";
+	process.StartInfo.RedirectStandardOutput = true;
+	process.StartInfo.UseShellExecute = false;
+	process.Start();
+	string result = process.StandardOutput.ReadToEnd().Trim();
+	return result == "true" ? "Dark" : "Light";
+}
+```
+
+### GNOME
+
+GNOME stores theme information in the `GSettings` schema. You can query it using the `gsettings` command.
+
+```cs
+static string GetGnomeTheme()
+{
+    using var process = new Process();
+	process.StartInfo.FileName = "gsettings";
+	process.StartInfo.Arguments = "get org.gnome.desktop.interface gtk-theme";
+	process.StartInfo.RedirectStandardOutput = true;
+	process.StartInfo.UseShellExecute = false;
+	process.Start();
+	string result = process.StandardOutput.ReadToEnd();
+	return result.Trim().Trim('\'');
+}
+```
+
+### KDE
+
+KDE Plasma uses configuration files. You can find theme information in the `~/.config/kdeglobals` file.
+
+```cs
+static string GetKdeTheme()
+{
+    string configPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), ".config/kdeglobals");
+    if (File.Exists(configPath))
+    {
+        foreach (var line in File.ReadAllLines(configPath))
+        {
+            if (line.StartsWith("ColorScheme="))
+            {
+                return line.Split('=')[1].Trim();
+            }
+        }
+    }
+    return "Unknown";
+}
 ```
