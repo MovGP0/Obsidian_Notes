@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "67a47921f82daaec",
+        "id": "d56502711f299739",
         "type": "tabs",
         "children": [
           {
-            "id": "044330a88115fb9f",
+            "id": "732b332ea4ad92b2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Mathematics/Spinors/Spinors.md",
+                "mode": "preview",
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Mathematics/Spinors/Spinors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Mathematics/Spinors/Spinors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +121,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Mathematics/Spinors/Spinors.md"
+              }
             }
           }
         ]
@@ -133,7 +141,13 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "044330a88115fb9f",
+  "active": "732b332ea4ad92b2",
   "lastOpenFiles": [
+    "Mathematics/Spinors/Spinors.md",
+    "Mathematics/Spinors",
+    "Mathematics/Vector Operations.md",
+    "Mathematics/Sinussatz.md",
+    "Mathematics/Kosinussatz.md",
+    "Mathematics/Quadratic Formula.md"
   ]
 }
