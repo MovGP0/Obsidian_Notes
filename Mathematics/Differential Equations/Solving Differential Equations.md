@@ -12,7 +12,34 @@ $F = m \frac{\mathrm{d}^2\,x}{\mathrm{d}\,t^2} = -k\,x$
 
 ## Substitution
 
-$$x(t) = A \cos \left( \Omega\,t \right)$$
+The idea is to guess the function and substitute.
+
+**Ansatz:** Assume that the solution can be described by this function:
+
+$x(t) = A \cos \left( Ω\,t \right)$
+
+| Term | Description           | Phyical Unit |
+| ---- | --------------------- | ------------ |
+| x    | Position              | [m]          |
+| A    | Some constant         | [m]          |
+| Ω    | Oscillation Frequency | [rad/s]      |
+| t    | Time                  | [s]          |
+
+**Substitute**
+
+$\frac{\mathrm{d}^2\,x}{\mathrm{d}\,t^2} = (-k\,m^{-1})\,x$
+
+**Calculate 2nd derivative**
+
+$x(t) = A\cos(Ωt) + B\sin(Ωt)$ => Apply chain rule
+$\frac{\mathrm{d}\,x}{\mathrm{d}\,t^2} = −AΩ\sin(Ωt)+BΩ\cos(Ωt)$ => Apply chain rule
+$\frac{\mathrm{d}^2\,x}{\mathrm{d}\,t^2} = -Ω^2 A\cos(Ωt)-Ω^2B\sin(Ωt)$
+
+**Substitute**
+
+$\frac{\mathrm{d}^2\,x^2}{\mathrm{d}\,t^2} = \left(-k\,m^{-1}\right)\,x = -Ω^2 \left(A\cos(Ωt) + B\sin(Ωt) \right)$
+
+- A and B represent the initial condition of the system.
 
 ## Energy Conservation
 
