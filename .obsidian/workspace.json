@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d56502711f299739",
+        "id": "09570f07f92cc49a",
         "type": "tabs",
         "children": [
           {
-            "id": "732b332ea4ad92b2",
+            "id": "4a06fac67de8f91d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Spinors/Spinors.md",
-                "mode": "preview",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -69,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 363.5
+    "width": 526.5
   },
   "right": {
     "id": "73a64b91218644df",
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Spinors/Spinors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematics/Spinors/Spinors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,9 +115,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Mathematics/Spinors/Spinors.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -141,8 +133,29 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "732b332ea4ad92b2",
+  "active": "4a06fac67de8f91d",
   "lastOpenFiles": [
+    "dotNET/System.Threading.Channels/System.Threading.Channels.md",
+    "dotNET/System.Threading.Channels",
+    "Git/Git worktree.md",
+    "Git/Git branch.md",
+    "Git/Git bisect (Binary search).md",
+    "Git/Git.md",
+    "Git/Git config Visual Studio Code.md",
+    "Git/Git fsck (File System Check).md",
+    "Git/Git log.md",
+    "Git/Git reflog.md",
+    "Git/Git remote.md",
+    "Git/Git reset.md",
+    "Git/Git revert.md",
+    "Git/Git show-ref.md",
+    "Git/Git stash.md",
+    "Git/Git tag.md",
+    "Git/Git TFS.md",
+    "Mathematics/Differential Equations/Solving Differential Equations.md",
+    "File Formats/Audio File Formats.md",
+    "Mathematics/Differential Equations",
+    "NuGet.md",
     "Mathematics/Spinors/Spinors.md",
     "Mathematics/Spinors",
     "Mathematics/Vector Operations.md",
