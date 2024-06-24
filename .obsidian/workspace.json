@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "09570f07f92cc49a",
+        "id": "5468e0c67887bc8a",
         "type": "tabs",
         "children": [
           {
-            "id": "4a06fac67de8f91d",
+            "id": "ec9c6edcb0716c29",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "semantic",
+                "query": "Vector Database",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -133,8 +133,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "4a06fac67de8f91d",
+  "active": "ec9c6edcb0716c29",
   "lastOpenFiles": [
+    "Software Architecture/Databases.md",
+    "Software Architecture/Databases/Vector Databases.md",
+    "Software Architecture/Databases/Search Databases.md",
+    "Software Architecture/Databases/Wide-Column Store.md",
+    "Software Architecture/Databases/Relational Databases.md",
+    "Software Architecture/Databases/Key-Value Databases.md",
+    "Software Architecture/Databases/Graph Databases.md",
+    "Software Architecture/Databases/Document databases.md",
+    "Software Architecture/Databases",
     "dotNET/System.Threading.Channels/System.Threading.Channels.md",
     "dotNET/System.Threading.Channels",
     "Git/Git worktree.md",
@@ -155,12 +164,6 @@
     "Mathematics/Differential Equations/Solving Differential Equations.md",
     "File Formats/Audio File Formats.md",
     "Mathematics/Differential Equations",
-    "NuGet.md",
-    "Mathematics/Spinors/Spinors.md",
-    "Mathematics/Spinors",
-    "Mathematics/Vector Operations.md",
-    "Mathematics/Sinussatz.md",
-    "Mathematics/Kosinussatz.md",
-    "Mathematics/Quadratic Formula.md"
+    "Mathematics/Spinors"
   ]
 }
