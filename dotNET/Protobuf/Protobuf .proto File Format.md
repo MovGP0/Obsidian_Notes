@@ -21,7 +21,7 @@ option csharp_namespace = "Solution.Project";
 option java_package = "com.companyname.packagename";
 option java_outer_classname = "JavaClassName";
 option go_package = "myprotobuf";
-option optimize_for = "SPEED"; // SPEED, CODE_SIZE, LITE_RUNTIME
+option optimize_for = SPEED; // SPEED, CODE_SIZE, LITE_RUNTIME
 ```
 
 Declare Messages
@@ -82,7 +82,7 @@ service ServiceName {
 }
 ```
 
-Deprecate fileds
+Deprecate fields
 ```protobuf
 int32 some_old_field = 6 [deprecated=true];
 ```
