@@ -1,32 +1,28 @@
-CodeDOM is part of the .NET Framework Class Library (FCL) and is located in
-- `System.CodeDom`
-- `System.CodeDom.Compiler`
+The `CodeObject` class is the base class for the [[CodeDOM]] code graph.
 
-CodeDOM uses code graphs to express code as data. The code graph can be created by parsing souce code, or adding objects imperatively.
+| Class                 | Description                                              | Example                                  |
+| --------------------- | -------------------------------------------------------- | ---------------------------------------- |
+| `CodeObject`          | Base class of all other code objects                     | `new CodeObject()`                       |
 
-The code graph can be compiled into IL code for execution.
-
-## LINQ Expression Tree vs. CodeDOM code graph
-
-The CodeDOM code graph is a representation of .NET code and differs from the LINQ [[Expression Trees]].
-
-Typically an expression tree is parsed to create either SQL code or an CodeDOM code tree, while che code tree is used to compile into IL code.
-
-## CodeDOM objects
+## `CodeObject`s
 
 | Class                 | Description                                              | Example                                  | Example Representation          |
 | --------------------- | -------------------------------------------------------- | ---------------------------------------- | ------------------------------- |
-| `CodeObject`          | Base class of all other code objects                     | `new CodeObject()`                       | N/A (base class)                |
+| `CodeCompileUnit`     | Represents a container for a CodeDOM program graph       | `new CodeCompileUnit()`                  | N/A (container for code graph)  |
 | `CodeNamespaceImport` | Represents an import directive of a namespace            | `new CodeNamespaceImport("System")`      | `using System;`                 |
 | `CodeNamespace`       | Represents a namespace declaration                       | `new CodeNamespace("MyNamespace")`       | `namespace MyNamespace { ... }` |
-| `CodeCompileUnit`     | Represents a container for a CodeDOM program graph       | `new CodeCompileUnit()`                  | N/A (container for code graph)  |
-| `CodeStatement`       | Represents the base class for all code statements        | `new CodeStatement()`                    | N/A (base class)                |
-| `CodeTypeMember`      | Represents a member of a type (e.g., method, property)   | `new CodeTypeMember()`                   | N/A (base class)                |
 | `CodeTypeParameter`   | Represents a type parameter for a generic type or method | `new CodeTypeParameter("T")`             | `T`                             |
 | `CodeTypeReference`   | Represents a reference to a type                         | `new CodeTypeReference("System.String")` | `System.String`                 |
-| `CodeExpression`      | Represents the base class for all code expressions       | `new CodeExpression()`                   | N/A (base class)                |
 | `CodeDirective`       | Represents a compiler directive                          | `new CodeDirective()`                    | `#directive`                    |
 | `CodeComment`         | Represents a comment in the code                         | `new CodeComment("This is a comment")`   | `// This is a comment`          |
+
+Base classes for more specific types:
+
+| Class            | Description                                            |
+| ---------------- | ------------------------------------------------------ |
+| `CodeStatement`  | Represents the base class for all code statements      |
+| `CodeTypeMember` | Represents a member of a type (e.g., method, property) |
+| `CodeExpression` | Represents the base class for all code expressions     |
 
 ### `CodeExpression`s
 
@@ -66,77 +62,3 @@ Typically an expression tree is parsed to create either SQL code or an CodeDOM c
 | `CodeConstructor`      | Represents a constructor of a type.                    | `new CodeConstructor()`                                    | `public MyClass() { ... }`            |
 | `CodeTypeConstructor`  | Represents a static constructor of a type.             | `new CodeTypeConstructor()`                                | `static MyClass() { ... }`            |
 | `CodeEntryPointMethod` | Represents the entry point method (e.g., Main method). | `new CodeEntryPointMethod()`                               | `public static void Main() { ... }`   |
-
-## Custom CodeDOM provider
-
-Add the compiler in the `app.config` file:
-
-`app.config`
-```xml
-<configuration>
-  <system.codedom>
-	<compilers>
-	  <compiler
-	    language="k#;ks;ksharp"
-	    extension=".ks;ks"
-	    type="KSharp.KSharpCodeProvider;KSharpCodeProvider"
-	    warningLevel="3"
-	    compilerOptions="..."
-	</compilers>
-  </system.codedom>
-</configuration>
-```
-
-List the loaded code providers to check if the provider is available:
-
-```csharp
-using System.CodeDom.Compiler;
-
-foreach (CompilerInfo ci in CodeDomProvider.GetAllCompilerInfo())
-{
-    Console.WriteLine(string.Join("; ", ci.GetLanguages()));
-}
-```
-
-Load an CodeDOM provider:
-
-```csharp
-// default CodeDOM provider
-var cSharpProvider = CodeDomProvider.CreateProvider("c#");
-var cSharpProvider = new Microsoft.CSharp.CSharpCodeProvider();
-
-// custom CodeDOM provider
-var kSharpProvider = CodeDomProvider.CreateProvider("k#");
-var kSharpProvider = new KSharp.KSharpCodeProvider();
-```
-
-Compiler parameters:
-
-```csharp
-string sourceCode = /*...*/;
-
-var providerOptions = new Dictionary<string, string>
-{
-	{ "CompilerVersion", "v11.0" }
-};
-
-var provider = new Microsoft.CSharp.CSharpCodeProvider(providerOptions);
-
-var compilerParameters = new string[] { /*...*/ };
-CompilerResults results = provider.CompileAssemblyFromSource(compilerParameters), sourceCode);
-```
-
-## Compiler Features
-
-The compiler declares a list of supported *Compiler Features* using the [GeneratorSupport](https://learn.microsoft.com/en-us/dotnet/api/system.codedom.compiler.generatorsupport) flags:
-```csharp
-var languageOptions = provider.LanguageOptions;
-```
-
-Those flags indicate if a given CodeDOM element is supported.
-
-Compiling a CodeDOM tree with elements that are not supported by the used compiler will result in an exception.
-
-## References
-
-- [Boo.Lang.CodeDom](https://github.com/bamboo/boo/tree/master/src/Boo.Lang.CodeDom)

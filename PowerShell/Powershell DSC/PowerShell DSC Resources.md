@@ -21,6 +21,7 @@ List all resources using `Get-DscResource `
 | `Log`            | Log output for diagnostics and troubleshooting         |
 
 ## Implement custom DSC Resources
+
 - [Writing a custom DSC resource with MOF](https://learn.microsoft.com/en-us/powershell/dsc/resources/authoringresourcemof?view=dsc-1.1)
 - [Writing a custom DSC resource with PowerShell classes](https://learn.microsoft.com/en-us/powershell/dsc/resources/authoringresourceclass?view=dsc-1.1)
 - [Composite resources - Using a DSC configuration as a resource](https://learn.microsoft.com/en-us/powershell/dsc/resources/authoringresourcecomposite?view=dsc-1.1)
