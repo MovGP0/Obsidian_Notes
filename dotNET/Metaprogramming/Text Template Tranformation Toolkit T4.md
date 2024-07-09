@@ -13,13 +13,13 @@ The T4 generator must be declared as the generator to be used in the `.csproj` f
 
 Note that other generators also exist:
 
-| Generator                  | Usage |
-|----------------------------|---------------------------------------|
-| DataServiceClientGenerator | Creates OData access clients          |
-| EntityModelCodeGenerator   | Creates classes from EF models        |
-| MSLinqToSQLGenerator       | Creates classes from LinqToSql models |
-| ResXFileCodeGenerator      | Creates classes from .resx files      |
-| WCFProxyGenerator          | Creates web service proxy classes     |
+| Generator                    | Usage                                 |
+| ---------------------------- | ------------------------------------- |
+| `DataServiceClientGenerator` | Creates OData access clients          |
+| `EntityModelCodeGenerator`   | Creates classes from EF models        |
+| `MSLinqToSQLGenerator`       | Creates classes from LinqToSql models |
+| `ResXFileCodeGenerator`      | Creates classes from .resx files      |
+| `WCFProxyGenerator`          | Creates web service proxy classes     |
 
 ## Header
 
