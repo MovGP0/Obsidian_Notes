@@ -37,9 +37,47 @@ using (var writer = new StringWriter(builder))
 var sourceCode = builder.ToString();
 ```
 
+## Example
+
+```csharp
+partial class HelloWorldCodeDOM
+{
+    static CodeNamespace BuildProgram()
+    {
+        // create a namespace
+        var ns = new CodeNamespace("MyNamespace");
+
+        // usings
+        var systemImport = new CodeNamespaceImport("System");
+        ns.Imports.Add(systemImport);
+
+        // class
+        var programClass = new CodeTypeDeclaration("Program");
+        ns.Types.Add(programClass);
+
+        // method
+        var methodMain = new CodeMemberMethod
+        {
+            Attributes = MemberAttributes.Static,
+            Name = "Main"
+        };
+        programClass.Members.Add(methodMain);
+
+        // method implementation
+        var statement = new CodeMethodInvokeExpression(new CodeSnippetExpression("Console"), "WriteLine", new CodePrimitiveExpression("Hello, world!"));
+        methodMain.Statements.Add(statement);
+
+        return ns;
+    }
+}
+```
+
 ## See also
 
 - [[CodeDOM Providers]]
 - [[Custom CodeDOM Providers]]
 - [[CodeDOM Code Graph Objects]]
+
+## References
+
 - [Boo.Lang.CodeDom](https://github.com/bamboo/boo/tree/master/src/Boo.Lang.CodeDom)
