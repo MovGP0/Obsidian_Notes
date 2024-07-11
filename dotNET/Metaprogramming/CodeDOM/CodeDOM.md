@@ -8,6 +8,10 @@ The code graph can be compiled into IL code for execution.
 
 See [[CodeDOM Code Graph Objects]] for a list of Code Graph object.
 
+## Important Note
+
+The `CodeDOM` API is obsolete and only supports old versions of C#/VB. When current version is required, consider using the [[Roslyn]] API instead.
+
 ## LINQ Expression Tree vs. CodeDOM code graph
 
 The CodeDOM code graph is a representation of .NET code and differs from the LINQ [[Expression Trees]].
