@@ -11,7 +11,7 @@ Invoking a member of the `ExpandoObject` will add a rutime performance overhead,
 
 To manage the members of the `ExpandoObject`, the [Microsoft.CSharp.RuntimeBinder.Binder](https://learn.microsoft.com/en-us/dotnet/api/microsoft.csharp.runtimebinder.binder) class is used.
 
-## Example
+### Example
 
 ```csharp
 dynamic expando = new System.Dynamic.ExpandoObject();
@@ -37,3 +37,23 @@ foreach (var kvp in (IDictionary<string, object>)expando)
 ```
 
 The `ExpandoObject` manages the members in an internal dictionary. Members can be added or removed using the `BindGetMember` and `BindSetMember` methods.
+
+## `DynamicObject` class
+
+The [DynamicObject](https://learn.microsoft.com/en-us/dotnet/api/system.dynamic.dynamicobject) is used as base class, when the implementation of custom dynamic classes are need.
+
+| Function             | Description                                                                                   |
+| -------------------- | --------------------------------------------------------------------------------------------- |
+| `TryBinaryOperation` | binary operators like addition (`+`), subtraction (`-`), and so on                            |
+| `TryConvert`         | conversion to statically known types                                                          |
+| `TryCreateInstance`  | instantiation of underlying data types that may be needed to support a dynamic object         |
+| `TryDeZeteIndex`     | deletion of an indexed collection element (not supported by C# or Visual Basic syntax)        |
+| `TryDeleteMember`    | deletion of a member property or member function (not supported by C# or Visual Basic syntax) |
+| `TryGetIndex`        | fetching the value of an indexed collection element                                           |
+| `TryGetMember`       | fetching the value of a property                                                              |
+| `TryInvoke`          | invocation of the dynamic object itself as a function                                         |
+| `TryInvokeMember`    | invocation of a member as a function                                                          |
+| `TrySetIndex`        | mutation of an indexed collection element                                                     |
+| `TrySetMember`       | mutation of a member property or the assignment of a member function's implementation         |
+| `TryUnaryOperation`  | unary operators like increment (`++`), and decrement (`--`)                                   |
+

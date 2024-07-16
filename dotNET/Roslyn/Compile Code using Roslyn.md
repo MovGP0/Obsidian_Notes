@@ -69,6 +69,48 @@ Load the In-Memory assembly
 var assembly = Assembly.Load(ms.ToArray());
 ```
 
+## Syntax Rewriting
+
+Implement Syntax Rewriter
+```csharp
+public sealed class MyRewriter : CSharpSyntaxRewriter
+{
+    private readonly SemanticModel SemanticModel;
+
+    public MyRewriter(SemanticModel semanticModel)
+	    => SemanticModel = semanticModel;
+
+	public override SyntaxNode VisitLocalDeclarationStatement(LocalDeclarationStatementSyntax node)
+	{
+	    // ...
+	}
+}
+```
+
+Visit and rewrite syntax trees
+```csharp
+Compilation compilation = /* ... */;
+foreach (var syntaxTree in compilation.SyntaxTrees)
+{
+    SemanticModel model = compilation.GetSemanticModel(sourceTree);
+    CSharpSyntaxRewriter rewriter = new MyRewriter(model);
+    SyntaxNode newSource = rewriter.Visit(sourceTree.GetRoot());
+	// TODO: update code
+}
+```
+
+Replace source code file with rewritten code
+```csharp
+if (newSource != sourceTree.GetRoot())
+{
+	File.WriteAllText(sourceTree.FilePath, newSource.ToFullString());
+}
+```
+
+## References
+
+- [Get started with syntax transformation](https://learn.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/get-started/syntax-transformation)
+
 ## See also
 
 * [[Load and Execute Code Analyzers]]
