@@ -1,3 +1,12 @@
+## Preparation
+
+Add NuGet packages
+```xml
+<ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+</ItemGroup>
+```
+
 Namespace imports
 ```csharp
 using Microsoft.CodeAnalysis;  
@@ -43,7 +52,7 @@ var compilation = CSharpCompilation
     .Create("DynamicCompilation")  
     .WithOptions(compileOptions)  
     .AddReferences(references)  
-    .AddSyntaxTrees(syntaxTree);
+    .AddSyntaxTrees(syntaxTree)
 ```
 
 **Note:** consider `CSharpCompilation.CreateScriptCompilation()` for scripting.
@@ -59,3 +68,8 @@ Load the In-Memory assembly
 ```csharp
 var assembly = Assembly.Load(ms.ToArray());
 ```
+
+## See also
+
+* [[Load and Execute Code Analyzers]]
+* [[Implement Roslyn Analyzer]]

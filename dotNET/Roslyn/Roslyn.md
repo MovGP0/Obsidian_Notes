@@ -1,4 +1,4 @@
-- [[Roslyn Analyzer]] for finding issues in the code
+- [[Implement Roslyn Analyzer]] for finding issues in the code
 - [[Roslyn Code Fix Provider]] for fixing issues that have been found with the analyzer
 - [[Roslyn Source Generator]] generates additional source code that is compiled
 - [[Roslyn Syntax Rewriter]] changes existing CSharp code

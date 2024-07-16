@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8e5d9ea9d0e645b5",
+        "id": "c87a493716ab41da",
         "type": "tabs",
         "children": [
           {
-            "id": "9e388f734131b563",
+            "id": "71da2328617f204e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -133,40 +133,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "9e388f734131b563",
+  "active": "71da2328617f204e",
   "lastOpenFiles": [
-    "dotNET/Metaprogramming/CodeDOM/CodeDOM.md",
-    "dotNET/Metaprogramming/CodeDOM/Code DOM.md",
-    "dotNET/Metaprogramming/Dynamic and Expando.md",
-    "dotNET/Metaprogramming/Metaprogramming in .NET.md",
-    "dotNET/Metaprogramming/Language Server Protocol.md",
-    "dotNET/Metaprogramming/Metaprogramming in .NET.md",
-    "dotNET/Metaprogramming/Expression Trees.md",
-    "dotNET/Metaprogramming/Reflection.md",
-    "dotNET/Metaprogramming/Reflection.Emit.md",
-    "dotNET/Metaprogramming/Syntax Highlighting.md",
-    "dotNET/Metaprogramming/Text Template Transformation Toolkit T4.md",
-    "dotNET/dotNET IL/IL Branching.md",
-    "dotNET/dotNET IL/IL Exception Handling.md",
-    "dotNET/dotNET IL/IL Data Types.md",
-    "dotNET/dotNET IL/IL Instructions (OpCodes).md",
-    "dotNET/dotNET IL/IL Method Declaration.md",
-    "dotNET/dotNET IL/Intermediate Language.md",
-    "PowerShell/Powershell DSC/PowerShell DSC.md",
-    "PowerShell/Powershell DSC/PowerShell DSC Composite Resources.md",
-    "PowerShell/Powershell DSC/PowerShell DSC Configuration Data File.md",
-    "PowerShell/Powershell DSC/PowerShell DSC Local Configuration Manager.md",
-    "PowerShell/Powershell DSC/PowerShell DSC Logging.md",
-    "PowerShell/Powershell DSC/PowerShell DSC Pull Server.md",
-    "PowerShell/Powershell DSC/PowerShell DSC Special Variables.md",
-    "PowerShell/Powershell DSC/PowerShell DSC Resources.md",
-    "dotNET/Metaprogramming/Reflection.Emit/IL Cheat Sheet.md",
-    "dotNET/dotNET IL",
-    "dotNET/Metaprogramming/Reflection.Emit",
-    "dotNET/Metaprogramming/CodeDOM",
-    "Software Architecture/Databases",
-    "dotNET/System.Threading.Channels",
-    "Mathematics/Differential Equations",
-    "Mathematics/Spinors"
   ]
 }
