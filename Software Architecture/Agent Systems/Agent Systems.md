@@ -85,4 +85,4 @@ A sequence of messages form an **interaction** or **conversation**.
 ## See also
 
 - [[Design of Agent Systems]]
-- [[Semantic Kernels]]
+- [[Semantic Kernel]]
