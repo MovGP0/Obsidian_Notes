@@ -22,13 +22,19 @@ using Microsoft.CodeAnalysis.Diagnostics;
 public class UnusedLocalVariableAnalyzer : DiagnosticAnalyzer
 {
     public const string DiagnosticId = "UnusedLocalVariable";
-    private static readonly LocalizableString Title = "Unused local variable";
-    private static readonly LocalizableString MessageFormat = "Local variable '{0}' is unused";
-    private static readonly LocalizableString Description = "Unused local variables should be removed";
+    private static readonly LocalizableString Title = new LocalizableResourceString(nameof(Resources.UnusedLocalVariableTitle), Resources.ResourceManager, typeof(Resources));
+    private static readonly LocalizableString MessageFormat = new LocalizableResourceString(nameof(Resources.UnusedLocalVariableMessage), Resources.ResourceManager, typeof(Resources));
+    private static readonly LocalizableString Description = new LocalizableResourceString(nameof(Resources.UnusedLocalVariableDescription), Resources.ResourceManager, typeof(Resources));
     private const string Category = "Usage";
 
     private static readonly DiagnosticDescriptor Rule = new DiagnosticDescriptor(
-        DiagnosticId, Title, MessageFormat, Category, DiagnosticSeverity.Warning, isEnabledByDefault: true, description: Description);
+        DiagnosticId,
+        Title,
+        MessageFormat,
+        Category,
+        DiagnosticSeverity.Warning,
+        isEnabledByDefault: true,
+        description: Description);
 
     public override ImmutableArray<DiagnosticDescriptor> SupportedDiagnostics => ImmutableArray.Create(Rule);
 
@@ -70,13 +76,19 @@ using Microsoft.CodeAnalysis.Diagnostics;
 public class NonSpecializedClassAnalyzer : DiagnosticAnalyzer
 {
     public const string DiagnosticId = "NonSpecializedClass";
-    private static readonly LocalizableString Title = "Non-specialized class";
-    private static readonly LocalizableString MessageFormat = "Class '{0}' is not marked as static, sealed, or abstract";
-    private static readonly LocalizableString Description = "Classes should be marked as static, sealed, or abstract";
+    private static readonly LocalizableString Title = new LocalizableResourceString(nameof(Resources.NonSpecializedClassTitle), Resources.ResourceManager, typeof(Resources));
+    private static readonly LocalizableString MessageFormat = new LocalizableResourceString(nameof(Resources.NonSpecializedClassMessage), Resources.ResourceManager, typeof(Resources));
+    private static readonly LocalizableString Description = new LocalizableResourceString(nameof(Resources.NonSpecializedClassDescription), Resources.ResourceManager, typeof(Resources));
     private const string Category = "Design";
 
     private static readonly DiagnosticDescriptor Rule = new DiagnosticDescriptor(
-        DiagnosticId, Title, MessageFormat, Category, DiagnosticSeverity.Warning, isEnabledByDefault: true, description: Description);
+        DiagnosticId,
+        Title,
+        MessageFormat,
+        Category,
+        DiagnosticSeverity.Warning,
+        isEnabledByDefault: true,
+        description: Description);
 
     public override ImmutableArray<DiagnosticDescriptor> SupportedDiagnostics => ImmutableArray.Create(Rule);
 
