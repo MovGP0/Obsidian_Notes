@@ -50,7 +50,7 @@ flowchart TD
   end
 
   DevelopFlow --> RunSample
-  Satisfied1 --> RunLarge
+  Satisfied1 -- yes --> RunLarge
   Satisfied2 -- yes --> Optimize
   Feedback --> Modify
 ```

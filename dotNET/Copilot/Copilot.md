@@ -9,11 +9,18 @@
 
 ## Basic Concepts
 
-| Concept  | Description                                                                                 |
-| -------- | ------------------------------------------------------------------------------------------- |
-| Topic    | Topic a conversation is about; groups a conversation flow                                   |
-| Action   | Invokes an action via an API; input an outputs are in JSON                                  |
-| Entities | Describes data types for the generative AI; used to describe the data fields of the Actions |
+| Concept      | Description                                                                                 |
+| ------------ | ------------------------------------------------------------------------------------------- |
+| Topic        | Topic a conversation is about; groups a conversation flow                                   |
+| Action       | Invokes an action via an API; input an outputs are in JSON                                  |
+| Entities     | Describes data types for the generative AI; used to describe the data fields of the Actions |
+| Flow         | Prompt flow definition                                                                      |
+| Run          | Executions of a prompt flow                                                                 |
+| Connection   | Integration with data sources and model instances                                           |
+| Runtime      | Docker image that executes flows                                                            |
+| Vector index | Connection with a vector database                                                           |
+| Compute      | Virtual machine that hosts the docker image                                                 |
+| Serp         | Google Search API (Google, Bing)                                                            |
 
 ## Copilot Studio
 
