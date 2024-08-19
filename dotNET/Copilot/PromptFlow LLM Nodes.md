@@ -2,7 +2,8 @@
 
 ## Declare template
 
-```txt
+```jinja2
+{# THIS IS A COMMENT #}
 SYSTEM:
 Your task is to classify a given url into one of the following types:
 Movie, App, Academic, Channel, Profile, PDF or None based on the text content information.

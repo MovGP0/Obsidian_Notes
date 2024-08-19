@@ -21,6 +21,7 @@
 | Vector index | Connection with a vector database                                                           |
 | Compute      | Virtual machine that hosts the docker image                                                 |
 | Serp         | Google Search API (Google, Bing)                                                            |
+| FAISS        | Facebook AI Similariy Search                                                                |
 
 ## Copilot Studio
 

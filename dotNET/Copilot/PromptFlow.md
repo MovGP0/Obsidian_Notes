@@ -43,16 +43,27 @@ Serve a flow locally:
 pf flow serve --source "./flow.foo.yaml"  --port 8088 --host localhost
 ```
 
-## PromptFlow project
+## Deploy a PromptFlow
 
-A FromptFlow project is a folder that contains:
-- `README.md` and `LICENSE.md` files (optional)
-- A [[PromptFlow DAG YAML]] file that declares the flow
-- Python scripts to execute (see [[PromptFlow Python Nodes]])
-- LLM template files (see [[PromptFlow LLM Nodes]])
-- A `requirements.txt` file that is executed by [pip](https://pypi.org/project/pip/) to install Python dependencies
-- A `connection.yaml` file to connect to a language model API
-- `.promptflow/flow.tools.json` contains tool metadata referenced by `flow.dag.yaml`
+Build [[Docker]] image:
+```bash
+# create the docker build file
+pf flow build --source ".\mypromptflowfolder" --output ".\dist" --format docker
+
+# build the docker image
+docker build --file ".\dist" --tag "mycompany\myflow"
+
+# start a new instance of the Docker image
+docker run \
+    -p 8080:8080 \
+    -e OPEN_AI_CONNECTION_API_KEY="SECRET" \
+    -e PROMPTFLOW_WORKER_NUM=4 \
+    -e PROMPTFLOW_WORKER_THREADS=4 \
+    "mycompany\myflow"
+
+# invoke API
+curl http://localhost:8080/score --data '{"url":"https://play.google.com/store/apps/details?id=com.twitter.android"}' -X POST  -H "Content-Type: application/json"
+```
 
 ## References
 
