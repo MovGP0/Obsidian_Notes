@@ -1,5 +1,7 @@
 # Blazor Cheat Sheet
+
 ## Create project
+
 ```powershell
 dotnet new --list
 dotnet new blazorwasm --output D:\MySolution --name MyBlazorProject
@@ -14,8 +16,11 @@ dotnet new razorlib --output D:\MySolution --name MyBlazorComponent
     ...
 </Project>
 ```
+
 ## Startup
+
 ### Server-side Blazor
+
 ```csharp
 if (app.Environment.IsDevelopment()) {
     app.UseDeveloperExceptionPage();
@@ -34,7 +39,9 @@ app.MapRazorPages();
 app.MapControllers();
 app.MapFallbackToFile("index.html");
 ```
+
 ## Head declarations
+
 ```csharp
 @using Namespace // import namespace
 @using static Namespace.StaticClassName // import static methods
@@ -45,11 +52,14 @@ app.MapFallbackToFile("index.html");
 @layout MainLayout // derive layout from shared *.razor file
 @page "/route/{customerId:string?}" // declare route of the page
 ```
+
 ## Dependency injection
+
 In Header:
 ```csharp
 @inject IHttpClient Client
 ```
+
 Alternative version:
 ```csharp
 @code{
@@ -57,6 +67,7 @@ Alternative version:
     private HttpClient Client { get; set; } = null!;
 }
 ```
+
 In Constructor of base class:
 ```csharp
 public abstract MyComponentBase
@@ -69,6 +80,7 @@ public abstract MyComponentBase
     protected HttpClient Client { get; set; } = null!;
 }
 ```
+
 Register service on startup:
 ```csharp
 public static async Task Main(string[] args)
@@ -82,9 +94,11 @@ public static async Task Main(string[] args)
     await builder.Build().RunAsync();
 }
 ```
+
 ### Global imports
+
 Global namespace imports are defined either in `_Imports.razor` or in the `.csproj` file.
-```html
+```xml
 <Project Sdk="Microsoft.NET.Sdk.Razor">
     <PropertyGroup>
         ...
@@ -96,8 +110,11 @@ Global namespace imports are defined either in `_Imports.razor` or in the `.cspr
     ...
 </Project>
 ```
+
 ## Data Binding
+
 ### One-Way Binding
+
 ```html
 <p>Count: @count</p>
 <button class="btn btn-primary"
@@ -115,7 +132,9 @@ Global namespace imports are defined either in `_Imports.razor` or in the `.cspr
     }
 }
 ```
+
 ### Two Way Binding
+
 ```html
 <input type="number"
     @bind="@currentCount"
@@ -130,12 +149,15 @@ Global namespace imports are defined either in `_Imports.razor` or in the `.cspr
     }
 }
 ```
+
 ### Lambda Functions
+
 ```html
 <button @onclick="@(() => currentCount++)">...</button>
 ```
 
 ### Prevent default action or event propagation
+
 ```html
 <input type="number" 
     @bind="@increment"
@@ -144,14 +166,18 @@ Global namespace imports are defined either in `_Imports.razor` or in the `.cspr
     @onmousemove:stopPropagation
 />
 ```
+
 ### Data formatting
+
 ```html
 <input @bind="@Today" @bind:format="yyyy-MM-dd" />
 ```
 ```html
 <div>@($"{item.Price:0.00}")</div>
 ```
+
 ## Validation
+
 ```csharp
 public sealed class CustomerInfo
 {
@@ -184,8 +210,10 @@ public sealed class State
     }
 }
 ```
+
 **See also**
 * [ASP.NET Core Blazor forms and input components](https://docs.microsoft.com/en-us/aspnet/core/blazor/forms-and-input-components)
+
 ## Components
 ```csharp
 // MyComponent.razor
@@ -210,13 +238,18 @@ public sealed class State
     public EventCallback<string> NameChanged { get; set; } = default!;
 }
 ```
+
 Usage:
 ```html
 <MyComponent Name="value" @NameChanged="OnNameChanged" />
 ```
+
 ### Cascading parameters
+
 Either use `INotifyPropertyChanged`/`INotifyPropertyChanging` or use `[CascadingParameter(Name="name")]` attribute.
+
 ### Component Lifecycle
+
 ```mermaid
   graph TD;
       init[Instance Constructor];
@@ -229,6 +262,7 @@ Either use `INotifyPropertyChanged`/`INotifyPropertyChanging` or use `[Cascading
       await-->Rerender;
       Rerender-->OnAfterRenderAsync
 ```
+
 Overrides:
 ```csharp
 protected override async Task OnInitializedAsync() {/*...*/}
@@ -236,12 +270,16 @@ protected override async Task SetParameterAsync() {/*...*/}
 protected override async Task OnParametersSetAsync() {/*...*/}
 protected override async Task OnAfterRenderAsync() {/*...*/}
 ```
+
 ## Error Boundary
+
 Prevents the bubbling of exceptions to parent elements
 ```html
 <ErrorBoundary>...</ErrorBoundary>
 ```
+
 ## Virtualization of large item lists
+
 ```html
 @using MyNamespace.Customers
 @using System.Diagnostics
@@ -273,7 +311,9 @@ Prevents the bubbling of exceptions to parent elements
     }
 }
 ```
+
 ## Unit Testing
+
 Use [bUnit](https://bunit.dev/) for unit testing blazor components.
 ```csharp
 [Test]
@@ -289,13 +329,16 @@ public void SomeTest()
     component.Find("p").MarkupMatches(@"<p>Current count: 1</p>");
 }
 ```
+
 ## Layout Components
+
 **MyProject.csproj**
 ```html
 <ItemGroup>
     <BlazorWebAssemblyLazyLoad Include="Lazy.Loading.Component.dll" />
 </ItemGroup>
 ```
+
 **App.razor**
 ```html
 <Router
@@ -335,6 +378,7 @@ public void SomeTest()
     }
 }
 ```
+
 **MainLayout.razor**
 ```csharp
 @inherits LayoutComponentBase
@@ -349,11 +393,14 @@ public void SomeTest()
     </div>
 </div>
 ```
+
 ## State Management
 * [Fluxor](https://github.com/mrpmorris/Fluxor) Flux/Redux library for .NET
 * [ReactiveUI for Blazor](https://www.reactiveui.net/docs/guidelines/platform/blazor)
 * [Blazorized LocalStorage](https://github.com/Blazored/LocalStorage)
+
 ## Real-Time messaging
 * [SignalR](https://docs.microsoft.com/en-us/aspnet/signalr/)
+
 ## Libraries
 * [Awesome Blazor](https://github.com/AdrienTorris/awesome-blazor)
