@@ -130,10 +130,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false
+      "markdown-importer:Open format converter": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "71da2328617f204e",
-  "lastOpenFiles": [
-  ]
+  "lastOpenFiles": []
 }
