@@ -1,32 +1,5 @@
 Object-oriented (structured) terminal implemented in [[Rust]].
 
-## Installation
-
-Install via WinGet
-```shell
-winget install -e --id Nushell.Nushell
-```
-
-Install via [[cargo]]
-```shell
-cargo install nu
-```
-
-### Register in Windows Terminal
-```shell
-cd %AppData%\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState
-code settings.json
-```
-Add the following entry to `profiles/list`
-```json
-{
-	"guid": "{47302f9c-1ac4-566c-aa3e-8cf29889d6ab}",
-	"hidden": false,
-	"name": "Nushell",
-	"source": "nu"
-}
-```
-
 ## Quick Guide
 
 ### Commands
@@ -114,12 +87,6 @@ Load data from HTTP
 http get 'https://some-url.com/foobar.json' | from json
 http get 'https://some-url.com/foobar.html' | query web -q 'h2' # get the <h2> elements of the html page
 ```
-
-## Git
-
-Handling git output as Nu objects:
-- [Git](https://www.nushell.sh/cookbook/git.html)
-- [Git Log](https://www.nushell.sh/cookbook/parsing_git_log.html)
 
 ## Resources
 
