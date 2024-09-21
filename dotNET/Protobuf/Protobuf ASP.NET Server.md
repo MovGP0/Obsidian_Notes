@@ -38,12 +38,12 @@ public static IHostBuilder CreateHostBuilder(sting[] args)
 			{
 			    options.ListenLocalhost(442, opts =>
 			    {
-			        opts.Protocols = HttpProtocol.Http2;
+			        opts.Protocols = HttpProtocols.Http2;
 			    });
 	
 				options.ListenLocalhost(80, opts =>
 				{
-					opts.Protocols = HttpProtocol.Http1;
+					opts.Protocols = HttpProtocols.Http1;
 				});
 
 				options.ConfigureHttpsDefaults(opts =>
@@ -57,8 +57,12 @@ public static IHostBuilder CreateHostBuilder(sting[] args)
 
 Setup
 ```csharp
-services.AddGrpc();
-services.UseCors();
+hostBuider.ConfigureServices(services =>  
+{  
+    services.AddGrpc();
+    services.AddCors();
+    // ...
+}
 ```
 
 ```csharp
