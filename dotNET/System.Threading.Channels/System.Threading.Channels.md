@@ -1,3 +1,28 @@
+```csharp
+using System.Threading.Channels;
+
+public sealed class InMemoryMessageQueue<T>
+{
+	private readonly Channel<T> _channel = Channel.CreateUnbounded<T>();
+	public ChannelReader<T> Reader => _channel.Reader;
+	public ChannelWriter<T> Writer => _channel.Writer;
+}
+```
+
+```csharp
+builder.Services.AddSingleton<InMemoryMessageQueue<MyEvent>>();
+```
+
+Write message:
+```csharp
+writer.TryWrite(message);
+```
+
+Get message:
+```csharp
+ValueTask<T> messageTask = reader.ReadAsync();
+T message = await messageTask;
+```
 
 ## References
 
