@@ -71,15 +71,20 @@ The property `org.opencontainers.image.ref.name` must follow the Regex `^(?P<ref
 
 ## Custom Labels
 
-Can be used to provide additional data; ie. metric or healthcheck-endpoints. Examples:
-| Label            | Description                                 |
-| ---------------- | ------------------------------------------- |
-| `ci-build`       | URL to the CI pipeline                      |
-| `releasenotes`   | Release notes                               |
-| `healthz`        | Healthcheck endpoint                        |
-| `metrics`        | Metrics endpoint                            |
-| `docker.run`     | Example command how to run the image        |
+Can be used to provide additional data; ie. `metric` or `healthcheck`-endpoints. 
+
+Examples:
+
+| Label            | Description                                              |
+| ---------------- | -------------------------------------------------------- |
+| `ci-build`       | URL to the CI pipeline                                   |
+| `releasenotes`   | Release notes                                            |
+| `healthz`        | Healthcheck endpoint                                     |
+| `metrics`        | Metrics endpoint                                         |
+| `docker.run`     | Example command how to run the image                     |
 | `k8s.deployment` | Base64-encoded YAML for [[Kubernetes Architecture]] (k8) |
 
 ## See also
+
 - [Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
+- [Dockerfile best practices](https://dev.to/search?utf8=%E2%9C%93&q=Dockerfile+best+practices)
