@@ -1,0 +1,21 @@
+- DraftSight
+- BricsCAD
+- LibreCAD
+- FreeCAD
+- Vectorworks
+- ZWCAD
+- nanoCAD
+- ArchiCAD
+- Solid Edge 2D Drafting
+- TurboCAD
+- ProgeCAD  
+- CMS IntelliCAD
+- Ashampoo 3D CAD Architecture
+- GstarCAD
+- TinkerCAD
+- QCAD
+- ViaCAD
+- BRL-CAD
+- ActCAD
+- IronCAD  
+- SketchUp

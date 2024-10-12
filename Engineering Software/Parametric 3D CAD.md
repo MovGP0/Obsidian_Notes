@@ -1,3 +1,4 @@
+- [Siemens Solid Edge](https://solidedge.siemens.com/de/)
 - [SolidWorks](https://www.solidworks.com/de)
 - [Dassault Systems CATIA](https://www.3ds.com/products-services/catia/)
 - [FreeCAD](https://www.freecad.org/)
