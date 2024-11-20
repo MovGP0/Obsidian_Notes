@@ -127,7 +127,7 @@ else
 }
 ```
 
-## Subscribe to nodes
+## Subscribe to nodes/events
 
 ```csharp
 // Create a subscription

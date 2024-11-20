@@ -1,20 +1,18 @@
-OPC UA (OLE for Process Control Unified Architecture) is a machine-to-machine communication protocol for industrial automation
+## Data Type Attributes
 
-- Methods are limited to 10 arguments; but arguments may be arrays and structures.
-- The following protocols are defined
-	- OPC UA over TCP
-	- HTTPS
-	- WebSockets
-- The following serialization schemes are defined:
-	- XML
-	- UA Binary
-	- JSON
+| Attribute     | DataType      | Required | Description                                                                                                                      |
+| ------------- | ------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| Nodeld        | Nodeld        | Required | *Inherited Node Attribute*                                                                                                       |
+| NodeClass     | NodeClass     | Required | *Inherited Node Attribute*                                                                                                       |
+| BrowseName    | QualifiedName | Required | *Inherited Node Attribute*                                                                                                       |
+| DisplayName   | LocalizedText | Required | *Inherited Node Attribute*                                                                                                       |
+| Description   | LocalizedText | Optional | *Inherited Node Attribute*                                                                                                       |
+| WriteMask     | Ulnt32        | Optional | *Inherited Node Attribute*                                                                                                       |
+| UserWriteMask | Ulnt32        | Optional | *Inherited Node Attribute*                                                                                                       |
+| &mdash;       | &mdash;       | &mdash;  | &mdash;                                                                                                                          |
+| IsAbstract    | Boolean       | Required | This Attribute indicates whether the ObjectType is concrete or abstract and therefore cannot directly be used as type definition |
 
-## URI Scheme
-
-`opc.tcp://127.0.0.1:4840`
-
-## OPC UA Data Types
+## Built-In data types
 
 | Built-in Type   | C# Type           | Example                                                    | Details                                                 | NodeId Type     |
 | --------------- | ----------------- | ---------------------------------------------------------- | ------------------------------------------------------- | --------------- |
@@ -45,42 +43,72 @@ OPC UA (OLE for Process Control Unified Architecture) is a machine-to-machine co
 | DataValue       | `DataValue`       | `{23.5, Good, 2023-05-16T12:34:56Z, 2023-05-16T12:34:57Z}` | Composite of a value, timestamps, and status code       |                 |
 | DiagnosticInfo  | `DiagnosticInfo`  |                                                            | Detailed error/diagnostic information                   |                 |
 
-## Events
+## Data Type Hierarchy
 
-Custom data structure containing multiple fields that are sent from and to the machine.
+```mermaid
+classDiagram
+    direction LR
+    class BaseDataType {
+        <<Abstract>>
+    }
+	class Number {
+        <<Abstract>>
+    }
+    class Integer {
+        <<Abstract>>
+    }
+    class UInteger {
+        <<Abstract>>
+    }
 
-```json
-{
-  "EventId": "12345",
-  "EventType": "AlarmConditionType",
-  "SourceNode": "1:TemperatureSensor1",
-  "SourceName": "Temperature Sensor 1",
-  "Time": "2023-05-16T12:34:56Z",
-  "Message": "High temperature alarm",
-  "Severity": 100,
-  "AckedState": false,
-  "ConfirmedState": false,
-  "ActiveState": true,
-  "ConditionName": "HighTemperature",
-  "BranchId": "0",
-  "Retain": true
-}
+    BaseDataType <|-- Boolean
+    BaseDataType <|-- QualifiedName
+    BaseDataType <|-- GUID
+    BaseDataType <|-- DataValue
+    BaseDataType <|-- LocalizedText
+    BaseDataType <|-- ExpandedNodeId
+    BaseDataType <|-- NodeId
+    BaseDataType <|-- ByteString
+    BaseDataType <|-- String
+    BaseDataType <|-- DateTime
+    BaseDataType <|-- DiagnosticInfo
+    BaseDataType <|-- XMLNode
+    BaseDataType <|-- Number
+
+    Number <|-- Integer
+    Number <|-- Float
+    Number <|-- UInteger
+    Number <|-- Double
+
+    Integer <|-- SByte
+    Integer <|-- Int16
+    Integer <|-- Int32
+    Integer <|-- Int64
+    
+    UInteger <|-- Byte
+    UInteger <|-- UInt16
+    UInteger <|-- UInt32
+    UInteger <|-- UInt64
+    
+    ByteString <|-- Image
+    Image <|-- ImageBMP
+    Image <|-- ImageJPG
+    Image <|-- ImageGIF
+    Image <|-- ImagePNG
+
+    Double <|-- Duration
+    DateTime <|-- UtcTime
+    String <|-- LocaleId
 ```
 
-## IP Stack
+## XML Example
 
-| Layer               | Protocol                                                                                | Description                                                               |
-| ------------------- | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| Automation Protocol | [OPC UA](https://en.wikipedia.org/wiki/OPC_Unified_Architecture)                        |                                                                           |
-| Application         | [MQTT](https://en.wikipedia.org/wiki/MQTT) (ISO/IEC 20922)                              | Message broker for message transmission                                   |
-| Transport           | [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)                      | Protocol needs to support ordered, lossless, and bi-directional transport |
-| Internet            | [IPv6](https://en.wikipedia.org/wiki/IPv6) / [IPv4](https://en.wikipedia.org/wiki/IPv4) |                                                                           |
-
-## See also
-
-- [OPC Foundation](https://opcfoundation.org/)
-- [OPC OA Reference](https://reference.opcfoundation.org/)
-  
-## Software and Libraries
-
-- [OPC UA Client](https://www.unified-automation.com/products/development-tools/uaexpert.html)
+```xml
+<UADataType NodeId="ns=1;i=1001" BrowseName="1:TemperatureType">
+    <DisplayName>Temperature Type</DisplayName>
+    <Description>Data type for temperature values</Description>
+    <References>
+        <Reference ReferenceType="HasSubtype" IsForward="false">i=24</Reference> <!-- BaseDataType -->
+    </References>
+</UADataType>
+```
