@@ -4,5 +4,6 @@
   "alwaysUpdateLinks": true,
   "promptDelete": false,
   "readableLineLength": false,
-  "spellcheckLanguages": null
+  "spellcheckLanguages": null,
+  "attachmentFolderPath": "Attachements"
 }

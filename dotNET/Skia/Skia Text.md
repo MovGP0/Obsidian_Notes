@@ -56,7 +56,7 @@ float underlineThickness = metrics.UnderlineThickness;
 | XMax                  | maximum bounding box x value for all glyphs.                             |
 | XMin                  | minimum bounding box x value for all glyphs.                             |
 
-![[Pasted image 20241103124716.png]]
+![[Attachements/Pasted image 20241103124716.png]]
 
 ## Create typeface from embedded font
 
