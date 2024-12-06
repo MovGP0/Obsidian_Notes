@@ -4,5 +4,8 @@
   "monospaceFontFamily": "JetBrainsMono Nerd Font Mono",
   "textFontFamily": "JetBrainsMono Nerd Font",
   "accentColor": "",
-  "interfaceFontFamily": ""
+  "interfaceFontFamily": "",
+  "enabledCssSnippets": [
+    "bold-color"
+  ]
 }

@@ -1,9 +1,10 @@
 {
   "legacyEditor": false,
-  "livePreview": false,
+  "livePreview": true,
   "alwaysUpdateLinks": true,
   "promptDelete": false,
   "readableLineLength": false,
   "spellcheckLanguages": null,
-  "attachmentFolderPath": "Attachements"
+  "attachmentFolderPath": "Attachements",
+  "defaultViewMode": "source"
 }

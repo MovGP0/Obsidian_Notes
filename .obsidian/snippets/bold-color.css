@@ -1,0 +1,5 @@
+/* Change color of bold text to the theme's accent color */
+.markdown-preview-view strong, 
+.cm-s-obsidian span.cm-strong {
+    color: var(--text-accent); /* Use the theme's accent color */
+}
