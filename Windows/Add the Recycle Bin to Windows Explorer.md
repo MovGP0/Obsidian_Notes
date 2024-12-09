@@ -14,3 +14,9 @@ Undo
 ```powershell
 Remove-Item -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{645FF040-5081-101B-9F08-00AA002F954E}"
 ```
+
+## Navigate to Recycle bin
+
+In Windows Explorer enter `shell:RecycleBinFolder` in the Path.
+
+In PowerShell enter `start shell:RecycleBinFolder`.
