@@ -6,12 +6,7 @@ The FLRW metric describes the geometry of the universe, incorporating the effect
 
 ----
 
-- $-ds^2$: The Spacetime Interval
-	- $ds^2$ is the **spacetime interval**, a measure of the separation between two events in spacetime.
-	- In general relativity, $ds^2$ determines whether the interval is timelike, spacelike, or null, which relates to the nature of the motion (e.g., of a particle or light).
-	- $ds^2 < 0$: Timelike (possible trajectory of matter).
-	- $ds^2 > 0$: Spacelike (no causal connection between events).
-	- $ds^2 = 0$: Null (trajectory of light).
+- $-ds^2$ is the [[Spacetime Interval]]
 
 - $-c^2 dt^2$: Time Contribution
 	- This term represents the **contribution of time** to the spacetime interval.

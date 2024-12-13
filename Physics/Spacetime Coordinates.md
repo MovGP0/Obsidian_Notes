@@ -1,6 +1,8 @@
+The distance between two points in space are measured by
+
 $$dl = \sqrt{dx^2 + dy^2 + dz^2}$$
 $$dl^2 = dx^2 + dt^2$$
-
+The distance between two events in spacetime are measured by the [[Spacetime Interval]]:
 $$ds = \sqrt{dx^2 + dy^2 + dz^2 - c^2dt^2}$$
 
 Note that the time coordinate has an imaginary content:
