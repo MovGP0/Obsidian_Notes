@@ -39,3 +39,7 @@ Verify that `casefold` is active
 ```bash
 lsattr /mnt/your_directory
 ```
+
+## Notes
+
+- When using a JetBrains IDE, make sure to open the Action `Registry` and disable the setting `ide.new.project.model.index.case.sensitivity`. Then use `File`/`Invalidate Caches...` to clear all caches and restart the IDE.
