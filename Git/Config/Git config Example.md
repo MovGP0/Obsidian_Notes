@@ -9,7 +9,10 @@ Here are some settings that should be considered to be changed:
     co = checkout                  # Shortcut for 'git checkout'
     br = branch                    # Shortcut for 'git branch'
     ci = commit                    # Shortcut for 'git commit'
-    lg = log --oneline --graph --decorate  # A concise log view
+    # A concise log view
+    lg = log --oneline --graph --decorate
+    # pretty consise log view
+    hs = log --pretty='%C(yellow)%h %C(cyan)%cd %Cblue%aN%C(auto)%d %Creset%s' --graph --date=relative --date-order
 
 [branch]
     sort = committerdate          # Sorts branches by the committer date (newest first).
@@ -22,7 +25,8 @@ Here are some settings that should be considered to be changed:
     # excludesfile = ~/.gitignore  # Option to set a global .gitignore file.
     fsmonitor = true               # Enables file system monitoring to improve performance on status checks.
     untrackedCache = true          # Uses a cache for untracked files to speed up git status.
-    autocrlf = false
+    autocrlf = false               # Do not change file endings
+    ignorecase = false             # Case sensitive file names
 
 [commit]
     verbose = true                 # Displays the diff of changes when composing commit messages for better context.
