@@ -1,12 +1,13 @@
-| Crate                                                    | Descrption                                                           |
-| -------------------------------------------------------- | -------------------------------------------------------------------- |
-| [serde](https://crates.io/crates/serde)                  | framework for *ser*ializing and *de*serializing Rust data structures |
-| [serde_json](https://crates.io/crates/serde_json)        |                                                                      |
-| [tokio](https://crates.io/crates/tokio)                  | asynchronous I/O                                                     |
-| [chrono](https://crates.io/crates/chrono)                | Date and Time library                                                |
-| [evcxr_repl](https://crates.io/crates/evcxr_repl)        | Rust REPL and Jupyter Notebook Kernel                                |
-| [itertools](https://docs.rs/itertools/latest/itertools/) | LINQ for Rust                                                        |
-| [rayon](https://docs.rs/rayon/latest/rayon/)             | Parallel data processing (like TPL)                                  |
+| Crate                                                    | Description                                                                                                                                                                                   |
+| -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [serde](https://crates.io/crates/serde)                  | framework for *ser*ializing and *de*serializing Rust data structures                                                                                                                          |
+| [serde_json](https://crates.io/crates/serde_json)        |                                                                                                                                                                                               |
+| [tokio](https://crates.io/crates/tokio)                  | asynchronous I/O                                                                                                                                                                              |
+| [chrono](https://crates.io/crates/chrono)                | Date and Time library                                                                                                                                                                         |
+| [evcxr_repl](https://crates.io/crates/evcxr_repl)        | Rust REPL and Jupyter Notebook Kernel                                                                                                                                                         |
+| [itertools](https://docs.rs/itertools/latest/itertools/) | LINQ for Rust                                                                                                                                                                                 |
+| [rayon](https://docs.rs/rayon/latest/rayon/)             | Parallel data processing (like TPL)                                                                                                                                                           |
+| [byteview](https://crates.io/crates/byteview)            | Similar to `Span<T>` in .NET. Allows the passing of an array span instead of the array. See [When Rust's Arc is not enough](https://fjall-rs.github.io/post/fjall-2-6-byteview/) for details. |
 
 ## CLI
 
@@ -30,7 +31,7 @@
 
 ## Error handling
 
-| Crate                                           | Descrption                                               |
+| Crate                                           | Description                                              |
 | ----------------------------------------------- | -------------------------------------------------------- |
 | [eyre](https://docs.rs/eyre/latest/eyre/)       | Create pretty formated exception objects; fork of anyhow |
 | [anyhow](https://crates.io/crates/anyhow)       | Error type                                               |
@@ -38,7 +39,7 @@
 
 ## Logging and Tracing
 
-| Crate                                                           | Descrption                                              |
+| Crate                                                           | Description                                             |
 | --------------------------------------------------------------- | ------------------------------------------------------- |
 | [log](https://crates.io/crates/log)                             | logging facade                                          |
 | [env_logger](https://crates.io/crates/env_logger)               | logger that can be configured via environment variables |
@@ -54,7 +55,7 @@
 
 ## Databases
 
-| Crate                                                  | Descrpition |
+| Crate                                                  | Description |
 | ------------------------------------------------------ | ----------- |
 | [tiberius](https://docs.rs/tiberius/latest/tiberius/#) | SQL Server  |
 | [sqlx](https://crates.io/crates/sqlx)                  | SQL Macros  |
@@ -67,13 +68,13 @@
 
 ## Embedded hardware
 
-| Crate                           | Descrpition      |
+| Crate                           | Description      |
 | ------------------------------- | ---------------- |
 | [Embassy](https://embassy.dev/) | embedded library |
 
 ## Protobuf
 
-| Crate                                                                   | Descrpition |
+| Crate                                                                   | Description |
 | ----------------------------------------------------------------------- | ----------- |
 | [Rust protobuf](https://docs.rs/protobuf/latest/protobuf/)              |             |
 | [stepancheg/rust-protobuf](https://github.com/stepancheg/rust-protobuf) |             |
