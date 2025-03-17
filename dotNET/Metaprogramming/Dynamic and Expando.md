@@ -47,7 +47,7 @@ The [DynamicObject](https://learn.microsoft.com/en-us/dotnet/api/system.dynamic.
 | `TryBinaryOperation` | binary operators like addition (`+`), subtraction (`-`), and so on                            |
 | `TryConvert`         | conversion to statically known types                                                          |
 | `TryCreateInstance`  | instantiation of underlying data types that may be needed to support a dynamic object         |
-| `TryDeZeteIndex`     | deletion of an indexed collection element (not supported by C# or Visual Basic syntax)        |
+| `TryDeleteIndex`     | deletion of an indexed collection element (not supported by C# or Visual Basic syntax)        |
 | `TryDeleteMember`    | deletion of a member property or member function (not supported by C# or Visual Basic syntax) |
 | `TryGetIndex`        | fetching the value of an indexed collection element                                           |
 | `TryGetMember`       | fetching the value of a property                                                              |
@@ -56,4 +56,3 @@ The [DynamicObject](https://learn.microsoft.com/en-us/dotnet/api/system.dynamic.
 | `TrySetIndex`        | mutation of an indexed collection element                                                     |
 | `TrySetMember`       | mutation of a member property or the assignment of a member function's implementation         |
 | `TryUnaryOperation`  | unary operators like increment (`++`), and decrement (`--`)                                   |
-
