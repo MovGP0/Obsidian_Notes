@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c87a493716ab41da",
+        "id": "511bf7ab99fb570d",
         "type": "tabs",
         "children": [
           {
-            "id": "71da2328617f204e",
+            "id": "07817eb3eca458e5",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Vector Database",
+                "query": "Agent",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -151,6 +151,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "71da2328617f204e",
-  "lastOpenFiles": []
+  "active": "07817eb3eca458e5",
+  "lastOpenFiles": [
+    "Agent Systems/Agent.md",
+    "Agent Systems/Agent Systems.md",
+    "Agent Systems/Design of Agent Systems.md",
+    "Agent Systems/Q-Learning.md",
+    "Agent Systems/Markov Decision Process.md",
+    "Agent Systems/LLM Agent.md",
+    "Attachements/Pasted image 20250422171948.png",
+    "Electronics/Acronyms.md",
+    "AI Tools/Awesome AI Tools.md",
+    "Machine Learning/Model Context Protocol (MCP).md",
+    "Machine Learning/Agent2Agent Protocol (A2A).md",
+    "Physics/Schwarzschild Metric.md"
+  ]
 }

@@ -1,3 +1,7 @@
+---
+aliases:
+  - Agentic System
+---
 an **Intelligent Agent** is a software that
 - **Situated** exists in a given environment that it interacts with
 	- Has internal **beliefs** about that environment
