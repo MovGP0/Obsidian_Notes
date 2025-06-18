@@ -1,5 +1,102 @@
 The **Model Context Protocol** (**MCP**) is an open standard developed by Anthropic for connecting AI models to external tools and data sources through a single interface.
 
+## Configuring MCP Severs
+
+MCP Servers can be usually configured using a JSON file. 
+
+**Examples**
+
+Simple example that adds an MCP server that is started with a shell command:
+```json
+  "mcpServers": {
+    "repomix": {
+      "command": "npx",
+      "args": [ "-y", "repomix", "--mcp" ]
+    },
+```
+
+The same tool but executed via a [[Docker]] container:
+```json
+  "mcpServers": {
+    "repomix-docker": {
+      "command": "docker",
+      "args": ["run","-i","--rm","ghcr.io/yamadashy/repomix","--mcp"]
+    }
+  }
+```
+
+It's also possible to specify environment variables:
+```json
+  "mcpServers": {
+    "mcp-atlassian": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "-e",
+        "JIRA_URL",
+        "-e",
+        "JIRA_USERNAME",
+        "-e",
+        "JIRA_API_TOKEN",
+        "ghcr.io/sooperset/mcp-atlassian:latest"
+      ],
+      "env": {
+        "CONFLUENCE_URL": "https://your-company.atlassian.net/wiki",
+        "CONFLUENCE_USERNAME": "your.email@company.com",
+        "CONFLUENCE_API_TOKEN": "your_confluence_api_token",
+        "JIRA_URL": "xxx.atlassian.net",
+        "JIRA_USERNAME": "your.email@company.com",
+        "JIRA_API_TOKEN": "xxx"
+      },
+    }
+  }
+```
+
+Another possibility is to use a URL to the server:
+```json
+{
+  "mcpServers": {
+    "repomix-sse": {
+      "type": "sse",
+      "url": "https://my-localhost:8080/repomix/mcp"
+    }
+  }
+}
+```
+
+> [!Note]
+> The exact syntax might be different dependent on the tool that the configuration is for.
+
+## Configure MCP Clients
+
+> [!Note]
+> Some clients may require an subscription for MCP to be supported
+
+**Claude Deskop**
+- Windows: `%APPDATA%\Claude\claude_desktop_config.json`
+- MacOS: `~/Library/Application Support/Claude/claude_desktop_config.json`
+
+**Claude Code**
+
+By specifying the settings as arguments:
+```bash
+claude mcp add-json mytool '{"type":"stdio","command":"/path/to/mytool","args":["--foo"]}'
+```
+
+By importing the `claude_desktop_config.json` file:
+```bash
+claude mcp add-from-claude-desktop
+```
+
+**Visual Studio Code**
+- Windows: `%APPDATA%\Code\User\settings.json`
+- MacOS: `~/Library/Application Support/Code/User/settings.json`
+- Linux: `~/.config/Code/User/settings.json`
+
+**OpenAI Codex**
+- `~/.codex/config.json`
+
 ## Resources
 
 - [Awesome .NET MCP](https://github.com/SciSharp/Awesome-DotNET-MCP): List of MCP resources for .NET development
