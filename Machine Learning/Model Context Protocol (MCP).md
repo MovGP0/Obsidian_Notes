@@ -10,6 +10,7 @@ Simple example that adds an MCP server that is started with a shell command:
 ```json
   "mcpServers": {
     "repomix": {
+      "note": "Repomix STDIO Server",
       "command": "npx",
       "args": [ "-y", "repomix", "--mcp" ]
     },
@@ -19,6 +20,7 @@ The same tool but executed via a [[Docker]] container:
 ```json
   "mcpServers": {
     "repomix-docker": {
+      "note": "Repomix Docker Container",
       "command": "docker",
       "args": ["run","-i","--rm","ghcr.io/yamadashy/repomix","--mcp"]
     }
@@ -29,6 +31,7 @@ It's also possible to specify environment variables:
 ```json
   "mcpServers": {
     "mcp-atlassian": {
+      "note": "Atlassian Docker Container",
       "command": "docker",
       "args": [
         "run",
@@ -59,11 +62,23 @@ Another possibility is to use a URL to the server:
   "mcpServers": {
     "repomix-sse": {
       "type": "sse",
-      "url": "https://my-localhost:8080/repomix/mcp"
+      "url": "https://my-localhost:8080/repomix/mcp",
+      "note": "Repomix MCP Server"
     }
   }
 }
 ```
+
+> [!Note]
+> The `type` parameter is one of 
+> - `stdio` (default)
+> 	- uses the `stdin`/`stdout`/`stderr` streams of the operating system
+> - `sse` (obsolete) 
+> 	- uses HTTP + [[Server-Sent Events (SSE)|SSE]] transport
+> 	- Response `content-type` header is either `text/event-stream` or `application/json`
+> - `streamable-http` 
+> 	- like `sse`, but supports session continuations (stateless servers) for improved scalability
+> 	- `Last-Event-ID` and `Mcp-Session-Id` HTTP-Headers are used to resume conversations
 
 > [!Note]
 > The exact syntax might be different dependent on the tool that the configuration is for.
@@ -96,6 +111,13 @@ claude mcp add-from-claude-desktop
 
 **OpenAI Codex**
 - `~/.codex/config.json`
+
+## MCP Inspector
+
+Used for debugging and testing of MCP Servers
+```bash
+npx @modelcontextprotocol/inspector
+```
 
 ## Resources
 
