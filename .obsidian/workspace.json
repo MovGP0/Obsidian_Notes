@@ -11,10 +11,14 @@
             "id": "07817eb3eca458e5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "JJ/JJ config.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "JJ config"
             }
           }
         ]
@@ -153,6 +157,8 @@
   },
   "active": "07817eb3eca458e5",
   "lastOpenFiles": [
+    "JJ/JJ vs Git.md",
+    "JJ/JJ config.md",
     "Agent Systems/Agent.md",
     "Agent Systems/Agent Systems.md",
     "Agent Systems/Design of Agent Systems.md",
