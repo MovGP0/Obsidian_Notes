@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "511bf7ab99fb570d",
+        "id": "fb766c9a98ed8a45",
         "type": "tabs",
         "children": [
           {
-            "id": "07817eb3eca458e5",
+            "id": "74a6b9e72f76e8e2",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -151,19 +151,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "07817eb3eca458e5",
+  "active": "74a6b9e72f76e8e2",
   "lastOpenFiles": [
-    "Agent Systems/Agent.md",
-    "Agent Systems/Agent Systems.md",
-    "Agent Systems/Design of Agent Systems.md",
-    "Agent Systems/Q-Learning.md",
-    "Agent Systems/Markov Decision Process.md",
-    "Agent Systems/LLM Agent.md",
-    "Attachements/Pasted image 20250422171948.png",
-    "Electronics/Acronyms.md",
-    "AI Tools/Awesome AI Tools.md",
-    "Machine Learning/Model Context Protocol (MCP).md",
-    "Machine Learning/Agent2Agent Protocol (A2A).md",
-    "Physics/Schwarzschild Metric.md"
   ]
 }

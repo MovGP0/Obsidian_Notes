@@ -1,3 +1,6 @@
+---
+title: RAG for .NET Source-Code
+---
 ## Indexing
 
 - Use Roslyn to parse source code
@@ -10,7 +13,7 @@
 		- Pinecone is a commercial cloud alternative
 - Represent relationships between objects in a graph database
 	- Consider use UML notation/wordings to represent relationships on the graph
-	- Consider using Neo4J as graph database
+	- Consider using [Neo4J](https://github.com/neo4j/neo4j) or [inrad DB](https://github.com/indradb/indradb) as graph database
 - Each object needs to be identified in the vector database and the graph database with the same id
 	- The id should represent the .NET-Path of the object
 	  Ie. something like `[AssemblyName]Full.Namespace.ClassName{T}.SomeMethodNameAsync{T,V}(T,string,CancellationToken)` for methods

@@ -1,3 +1,6 @@
+---
+title: .NET Locking Mechanisms
+---
 ### `lock` statement (`Monitor`)
 
 - Simplest way to lock a resource.

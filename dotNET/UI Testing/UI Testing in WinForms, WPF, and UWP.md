@@ -67,3 +67,9 @@ Start
 ```sh
 FlaUInspect
 ```
+
+### Accessibility Insights for Windows
+
+Microsoft Tool for inspecting accessibility data.
+
+- [Accessibility Insights](https://accessibilityinsights.io/docs/windows/overview/)
