@@ -10,14 +10,6 @@
 - [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
 - [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
 
-## CAD Applications
-
-| App                                            | Notes               |
-| ---------------------------------------------- | ------------------- |
-| [FreeCAD](https://www.freecad.org/)            | 3D Parametric       |
-| [LibreCAD](https://librecad.org/)              | 2D CAD              |
-| [MaCAD 3D](https://github.com/Macad3D/Macad3D) | 3D Parametric; .NET |
-
 ## Version Control
 
 - [Git](https://git-scm.com/)
