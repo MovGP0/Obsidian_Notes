@@ -1,13 +1,14 @@
 ## Open-Source Relational Databases
 
-| Database                      | Type                  | Pros                                                           | Cons                                          | Use Cases                                              |
-| ----------------------------- | --------------------- | -------------------------------------------------------------- | --------------------------------------------- | ------------------------------------------------------ |
-| MySQL                         | Open-Source           | Widely used, easy to set up, rich ecosystem, replication       | Limited scalability, less advanced features   | Web applications, small to medium-sized projects       |
-| PostgreSQL                    | Open-Source           | Extensible, advanced features, good performance, ACID          | Limited scalability, steeper learning curve   | Web applications, analytics, GIS                       |
-| SQLite                        | Embedded              | Lightweight, serverless, self-contained, easy to use           | Limited scalability, limited concurrency      | Mobile applications, embedded systems, small projects  |
-| MariaDB                       | Open-Source           | MySQL-compatible, more features, community-driven              | Limited scalability, less mature than MySQL   | Web applications, small to medium-sized projects       |
-| [DuckDB](https://duckdb.org/) | Embedded, Open-Source |                                                                |                                               | Small Projects, Various data imports                   |
-
+| Database                                          | Type                  | Pros                                                     | Cons                                        | Use Cases                                             | NuGet                                              |
+| ------------------------------------------------- | --------------------- | -------------------------------------------------------- | ------------------------------------------- | ----------------------------------------------------- | -------------------------------------------------- |
+| MySQL                                             | Open-Source           | Widely used, easy to set up, rich ecosystem, replication | Limited scalability, less advanced features | Web applications, small to medium-sized projects      |                                                    |
+| Postgres/PostgreSQL                               | Open-Source           | Extensible, advanced features, good performance, ACID    | Limited scalability, steeper learning curve | Web applications, analytics, GIS                      |                                                    |
+| SQLite                                            | Embedded              | Lightweight, serverless, self-contained, easy to use     | Limited scalability, limited concurrency    | Mobile applications, embedded systems, small projects | *use MySQL Connector*                              |
+| [MariaDB](https://mariadb.org/)                   | Open-Source           | MySQL-compatible, more features, community-driven        | Limited scalability, less mature than MySQL | Web applications, small to medium-sized projects      | [DuckDB*](https://www.nuget.org/packages?q=duckdb) |
+| [DuckDB](https://duckdb.org/)                     | Embedded, Open-Source |                                                          | Limited scalability, limited ecosystem      | Small Projects, Various data imports                  |                                                    |
+| [dolt](https://github.com/dolthub/dolt)           | Open-Source           | MySQL-compatible; Version-Controlled                     |                                             |                                                       |                                                    |
+| [doltgres](https://github.com/dolthub/doltgresql) | Open-Source           | Postgres-compatible; Version-Controlled                  |                                             |                                                       |                                                    |
 ## Proprietary Relational Databases
 
 | Database                      | Type                  | Pros                                                           | Cons                                          | Use Cases                                              |
