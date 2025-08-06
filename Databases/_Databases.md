@@ -1,6 +1,7 @@
 ---
 title: Databases
 ---
+## Types of Databases
 
 | Database Type             | Use Case                                                                                                       |
 | ------------------------- | -------------------------------------------------------------------------------------------------------------- |
@@ -12,6 +13,18 @@ title: Databases
 | [[Search Databases]]      | Use for full-text search and complex text-based queries, providing fast search capabilities.                   |
 | [[Key-Value Databases]]   | Use for simple, fast, and scalable key-based lookups with minimal query complexity.                            |
 | [[Time-Series Databases]] | Use for time-stamped data, optimized for time-based queries, and handling high write throughput.               |
+
+## OLAP vs. OLTP vs. Vector Databases
+
+![[databases.png]]
+
+| Feature           | OLTP                 | OLAP                      | Vector DB                       |
+| ----------------- | -------------------- | ------------------------- | ------------------------------- |
+| Orientation       | Row-based            | Column-based              | Vector-based (high-dim vectors) |
+| Optimized for     | Fast writes, lookups | Aggregation, reporting    | Similarity search (ANN)         |
+| Access pattern    | Record-level         | Attribute-level           | Distance/similarity-based       |
+| Typical use cases | Banking, Retail, ERP | Data Warehouses, BI tools | Image/text search, embeddings   |
+| Query type        | SQL (read/write)     | SQL (read-heavy)          | kNN / Cosine / Euclidean search |
 
 ### Detailed Use Cases
 

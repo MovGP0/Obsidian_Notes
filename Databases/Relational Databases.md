@@ -1,20 +1,27 @@
 ## Open-Source Relational Databases
 
-| Database                                          | Type                  | Pros                                                     | Cons                                        | Use Cases                                             | NuGet                                              |
-| ------------------------------------------------- | --------------------- | -------------------------------------------------------- | ------------------------------------------- | ----------------------------------------------------- | -------------------------------------------------- |
-| MySQL                                             | Open-Source           | Widely used, easy to set up, rich ecosystem, replication | Limited scalability, less advanced features | Web applications, small to medium-sized projects      |                                                    |
-| Postgres/PostgreSQL                               | Open-Source           | Extensible, advanced features, good performance, ACID    | Limited scalability, steeper learning curve | Web applications, analytics, GIS                      |                                                    |
-| SQLite                                            | Embedded              | Lightweight, serverless, self-contained, easy to use     | Limited scalability, limited concurrency    | Mobile applications, embedded systems, small projects | *use MySQL Connector*                              |
-| [MariaDB](https://mariadb.org/)                   | Open-Source           | MySQL-compatible, more features, community-driven        | Limited scalability, less mature than MySQL | Web applications, small to medium-sized projects      | [DuckDB*](https://www.nuget.org/packages?q=duckdb) |
-| [DuckDB](https://duckdb.org/)                     | Embedded, Open-Source |                                                          | Limited scalability, limited ecosystem      | Small Projects, Various data imports                  |                                                    |
-| [dolt](https://github.com/dolthub/dolt)           | Open-Source           | MySQL-compatible; Version-Controlled                     |                                             |                                                       |                                                    |
-| [doltgres](https://github.com/dolthub/doltgresql) | Open-Source           | Postgres-compatible; Version-Controlled                  |                                             |                                                       |                                                    |
+| Database                                          | Type                  | Notes                                                                       | DB-Model               | NuGet                                              |
+| ------------------------------------------------- | --------------------- | --------------------------------------------------------------------------- | ---------------------- | -------------------------------------------------- |
+| MySQL                                             | Open-Source           | Row-based engine (InnoDB), good for transactional apps                      | OLTP                   |                                                    |
+| Postgres/PostgreSQL                               | Open-Source           | Primarily OLTP, but supports analytics and extensions (e.g. Citus for OLAP) | OLTP<br>(OLAP-capable) |                                                    |
+| SQLite                                            | Embedded              | Embedded row-store, single-user concurrency model                           | OLTP                   | *use MySQL Connector*                              |
+| [MariaDB](https://mariadb.org/)                   | Open-Source           | MySQL-compatible, more features, community-driven                           | OLTP                   | [DuckDB*](https://www.nuget.org/packages?q=duckdb) |
+| [DuckDB](https://duckdb.org/)                     | Embedded, Open-Source | In-process OLAP engine, columnar store optimized for analytics              | OLAP                   |                                                    |
+| [dolt](https://github.com/dolthub/dolt)           | Open-Source           | OLTP-style MySQL-compatible engine with Git-like versioning                 | OLTP + Version Control |                                                    |
+| [doltgres](https://github.com/dolthub/doltgresql) | Open-Source           | PostgreSQL-compatible versioned DB; OLTP engine                             | OLTP + Version Control |                                                    |
 ## Proprietary Relational Databases
 
-| Database                      | Type                  | Pros                                                           | Cons                                          | Use Cases                                              |
-| ----------------------------- | --------------------- | -------------------------------------------------------------- | --------------------------------------------- | ------------------------------------------------------ |
-| Microsoft SQL Server          | Commercial            | Scalable, integrated with MS stack, advanced features          | Cost, Windows-centric, licensing complexity   | Enterprise applications, MS stack integration          |
-| Oracle Database               | Commercial            | Mature, feature-rich, scalable, advanced analytics             | Cost, complex licensing, steep learning curve | Large-scale applications, ERP, CRM, financial systems  |
-| IBM Db2                       | Commercial            | Scalable, advanced features, high availability                 | Cost, complex licensing, steep learning curve | Enterprise applications, data warehousing, analytics   |
-| Amazon Aurora                 | Managed               | MySQL/PostgreSQL-compatible, scalable, managed, fault-tolerant | Cost, limited customizability                 | Cloud applications, data warehousing, analytics        |
-| snowflake                     | Cloud Data Warehouse  | Scalable, pay-as-you-go, multi-cloud, ANSI SQL support         | Cost, limited real-time capabilities          | Data warehousing, big data analytics, data integration |
+| Database             | Type                 | Notes                                                                                      | DB-Model            | NuGet |
+| -------------------- | -------------------- | ------------------------------------------------------------------------------------------ | ------------------- | ----- |
+| Microsoft SQL Server | Commercial           | Core engine is row-store; supports OLAP via columnstore indexes and SSAS                   | OLTP (OLAP-capable) |       |
+| Oracle Database      | Commercial           | Mature OLTP engine with integrated OLAP features (e.g., Oracle OLAP, analytical functions) | OLTP (OLAP-capable) |       |
+| IBM Db2              | Commercial           | Traditionally OLTP; OLAP via Db2 Warehouse and BLU Acceleration                            | OLTP (OLAP-capable) |       |
+| Amazon Aurora        | Managed              | Cloud-native OLTP; supports MySQL/PostgreSQL protocols                                     | OLTP                |       |
+| snowflake            | Cloud Data Warehouse | Cloud-native OLAP, columnar, designed for analytics workloads                              | OLAP                |       |
+
+## Notes
+
+| DB-Model | Description                                                            |
+| -------- | ---------------------------------------------------------------------- |
+| OLTP     | Optimized for transactional workloads — fast reads/writes per row      |
+| OLAP     | Optimized for analytical workloads — aggregation across large datasets |
