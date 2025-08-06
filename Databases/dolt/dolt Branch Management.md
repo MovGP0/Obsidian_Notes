@@ -16,7 +16,7 @@ CALL DOLT_BRANCH('feature/xyz');
 USE 'repo_name';
 
 -- checkout the branch
-CALL DOLT_BRANCH('feature/xyz');
+CALL DOLT_CHECKOUT('feature/xyz');
 
 -- more SQL commands here
 ```
